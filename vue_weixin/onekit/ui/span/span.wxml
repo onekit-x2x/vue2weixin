@@ -1,2 +1,6 @@
-<!--onekit/ui/span/span.wxml-->
-<text>onekit/ui/span/span.wxml</text>
+<text
+class="onekit-span {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>
