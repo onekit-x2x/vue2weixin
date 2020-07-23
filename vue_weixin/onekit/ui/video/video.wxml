@@ -1,2 +1,20 @@
-<!--onekit/ui/video/video.wxml-->
-<text>onekit/ui/video/video.wxml</text>
+<video
+class="onekit-image {{Class}}"
+style="{{style}}"
+src="{{src}}"
+autoplay="{{autoplay}}"
+controls="{{controls}}"
+duration="{{duration}}"
+loop="{{loop}}"
+muted="{{muted}}"
+poster="{{poster}}"
+
+
+bindplay="video_play"
+bindended="video_ended"
+bindloadedmetadata="video_loadedmetadata"
+
+>
+
+
+</video>

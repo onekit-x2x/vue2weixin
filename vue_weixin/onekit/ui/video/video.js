@@ -1,23 +1,50 @@
-// onekit/ui/video/video.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    styleIsolation: 'apply-shared'
+  },
   properties: {
-
+      src:{
+          type: String,
+          value: "",
+      },
+      autoplay:{
+          type: Boolean,
+          value: false,
+      },
+      controls:{
+          type: Boolean,
+          value: false,
+      },
+      duration:{
+          type: Number,
+          value: "",
+      },
+      loop:{
+          type: Boolean,
+          value: false,
+      },
+      muted:{
+          type: Boolean,
+          value: false,
+      },
+      poster:{
+          type: String,
+          value: "",
+      },
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
-})
+   methods: {
+        video_play(e){
+        console.log("video_play", e);
+        this.triggerEvent('play',e.details)
+        },
+        video_loadedmetadata(e){
+          console.log("video_loadedmetadata", e);
+          this.triggerEvent('loadedmetadata',e.details)
+          },
+        video_ended(e){
+        console.log("video_ended", e);
+        this.triggerEvent('ended',e.details)
+        },
+        
+}
+});
