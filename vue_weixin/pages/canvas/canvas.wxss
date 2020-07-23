@@ -1,1 +1,4 @@
 /* pages/canvas/canvas.wxss */
+.onekit-canvas {
+  display: block !important;
+}

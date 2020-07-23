@@ -544,4 +544,9 @@ body {
 .onekit-video {
     object-fit: contain;
 }
+.onekit-img{
+    display:inline-block;
+    width: auto;
+    height: auto;
+}
 
