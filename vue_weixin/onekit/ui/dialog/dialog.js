@@ -1,11 +1,9 @@
-// onekit/ui/a/a.js
+// onekit/ui/dialog/dialog.js
 Component({
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+  /**
+   * 组件的属性列表
+   */
   properties: {
-    Style:String,
-    Class:String,
 
   },
 

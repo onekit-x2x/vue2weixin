@@ -3,6 +3,8 @@ Component({
     styleIsolation: 'apply-shared'
   },
   properties: {
+      Style:String,
+      Class:String,
       src:{
           type: String,
           value: "",

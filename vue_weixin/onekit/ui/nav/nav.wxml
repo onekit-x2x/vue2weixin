@@ -1,2 +1,4 @@
-<!--onekit/ui/nav/nav.wxml-->
-<text>onekit/ui/nav/nav.wxml</text>
+<navigator
+class="onekit-nav {{Class}}"
+style="{{Style}}"
+><slot/></navigator>
