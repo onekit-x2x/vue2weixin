@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/audio/audio",
+    "pages/image/image",
     "pages/video/video"
   ],
   "window": {
