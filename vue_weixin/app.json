@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/audio/audio",
-    "pages/video/video"
+    "pages/image/image"
   ],
   "window": {
     "backgroundTextStyle": "light",
