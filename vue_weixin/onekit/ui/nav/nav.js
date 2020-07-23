@@ -1,9 +1,20 @@
 // onekit/ui/nav/nav.js
 Component({
+  options: {
+    styleIsolation: 'isolated'
+  },
   /**
    * 组件的属性列表
    */
   properties: {
+    Class:{
+      type:String,
+      value:""
+    },
+    Style:{
+      type:String,
+      value:""
+    },
 
   },
 

@@ -1,2 +1,1 @@
-<!--onekit/ui/nav/nav.wxml-->
-<text>onekit/ui/nav/nav.wxml</text>
+<slot/>
