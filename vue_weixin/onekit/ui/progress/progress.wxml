@@ -1,2 +1,8 @@
-<!--onekit/ui/progress/progress.wxml-->
-<text>onekit/ui/progress/progress.wxml</text>
+<progress
+class="onekit-progress {{Class}}"
+style="{{Style}}"
+max="{{max}}"
+percent="{{value}}"
+>
+<slot/>
+</progress>

@@ -1,10 +1,24 @@
-// onekit/ui/progress/progress.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    styleIsolation: 'apply-shared'
+  },
   properties: {
-
+    Style: {
+      type: String,
+      value: ''
+    },
+    Class: {
+      type: String,
+      value: ''
+    },
+    value: {
+      type: Number,
+      Number: 0
+    },
+    max: {
+      type: Number,
+      Number: 0
+    }
   },
 
   /**
@@ -13,7 +27,9 @@ Component({
   data: {
 
   },
+  lifetimes: {
 
+  },
   /**
    * 组件的方法列表
    */
