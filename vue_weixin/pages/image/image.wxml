@@ -1,2 +1,7 @@
-<onekit-img Style="width:500rpx;height:400rpx;" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" 
-       alt="weixin pic" />
+
+<onekit-img src="timg.jpg"/>
+<onekit-img width="50" src="timg.jpg"/>
+<onekit-img height="50" src="timg.jpg"/>
+
+<onekit-img width="50" height="50" src="timg.jpg"/>
+<onekit-img Style="width:20px;height:20px"src="timg.jpg"/>
