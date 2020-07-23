@@ -1,7 +1,7 @@
 // onekit/ui/nav/nav.js
 Component({
   options: {
-    styleIsolation: 'isolated'
+    styleIsolation: 'apply-shared'
   },
   /**
    * 组件的属性列表

@@ -1,1 +1,4 @@
-<slot/>
+<navigator
+class="onekit-nav {{Class}}"
+style="{{Style}}"
+><slot/></navigator>
