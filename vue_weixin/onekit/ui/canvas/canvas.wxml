@@ -1,2 +1,6 @@
-<!--onekit/ui/canvas/canvas.wxml-->
-<text>onekit/ui/canvas/canvas.wxml</text>
+<canvas
+class="onekit-canvas {{Class}}"
+style="{{Style}}"
+height="{{height}}"
+width="{{width}}"
+></canvas>

@@ -1,2 +1,3 @@
-<!--pages/canvas/canvas.wxml-->
-<text>pages/canvas/canvas.wxml</text>
+<onekit-canvas canvas-id="canvas"> 
+
+</onekit-canvas>

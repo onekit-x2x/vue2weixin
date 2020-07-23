@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "onekit-canvas":"/onekit/ui/canvas/canvas"
+  }
 }
