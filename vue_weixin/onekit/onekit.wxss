@@ -9,53 +9,53 @@ body {
   display: block;
   margin: 8px;
 }
-div {
+.onekit-div {
   display: block;
 }
-a:-webkit-any-link {
+.onekit-a:-webkit-any-link {
   color: -webkit-link;
   cursor: auto;
   text-decoration: underline;
 }
-abbr[title], acronym[title] {
+.onekit-abbr[title], .onekit-acronym[title] {
   text-decoration: underline dotted;
 
 }
 
-address {
+.onekit-address {
   display: block;
 }
-i, cite, em, var, address, dfn {
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
   font-style: italic;
 }
-area {
+.onekit-area {
   display: inline;
   cursor: pointer;
 }
-article, aside, footer, header, hgroup, main, nav, section {
+.onekit-article, .onekit-aside, .onekit-footer, .onekit-header, .onekit-hgroup, .onekit-main, .onekit-nav, .onekit-section {
   display: block;
 }
 
-audio {
+.onekit-audio {
   width: 300px;
   height: 32px;
 }
-audio:not([controls]) {
+.onekit-audio:not([controls]) {
   display: none;
 }
-strong, b {
+.onekit-strong, .onekit-b {
   font-weight: bold;
 }
-bdi, output {
+.onekit-bdi, .onekit-output {
   unicode-bidi: isolate;
 }
-bdo {
+.onekit-bdo {
   unicode-bidi: bidi-override;
 }
-big {
+.onekit-big {
   font-size: larger;
 }
-blockquote {
+.onekit-blockquote {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -63,13 +63,13 @@ blockquote {
   -webkit-margin-end: 40px;
 }
 
-button {
+.onekit-button {
   appearance: none;
 }
-input, textarea, select, button, meter, progress {
+.onekit-input, .onekit-textarea, .onekit-select, .onekit-button,.onekit-meter, .onekit-progress {
   writing-mode: horizontal-tb;
 }
-input, textarea, select, button {
+.onekit-input, .onekit-textarea, .onekit-select, .onekit-button {
   text-rendering: auto;
   color: initial;
   letter-spacing: normal;
@@ -82,7 +82,7 @@ input, textarea, select, button {
   margin: 0;
   font: 11px system-ui;
 }
-input[type="button" ], input[type="submit" ], input[type="reset" ], input[type="file" ]::-webkit-file-upload-button, button {
+.onekit-input[type="button"], .onekit-input[type="submit"], .onekit-input[type="reset"], .onekit-input[type="file"]::-webkit-file-upload-button, .onekit-button {
   align-items: flex-start;
   text-align: center;
   cursor: default;
@@ -95,34 +95,34 @@ input[type="button" ], input[type="submit" ], input[type="reset" ], input[type="
   border-color: buttonface;
   border-image: initial;
 }
-center {
+.onekit-center {
   display: block;
   text-align: center;
 }
 
-i, cite, em, var, address, dfn {
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
   font-style: italic;
 }
-tt, code, kbd, samp {
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
   font-family: monospace;
 }
-datalist {
+.onekit-datalist {
   display: none;
 }
-dd {
+.onekit-dd {
   display: block;
   -webkit-margin-start: 40px;
 }
-s, strike, del {
+.onekit-s, .onekit-strike, .onekit-del {
   text-decoration: line-through;
 }
-details {
+.onekit-details {
   display: block;
 }
-i, cite, em, var, address, dfn {
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
   font-style: italic;
 }
-dialog::backdrop {
+.onekit-dialog::backdrop {
   position: fixed;
   top: 0;
   right: 0;
@@ -130,7 +130,7 @@ dialog::backdrop {
   left: 0;
   background: rgba(0, 0, 0, 0.1);
 }
-dialog {
+.onekit-dialog {
   display: block;
   position: absolute;
   left: 0;
@@ -146,10 +146,10 @@ dialog {
   padding: 1em;
   background: white;
 }
-dialog:not([open]) {
+.onekit-dialog:not([open]) {
   display: none;
 }
-ul, menu, dir {
+.onekit-ul, .onekit-menu, .onekit-dir {
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
@@ -158,23 +158,23 @@ ul, menu, dir {
   -webkit-margin-end: 0;
   -webkit-padding-start: 40px;
 }
-div {
+.onekit-div {
   display: block;
 }
-dl {
+.onekit-dl {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
 }
-dt {
+.onekit-dt {
   display: block;
 }
-i, cite, em, var, address, dfn {
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
   font-style: italic;
 }
-fieldset {
+.onekit-fieldset {
   display: block;
   -webkit-margin-start: 2px;
   -webkit-margin-end: 2px;
@@ -188,10 +188,10 @@ fieldset {
   border-color: threedface;
   border-image: initial;
 }
-figcaption {
+.onekit-figcaption {
   display: block;
 }
-figure {
+.onekit-figure {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -199,11 +199,11 @@ figure {
   -webkit-margin-end: 40px;
 }
 
-form {
+.onekit-form {
   display: block;
   margin-top: 0;
 }
-h1 {
+.onekit-h1 {
    display: block;
    font-size: 2em;
    -webkit-margin-before: 0.67em;
@@ -213,7 +213,7 @@ h1 {
    font-weight: bold;
 }
 
-hr {
+.onekit-hr {
   display: block;
   unicode-bidi: isolate;
   -webkit-margin-before: 0.5em;
@@ -225,20 +225,20 @@ hr {
   border-width: 1px;
 }
 
-iframe {
+.onekit-iframe {
   border-width: 2px;
   border-style: inset;
   border-color: initial;
   border-image: initial;
 }
-iframe {
+.onekit-iframe {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
   border-left-width: 0;
 }
 
-input {
+.onekit-input {
   -webkit-appearance: initial;
   background-color: white;
   -webkit-rtl-ordering: logical;
@@ -254,24 +254,24 @@ input {
 
 
 
-p {
+.onekit-p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
 }
-label {
+.onekit-label {
   cursor: default;
 }
-u, ins {
+.onekit-u, .onekit-ins {
   text-decoration: underline;
 
 }
-tt, code, kbd, samp {
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
   font-family: monospace;
 }
-legend {
+.onekit-legend {
   display: block;
   -webkit-padding-start: 2px;
   -webkit-padding-end: 2px;
@@ -280,17 +280,17 @@ legend {
   border-color: initial;
   border-image: initial;
 }
-pre, xmp, plaintext, listing {
+.onekit-pre, .onekit-xmp, .onekit-plaintext, .onekit-listing {
   display: block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0;
 }
 
-map {
+.onekit-map {
   display: inline;
 }
-mark {
+.onekit-mark {
   background-color: yellow;
   color: black;
 }
@@ -298,6 +298,8 @@ mark {
 /*    display: inline-block;*/
 /*    width: fill-available;*/
 /*}*/
+
+
 /*:host {*/
 /*              display: inline-block;*/
 /*              overflow: hidden;*/
@@ -305,7 +307,7 @@ mark {
 /*              white-space: nowrap;*/
 /*          }*/
 
-ul, menu, dir {
+.onekit-ul, .onekit-menu, .onekit-dir {
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
@@ -315,7 +317,7 @@ ul, menu, dir {
   -webkit-padding-start: 40px;
 }
 
-meter {
+.onekit-meter {
   appearance: initial;
   box-sizing: border-box;
   display: inline-block;
@@ -325,13 +327,13 @@ meter {
   -webkit-user-modify: read-only;
 }
 
-nobr {
+.onekit-nobr {
   white-space: nowrap;
 }
-noframes {
+.onekit-noframes {
   display: none;
 }
-ol {
+.onekit-ol {
   display: block;
   list-style-type: decimal;
   -webkit-margin-before: 1em;
@@ -340,28 +342,28 @@ ol {
   -webkit-margin-end: 0;
   -webkit-padding-start: 40px;
 }
-li {
+.onekit-li {
   display: list-item;
   text-align: match-parent;
 }
-optgroup {
+.onekit-optgroup {
   font-weight: bolder;
   display: block;
 }
-option {
+.onekit-option {
   font-weight: normal;
   display: block;
   white-space: pre;
   min-height: 1.2em;
   padding: 0 2px 1px;
 }
-output {
+.onekit-output {
   display: inline;
 }
-bdi, output {
+.onekit-bdi, .onekit-output {
   unicode-bidi: isolate;
 }
-p {
+.onekit-p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -369,7 +371,7 @@ p {
   -webkit-margin-end: 0;
 }
 
-progress {
+.onekit-progress {
   appearance: none;
   box-sizing: border-box;
   display: inline-block;
@@ -377,44 +379,44 @@ progress {
   width: 10em;
   vertical-align: -0.2em;
 }
-q::after {
+.onekit-q::after {
   content: close-quote;
 }
-q::before {
+.onekit-q::before {
   content: open-quote;
 }
-q {
+.onekit-q {
   display: inline;
 }
-ruby, rt {
+.onekit-ruby, .onekit-rt {
   text-indent: 0;
 }
-ruby > rp {
+.onekit-ruby > .onekit-rp {
   display: none;
 }
-ruby, rt {
+.onekit-ruby, .onekit-rt {
   text-indent: 0;
 }
-rt {
+.onekit-rt {
   line-height: normal;
   text-emphasis: none;
 }
-ruby > rt {
+.onekit-ruby > .onekit-rt {
   display: block;
   font-size: 50%;
   text-align: start;
 }
 
-tt, code, kbd, samp {
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
   font-family: monospace;
 }
-script {
+.onekit-script {
   display: none;
 }
 
 
 
-select {
+.onekit-select {
   border-radius: 5px;
   -webkit-appearance: menulist;
   box-sizing: border-box;
@@ -429,7 +431,7 @@ select {
   border-color: initial;
   border-image: initial;
 }
-select, input[type="color" ][list] {
+.onekit-select, .onekit-input[type="color"][list] {
   background-color: rgb(248, 248, 248);
   border-width: 1px;
   border-style: solid;
@@ -441,73 +443,74 @@ select, input[type="color" ][list] {
 /*    overflow-x: visible;*/
 /*    overflow-y: visible;*/
 /*}*/
-small {
+.onekit-small {
   font-size: smaller;
 }
 
-strong, b {
+.onekit-strong, .onekit-b {
   font-weight: bold;
 }
-sub {
+.onekit-sub {
   vertical-align: sub;
   font-size: smaller;
 }
-summary {
+.onekit-summary {
   display: block;
 }
-sup {
+.onekit-sup {
   vertical-align: super;
   font-size: smaller;
 }
-table {
+.onekit-table {
   display: table;
   border-collapse: separate;
   border-spacing: 2px;
   border-color: grey;
 }
-colgroup {
+.onekit-colgroup {
   display: table-column-group;
 }
-col {
+.onekit-col {
   display: table-column;
 }
-thead {
+.onekit-thead {
   display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
 }
-tbody {
+.onekit-tbody {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
 }
-tfoot {
+.onekit-tfoot {
   display: table-footer-group;
   vertical-align: middle;
   border-color: inherit;
 }
-tr {
+.onekit-tr {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit;
 }
-td, th {
+.onekit-td, .onekit-th {
   display: table-cell;
   vertical-align: inherit;
-}th {
+}
+.onekit-th {
    font-weight: bold;
    text-align: center;
 }
-tr {
+.onekit-tr {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit;
 }
-template {
+.onekit-template {
   display: none;
 }
 
-textarea {
+.onekit-textarea {
   -webkit-appearance: textarea;
   background-color: white;
   -webkit-rtl-ordering: logical;
@@ -523,13 +526,13 @@ textarea {
   border-image: initial;
   padding: 2px;
 }
-tt, code, kbd, samp {
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
   font-family: monospace;
 }
-u, ins {
+.onekit-u, .onekit-ins {
   text-decoration: underline;
 }
-ul, menu, dir {
+.onekit-ul, .onekit-menu, .onekit-dir {
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
@@ -539,7 +542,7 @@ ul, menu, dir {
   -webkit-padding-start: 40px;
 }
 
-video {
+.onekit-video {
   object-fit: contain;
 }
 
