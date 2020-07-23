@@ -1,2 +1,1 @@
-<!--pages/audio/audio.wxml-->
-<text>pages/audio/audio.wxml</text>
+<onekit-audio   src="https://www.onekitwx.com/quick/demo.mp3" id="myAudio" controls loop></onekit-audio>

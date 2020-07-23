@@ -1,23 +1,39 @@
-// onekit/ui/audio/audio.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    styleIsolation: 'apply-shared'
+  },
   properties: {
-
+      src:{
+          type: String,
+          value: "",
+      },
+      controls:{
+          type: Boolean,
+          value: false,
+      },
+      loop:{
+        type: Boolean,
+        value: false,
+      },
+      
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
-})
+   methods: {
+        audio_play(e){
+          console.log("audio_play", e);
+          this.triggerEvent('play',e.details)
+        },
+        audio_pause(e){
+          console.log("audio_pause", e);
+          this.triggerEvent('pause',e.details)
+        },
+        audio_ended(e){
+          console.log("audio_ended", e);
+          this.triggerEvent('ended',e.details)
+        },
+        audio_timeupdate(e){
+          console.log("audio_timeupdate", e);
+          this.triggerEvent('timeupdate',e.details)
+        },
+        
+}
+});
