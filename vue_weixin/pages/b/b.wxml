@@ -1,5 +1,4 @@
 <p>
-  This article describes several <b>text-level</b> elements. 
-  It explains their usage in an <b>HTML</b> document.   
+  This article describes several <onekit-b>text-level</onekit-b> elements. 
+  It explains their usage in an <onekit-b>HTML</onekit-b> document.   
 </p>
-Keywords are displayed with the default style of the <b/> element, likely in bold.

@@ -4,9 +4,14 @@ Component({
     styleIsolation: 'apply-shared'
   },
   properties: {
-    Style:String,
-    Class:String,
-
+    Style: {
+      type: String,
+      value: ''
+    },
+    Class: {
+      type: String,
+      value: ''
+    },
   },
 
   /**
