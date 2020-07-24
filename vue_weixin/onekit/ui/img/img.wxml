@@ -2,7 +2,7 @@
 class="onekit-img {{Class}}"
 style="width:{{weixin_width}};height:{{weixin_height}};{{Style}};"
 src="{{weixin_src}}"
-alt="alt"
+
 
 bindload="image_load"
 >

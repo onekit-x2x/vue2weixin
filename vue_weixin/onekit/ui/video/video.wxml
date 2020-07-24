@@ -1,6 +1,6 @@
 <video
 class="onekit-image {{Class}}"
-style="{{style}}"
+style="width:{{weixin_width}};height:{{weixin_height}};{{Style}};"
 src="{{src}}"
 autoplay="{{autoplay}}"
 controls="{{controls}}"
@@ -9,10 +9,10 @@ loop="{{loop}}"
 muted="{{muted}}"
 poster="{{poster}}"
 
-
+ 
+bindloadedmetadata="video_loadedmetadata"
 bindplay="video_play"
 bindended="video_ended"
-bindloadedmetadata="video_loadedmetadata"
 
 >
 
