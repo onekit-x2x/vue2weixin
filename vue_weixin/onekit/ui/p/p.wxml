@@ -1,2 +1,6 @@
-<!--onekit/ui/p/p.wxml-->
-<text>onekit/ui/p/p.wxml</text>
+<text
+class="onekit-p {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

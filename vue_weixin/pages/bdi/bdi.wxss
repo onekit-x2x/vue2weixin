@@ -1,0 +1,11 @@
+html {
+  font-family: sans-serif;
+}
+
+.onekit-bdi {
+  
+}
+
+.name {
+  color: red;
+}

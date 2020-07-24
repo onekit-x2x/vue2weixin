@@ -1,14 +1,14 @@
-// onekit/ui/abbr/abbr.js
+// onekit/ui/acronym/acronym.js
 Component({
   options: {
     styleIsolation: 'apply-shared'
   },
   properties: {
-    Style:String,
-    Class:String,
-    title:{
-      type:String,
-      value:''
+    Style: String,
+    Class: String,
+    title: {
+      type: String,
+      value: ''
     }
   },
 

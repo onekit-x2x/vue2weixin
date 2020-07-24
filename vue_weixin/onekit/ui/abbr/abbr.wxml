@@ -1,2 +1,7 @@
-<!--onekit/ui/abbr/abbr.wxml-->
-<text>onekit/ui/abbr/abbr.wxml</text>
+<text
+class="onekit-abbr {{Class}}"
+style="{{Style}}"
+title ="{{title}}"
+>
+<slot/>
+</text>
