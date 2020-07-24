@@ -1,8 +1,6 @@
 // onekit/ui/bdo/bdp.js
 Component({
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+
   properties: {
     Style: {
       type: String,

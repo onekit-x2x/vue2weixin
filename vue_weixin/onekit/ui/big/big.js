@@ -1,8 +1,6 @@
 // onekit/ui/big/big.js
 Component({
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+
   properties: {
     Style: {
       type: String,

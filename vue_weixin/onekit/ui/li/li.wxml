@@ -1,2 +1,6 @@
-<!--onekit/ui/li/li.wxml-->
-<text>onekit/ui/li/li.wxml</text>
+<view
+class="onekit-li {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</view>
