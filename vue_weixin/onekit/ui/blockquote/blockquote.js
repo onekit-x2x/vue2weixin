@@ -1,8 +1,6 @@
 // onekit/ui/blockquote/blockquote.js
 Component({
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+
   properties: {
     Style:String,
     Class:String,

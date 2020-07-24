@@ -1,8 +1,6 @@
 // onekit/ui/aside/aside.js
 Component({
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+
   properties: {
     Style:String,
     Class:String,

@@ -1,9 +1,7 @@
 // onekit/ui/img/img.js
 import {fixurl} from "../../thekit"
 Component({
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+
   properties: {
     Style:String,
     Class:String,
