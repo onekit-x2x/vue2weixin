@@ -1,0 +1,8 @@
+<view
+class="onekit-a {{Class}}"
+style="{{Style}}"
+bindtap="a_tap"
+href="{{href}}"
+>
+<slot/>
+</view>
