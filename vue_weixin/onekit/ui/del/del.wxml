@@ -1,2 +1,6 @@
-<!--onekit/ui/del/del.wxml-->
-<text>onekit/ui/del/del.wxml</text>
+<view
+class="onekit-del {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</view>

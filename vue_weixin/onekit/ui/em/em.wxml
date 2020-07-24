@@ -1,2 +1,6 @@
-<!--onekit/ui/em/em.wxml-->
-<text>onekit/ui/em/em.wxml</text>
+<text
+class="onekit-em {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

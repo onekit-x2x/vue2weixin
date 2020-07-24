@@ -1,4 +1,4 @@
-// onekit/ui/ins/ins.js
+// onekit/ui/font/font.js
 Component({
   options: {
   },

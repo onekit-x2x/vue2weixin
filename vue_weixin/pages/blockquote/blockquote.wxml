@@ -1,6 +1,27 @@
-<onekit-blockquote cite="httonekit-ps://www.huxley.net/bnw/four.html">
+<!-- <onekit-blockquote cite="httonekit-ps://www.huxley.net/bnw/four.html">
     <onekit-center>你让A居中好嘛</onekit-center>
     <onekit-p>Words can be like X-rays, if you use them onekit-proonekit-perly—they’ll go through anything. You read and you’re onekit-pierced.</onekit-p>
     <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite>
 </onekit-blockquote>
 <onekit-p>Regular text. <onekit-code>This is onekit-code.</onekit-code> Regular text.</onekit-p>
+<onekit-del><onekit-p>This paragraph has been deleted.</onekit-p></onekit-del>
+
+<p>
+  In HTML 5, what was previously called <em>block-level</em> content is now called <em>flow</em> content.
+</p>
+<onekit-font>sssssssssssss</onekit-font>
+<onekit-i>sssssssssssss</onekit-i> -->
+<!-- <onekit-p>“You're late!”</onekit-p>
+<onekit-del>
+    <onekit-p>“I apologize for the delay.”</onekit-p>
+</onekit-del>
+<onekit-ins cite="../howtobeawizard.html" datetime="2018-05">
+    <onekit-p>“A wizard is never late …”</onekit-p>
+</onekit-ins> -->
+<onekit-p>Type the following in the Run dialog
+<onekit-kbd>cmd</onekit-kbd><br/>Then click the OK button.
+</onekit-p>
+
+<onekit-p>Save the document by pressing
+<onekit-kbd>Ctrl</onekit-kbd>+<onekit-kbd>S</onekit-kbd>
+</onekit-p>

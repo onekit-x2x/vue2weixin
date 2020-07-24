@@ -1,2 +1,6 @@
-<!--onekit/ui/kbd/kbd.wxml-->
-<text>onekit/ui/kbd/kbd.wxml</text>
+<view
+class="onekit-kbd {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</view>

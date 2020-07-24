@@ -1,2 +1,6 @@
-<!--onekit/ui/dfn/dfn.wxml-->
-<text>onekit/ui/dfn/dfn.wxml</text>
+<view
+class="onekit-dnf {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</view>

@@ -1,5 +1,5 @@
 <text
-class="onekit-cite {{Class}}"
+class="onekit-code {{Class}}"
 style="{{Style}}"
 >
 <slot/>

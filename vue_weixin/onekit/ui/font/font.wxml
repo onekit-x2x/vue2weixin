@@ -1,5 +1,5 @@
 <view
-class="onekit-ins {{Class}}"
+class="onekit-font {{Class}}"
 style="{{Style}}"
 >
 <slot/>

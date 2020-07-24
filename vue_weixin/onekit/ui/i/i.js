@@ -1,10 +1,10 @@
 // onekit/ui/i/i.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+  },
   properties: {
-
+    Style:String,
+    Class:String,
   },
 
   /**
