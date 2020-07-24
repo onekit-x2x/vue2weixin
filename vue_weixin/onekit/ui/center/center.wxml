@@ -1,0 +1,7 @@
+<!--onekit/ui/center/center.wxml-->
+<text
+class="onekit-center {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

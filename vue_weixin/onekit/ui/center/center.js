@@ -1,4 +1,4 @@
-// onekit/ui/blockquote/blockquote.js
+// onekit/ui/center/center.js
 Component({
   options: {
     styleIsolation: 'apply-shared'
@@ -6,10 +6,6 @@ Component({
   properties: {
     Style:String,
     Class:String,
-    cite:{
-      type:String,
-      value:''
-    }
   },
 
   /**

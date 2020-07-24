@@ -1,2 +1,6 @@
-<!--onekit/ui/code/code.wxml-->
-<text>onekit/ui/code/code.wxml</text>
+<text
+class="onekit-cite {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

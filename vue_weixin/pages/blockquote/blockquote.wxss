@@ -1,0 +1,17 @@
+.onekit-blockquote {
+  margin: 0;
+}
+
+.onekit-blockquote .onekit-p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.onekit-blockquote .onekit-p::before {
+  content: '\201C';
+}
+
+.onekit-blockquote .onekit-p::after {
+  content: '\201D';
+}
