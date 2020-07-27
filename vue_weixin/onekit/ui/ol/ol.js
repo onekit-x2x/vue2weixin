@@ -1,5 +1,8 @@
 // onekit/ui/ol/ol.js
 Component({
+  options: {
+    virtualHost: true
+  },
 
   properties: {
     Class:{type:String,value:""},
