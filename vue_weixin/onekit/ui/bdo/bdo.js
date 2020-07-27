@@ -1,6 +1,8 @@
 // onekit/ui/bdo/bdp.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style: {
       type: String,

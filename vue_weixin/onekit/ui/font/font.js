@@ -1,6 +1,7 @@
 // onekit/ui/font/font.js
 Component({
   options: {
+    virtualHost: true
   },
   properties: {
     Style:String,

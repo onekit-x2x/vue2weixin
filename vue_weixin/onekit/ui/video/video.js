@@ -1,7 +1,7 @@
 import {fixurl} from "../../thekit"
 Component({
   options: {
-    styleIsolation: 'apply-shared'
+    virtualHost: true
   },
   properties: {
     Style:String,

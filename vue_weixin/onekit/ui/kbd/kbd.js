@@ -1,6 +1,7 @@
 // onekit/ui/kbd/kbd.js
 Component({
   options: {
+    virtualHost: true
   },
   properties: {
     Style:String,

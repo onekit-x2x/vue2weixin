@@ -1,6 +1,7 @@
 import URL from "../../js/URL.js"
 Component({
   options: {
+    virtualHost: true
 
   },
 

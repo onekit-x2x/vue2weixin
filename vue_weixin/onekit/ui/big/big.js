@@ -1,6 +1,8 @@
 // onekit/ui/big/big.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style: {
       type: String,

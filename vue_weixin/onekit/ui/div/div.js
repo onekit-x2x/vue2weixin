@@ -1,6 +1,7 @@
 // onekit/ui/div/div.js
 Component({
   options: {
+    virtualHost: true
   },
   properties: {
     Style:String,

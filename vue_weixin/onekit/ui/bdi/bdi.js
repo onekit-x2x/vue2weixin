@@ -1,6 +1,8 @@
 // onekit/ui/bdi/bdi.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style:String,
     Class:String,

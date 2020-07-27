@@ -1,6 +1,7 @@
 // onekit/ui/p/p.js
 Component({
   options: {
+    virtualHost: true
   },
   properties: {
     Class: {
