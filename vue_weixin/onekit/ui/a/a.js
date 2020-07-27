@@ -36,7 +36,6 @@ Component({
     a_tap: function (e) {
       var that = this;
       var href = new URL(that.properties.href);
-      console.log(href)
       if (href.scheme) {
         switch (href.scheme) {
           case "tel":
@@ -56,10 +55,10 @@ Component({
               url: `/onekit/ui/router.push/ie?url=${encodeURI(that.properties.href)}`
             })
             break;
-            default:
-          throw new Error(url.scheme);
+          default:
+            throw new Error(url.scheme);
         }
-      }else{
+      } else {
         wx.navigateTo({
           url: that.properties.href,
         })
