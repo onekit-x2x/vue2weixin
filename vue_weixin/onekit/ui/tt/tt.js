@@ -1,11 +1,17 @@
-// onekit/ui/s/s.js
+// onekit/ui/tt/tt.js
 Component({
   options: {
     virtualHost: true
   },
   properties: {
-    Style: String,
-    Class: String,
+    Style: {
+      type: String,
+      value: ''
+    },
+    Class: {
+      type: String,
+      value: ''
+    },
   },
 
   /**

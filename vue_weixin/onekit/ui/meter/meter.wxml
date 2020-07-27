@@ -1,2 +1,6 @@
-<!--onekit/ui/meter/meter.wxml-->
-<text>onekit/ui/meter/meter.wxml</text>
+<text
+class="onekit-meter {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

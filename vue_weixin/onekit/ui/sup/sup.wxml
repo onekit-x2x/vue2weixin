@@ -1,2 +1,6 @@
-<!--onekit/ui/sup/sup.wxml-->
-<text>onekit/ui/sup/sup.wxml</text>
+<text
+class="onekit-sup {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

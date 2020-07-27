@@ -1,2 +1,6 @@
-<!--onekit/ui/mark/mark.wxml-->
-<text>onekit/ui/mark/mark.wxml</text>
+<text
+class="onekit-mark {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

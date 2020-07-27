@@ -1,2 +1,6 @@
-<!--onekit/ui/samp/samp.wxml-->
-<text>onekit/ui/samp/samp.wxml</text>
+<text
+class="onekit-samp {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

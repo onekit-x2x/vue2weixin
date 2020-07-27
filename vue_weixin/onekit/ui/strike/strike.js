@@ -1,4 +1,4 @@
-// onekit/ui/s/s.js
+// onekit/ui/strike/strike.js
 Component({
   options: {
     virtualHost: true

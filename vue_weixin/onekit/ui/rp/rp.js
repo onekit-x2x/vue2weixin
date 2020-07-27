@@ -1,9 +1,11 @@
 // onekit/ui/rp/rp.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    virtualHost: true
+  },
   properties: {
+    Style: String,
+    Class: String,
 
   },
 

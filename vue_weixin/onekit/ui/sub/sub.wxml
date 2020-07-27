@@ -1,2 +1,6 @@
-<!--onekit/ui/sub/sub.wxml-->
-<text>onekit/ui/sub/sub.wxml</text>
+<text
+class="onekit-sub {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

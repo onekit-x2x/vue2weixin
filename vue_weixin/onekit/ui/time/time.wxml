@@ -1,2 +1,8 @@
-<!--onekit/ui/time/time.wxml-->
-<text>onekit/ui/time/time.wxml</text>
+<text
+class="onekit-time {{Class}}"
+style="{{Style}}"
+datetime="{{datetime}}"
+pubdate="{{pubdate}}"
+>
+<slot/>
+</text>

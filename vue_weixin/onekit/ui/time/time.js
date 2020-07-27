@@ -1,10 +1,25 @@
 // onekit/ui/time/time.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    virtualHost: true
+  },
   properties: {
-
+    Style: {
+      type: String,
+      value: ''
+    },
+    Class: {
+      type: String,
+      value: ''
+    },
+    datetime: {
+      type: String,
+      value: ''
+    },
+    pubdate: {
+      type: String,
+      value: ''
+    }
   },
 
   /**

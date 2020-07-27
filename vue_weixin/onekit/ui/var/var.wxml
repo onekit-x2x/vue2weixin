@@ -1,2 +1,6 @@
-<!--onekit/ui/var/var.wxml-->
-<text>onekit/ui/var/var.wxml</text>
+<text
+class="onekit-var {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

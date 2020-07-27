@@ -1,2 +1,6 @@
-<!--onekit/ui/pre/pre.wxml-->
-<text>onekit/ui/pre/pre.wxml</text>
+<text
+class="onekit-pre {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

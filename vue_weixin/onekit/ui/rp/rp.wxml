@@ -1,2 +1,6 @@
-<!--onekit/ui/rp/rp.wxml-->
-<text>onekit/ui/rp/rp.wxml</text>
+<text
+class="onekit-rp {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>

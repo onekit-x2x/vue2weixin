@@ -1,5 +1,5 @@
 <text
-class="onekit-strong {{Class}}"
+class="onekit-tt {{Class}}"
 style="{{Style}}"
 >
 <slot/>

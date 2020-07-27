@@ -5,7 +5,6 @@ Component({
   properties: {
     Style:String,
     Class:String,
-
   },
 
   /**

@@ -1,4 +1,6 @@
-<p>
+<onekit-p>
   This article describes several <onekit-b>text-level</onekit-b> elements. 
   It explains their usage in an <onekit-b>HTML</onekit-b> document.   
-</p>
+</onekit-p>
+<onekit-p>&lt;mark&gt; 元素用于 <onekit-mark>高亮</onekit-mark> 文本</onekit-p> 
+<onekit-p> A simple equation: <onekit-var>x</onekit-var> = <onekit-var>y</onekit-var> + 2 </onekit-p>

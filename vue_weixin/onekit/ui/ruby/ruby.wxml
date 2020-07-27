@@ -1,2 +1,6 @@
-<!--onekit/ui/ruby/ruby.wxml-->
-<text>onekit/ui/ruby/ruby.wxml</text>
+<text
+class="onekit-ruby {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</text>
