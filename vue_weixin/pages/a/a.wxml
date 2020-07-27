@@ -1,0 +1,6 @@
+<onekit-a href="https://example.com">Website</onekit-a>
+<onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
+<onekit-a href="tel:+123456789">Phone</onekit-a>
+<view class="crumb">
+	<onekit-a href="../image/image">Bikes</onekit-a>
+</view>

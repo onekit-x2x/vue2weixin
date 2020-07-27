@@ -1,1 +1,3 @@
-/* pages/b/b.wxss */
+.onekit-b{
+  border: 2rpx solid red;
+}
