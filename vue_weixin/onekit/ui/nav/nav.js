@@ -1,5 +1,8 @@
 // onekit/ui/nav/nav.js
 Component({
+  options: {
+    virtualHost: true
+  },
 
   /**
    * 组件的属性列表

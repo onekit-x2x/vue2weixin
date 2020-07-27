@@ -1,9 +1,14 @@
 // onekit/ui/dd/dd.js
 Component({
+  options: {
+    virtualHost: true
+  },
   /**
    * 组件的属性列表
    */
   properties: {
+    Class:{type:String,value:""},
+    Style:{type:String,value:""},
 
   },
 

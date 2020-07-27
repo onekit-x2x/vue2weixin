@@ -1,9 +1,16 @@
 // onekit/ui/menu/menu.js
 Component({
+  options: {
+    virtualHost: true
+  },
   /**
    * 组件的属性列表
    */
   properties: {
+    Class:{type:String,value:""},
+    Style:{type:String,value:""},
+    type:{type:String,value:""},
+    id:{type:String,value:""},
 
   },
 

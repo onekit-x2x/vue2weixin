@@ -1,2 +1,6 @@
-<!--onekit/ui/dl/dl.wxml-->
-<text>onekit/ui/dl/dl.wxml</text>
+<view
+class="onekit-dl {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</view>

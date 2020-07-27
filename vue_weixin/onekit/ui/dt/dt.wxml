@@ -1,2 +1,6 @@
-<!--onekit/ui/dt/dt.wxml-->
-<text>onekit/ui/dt/dt.wxml</text>
+<view
+class="onekit-dt {{Class}}"
+style="{{Style}}"
+>
+<slot/>
+</view>
