@@ -1,6 +1,8 @@
 // onekit/ui/br/br.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style:String,
     Class:String,

@@ -1,6 +1,8 @@
 // onekit/ui/button/button.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style:String,
     Class:String,

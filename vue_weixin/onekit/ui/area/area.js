@@ -1,6 +1,8 @@
 // onekit/ui/area/area.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style:String,
     Class:String,

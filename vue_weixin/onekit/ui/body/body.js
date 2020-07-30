@@ -1,15 +1,22 @@
-// onekit/ui/abbr/abbr.js
+// onekit/ui/body/body.js
 Component({
   options: {
     virtualHost: true
   },
   properties: {
-    Style:String,
-    Class:String,
-    title:{
-      type:String,
-      value:''
+    Style: {
+      type: String,
+      value: ''
+    },
+    Class: {
+      type: String,
+      value: ''
+    },
+    Id: {
+      type: String,
+      value: ''
     }
+
   },
 
   /**

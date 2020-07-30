@@ -1,6 +1,8 @@
 // onekit/ui/cite/cite.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style:String,
     Class:String,

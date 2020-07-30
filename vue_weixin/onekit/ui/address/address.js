@@ -1,10 +1,15 @@
 // onekit/ui/address/address.js
 Component({
-
+  options: {
+    virtualHost: true
+  },
   properties: {
     Style:String,
     Class:String,
-
+    Id:{
+      type:String,
+      value:''
+    }
   },
 
   /**

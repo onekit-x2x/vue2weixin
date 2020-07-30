@@ -1,8 +1,8 @@
 // onekit/ui/col/col.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    virtualHost: true
+  },
   properties: {
 
   },

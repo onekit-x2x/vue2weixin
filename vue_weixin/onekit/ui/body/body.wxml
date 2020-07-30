@@ -1,6 +1,6 @@
 <view
 id="{{Id}}"
-class="onekit-address {{Class}}"
+class="onekit-body {{Class}}"
 style="{{Style}}"
 >
 <slot/>
