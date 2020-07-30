@@ -1,6 +1,7 @@
 <view
 class="onekit-dt {{Class}}"
 style="{{Style}}"
+id="{{Id}}"
 >
 <slot/>
 </view>

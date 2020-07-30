@@ -7,6 +7,7 @@ Component({
   properties: {
     Class:{type:String,value:""},
     Style:{type:String,value:""},
+    Id:{type:String,value:""},
     reversed:{type:Boolean,},
     start:{type:Number,value:1},
     type:{type:String,value:""},

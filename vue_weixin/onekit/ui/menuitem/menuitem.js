@@ -9,6 +9,7 @@ Component({
   properties: {
     Class:{type:String,value:""},
     Style:{type:String,value:""},
+    Id:{type:String,value:""},
     checked:{type:Boolean},
     default:{type:Boolean},
     disabled:{type:Boolean},

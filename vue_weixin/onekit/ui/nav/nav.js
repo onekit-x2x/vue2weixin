@@ -16,6 +16,10 @@ Component({
       type:String,
       value:""
     },
+    Id:{
+      type:String,
+      value:""
+    },
 
   },
 
