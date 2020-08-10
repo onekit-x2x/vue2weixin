@@ -1,4 +1,6 @@
-//app.js
+import "src/main.js";
 App({
-  
+  onLaunch(){
+    
+  }
 })

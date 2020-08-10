@@ -1,4 +1,4 @@
-import {fixurl} from "../../thekit"
+import {fixurl} from "../../TheKit"
 Component({
   options: {
     virtualHost: true

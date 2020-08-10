@@ -1,5 +1,5 @@
 // onekit/ui/img/img.js
-import {fixurl} from "../../thekit"
+import {fixurl} from "../../TheKit"
 Component({
 
   properties: {

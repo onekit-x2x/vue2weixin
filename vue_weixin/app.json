@@ -1,10 +1,9 @@
 {
   "pages": [
-    "test/test",
-    "pages/video/video",
-    "pages/image/image",
-    "pages/page2",
-    "views/page2"
+    "src/views/Home",
+    "src/views/About",
+    "src/views/page2",
+    "src/App"
   ],
   "window": {
     "backgroundTextStyle": "light",

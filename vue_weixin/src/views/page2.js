@@ -1,6 +1,5 @@
-// views/page2.js
-import OnekitPage from "../onekit/OnekitPage.js"
-OnekitPage({
+import OnekitComponent from "../../onekit/OnekitComponent.js"
+OnekitComponent({
   name: 'page2',
   components: {
   },

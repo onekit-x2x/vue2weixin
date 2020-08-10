@@ -1,8 +1,17 @@
-function extend(options){
+class Config{
+  set productionTip(productionTip){
 
+  }
 }
-function use(objectOrfunction,options){
+export default class Vue{
+  constructor(){
 
+  }
+  $mount(appId){
+
+  }
+  static use(objectOrfunction,options){
+
+  }
 }
-
-module.exports= {extend,use};
+Vue.config = new Config();

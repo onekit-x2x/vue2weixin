@@ -1,4 +1,4 @@
-import URL from "../../js/URL.js"
+import URL from "../../lib/URL.js"
 Component({
   options: {
     virtualHost: true
