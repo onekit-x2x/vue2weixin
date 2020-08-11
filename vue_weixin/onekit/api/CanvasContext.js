@@ -1,4 +1,4 @@
-import TheKit from "../TheKit";
+import TheKit from "../lib/TheKit";
 export default class CanvasContext {
   constructor(weixinCanvasContext) {
     this.weixinCanvasContext = weixinCanvasContext;

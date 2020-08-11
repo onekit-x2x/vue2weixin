@@ -13,6 +13,7 @@
   };
   for(const key of Object.keys(options)){
     switch(key){
+      case "created":break;
       default:weixin_options[key]=options[key];break;
     }
   }

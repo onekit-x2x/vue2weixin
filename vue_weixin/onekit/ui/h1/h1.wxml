@@ -1,2 +1,1 @@
-<!--onekit/ui/h1/h1.wxml-->
-<text>onekit/ui/h1/h1.wxml</text>
+<view class="onekit-h1"><slot/></view>

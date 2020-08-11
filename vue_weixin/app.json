@@ -1,9 +1,9 @@
 {
   "pages": [
+    "src/App",
     "src/views/Home",
     "src/views/About",
-    "src/views/page2",
-    "src/App"
+    "src/views/page2"
   ],
   "window": {
     "backgroundTextStyle": "light",

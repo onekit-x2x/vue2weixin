@@ -1,7 +1,13 @@
 {
   "component": true,
   "usingComponents": {
+    "onekit-a":"/onekit/ui/a/a",
+    "onekit-br":"/onekit/ui/br/br",
     "onekit-div":"/onekit/ui/div/div",
-    "onekit-h1":"/onekit/ui/h1/h1"
+    "onekit-h1":"/onekit/ui/h1/h1",
+    "onekit-h3":"/onekit/ui/h3/h3",
+    "onekit-p":"/onekit/ui/p/p",
+    "onekit-ul":"/onekit/ui/ul/ul",
+    "onekit-li":"/onekit/ui/li/li"
   }
 }

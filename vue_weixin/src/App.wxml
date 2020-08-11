@@ -1,0 +1,8 @@
+  <onekit-div id="app">
+    <onekit-div id="nav">
+      <onekit-router-link to="/">Home</onekit-router-link> |
+      <onekit-router-link to="/about">About</onekit-router-link>
+    </onekit-div>
+    <onekit-router-view to="/"><Home/></onekit-router-view>
+    <onekit-router-view to="/about"><About/></onekit-router-view>
+  </onekit-div>

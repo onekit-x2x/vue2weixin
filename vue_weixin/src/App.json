@@ -1,3 +1,10 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "onekit-router-link":"/onekit/ui/router-link/router-link",
+    "onekit-router-view":"/onekit/ui/router-view/router-view",
+    "onekit-div":"/onekit/ui/div/div",
+    "onekit-img":"/onekit/ui/img/img",
+    "Home":"/src/views/Home",
+    "About":"/src/views/About"
+  }
 }

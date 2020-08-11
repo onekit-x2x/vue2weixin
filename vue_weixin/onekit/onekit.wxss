@@ -1,11 +1,11 @@
-
-html {
+@import "vue.wxss";
+page {
     -webkit-locale: "en";
 }
-html {
+page {
     display: block;
 }
-body {
+page {
     display: block;
     margin: 8px;
 }

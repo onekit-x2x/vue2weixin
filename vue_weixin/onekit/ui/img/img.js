@@ -1,5 +1,5 @@
 // onekit/ui/img/img.js
-import {fixurl} from "../../TheKit"
+import TheKit, {fixurl} from "../../lib/TheKit"
 Component({
 
   properties: {
@@ -36,10 +36,9 @@ Component({
   },
   lifetimes: {
     attached: function() {
-      const pages = getCurrentPages();
-      const currentUrl = pages[pages.length-1].route;
       const weixin_width =this.properties.width?this.properties.width+"px":"auto";
       const weixin_height =this.properties.height?this.properties.height+"px":"auto";
+      const currentUrl = TheKit.current();
       const weixin_src = "/"+fixurl(currentUrl,this.properties.src);
       this.setData({weixin_width,weixin_height,weixin_src});
     },

@@ -1,12 +1,10 @@
-// onekit/ui/div/div.js
+// onekit/ui/h3/h3.js
 Component({
-  options: {
-    virtualHost: true
-  },
+  /**
+   * 组件的属性列表
+   */
   properties: {
-    Style:String,
-    Class:String,
-    Id:String,
+
   },
 
   /**

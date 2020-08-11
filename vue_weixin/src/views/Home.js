@@ -4,5 +4,8 @@ OnekitComponent({
   name: 'Home',
   components: {
     HelloWorld
+  },
+  created(){
+    console.log("Home")
   }
 })
