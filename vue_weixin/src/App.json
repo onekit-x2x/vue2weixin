@@ -1,4 +1,6 @@
 {
+  "component":true,
+  "styleIsolation": "shared",
   "usingComponents": {
     "onekit-router-link":"/onekit/ui/router-link/router-link",
     "onekit-router-view":"/onekit/ui/router-view/router-view",

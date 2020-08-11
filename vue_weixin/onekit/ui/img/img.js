@@ -38,7 +38,7 @@ Component({
     attached: function() {
       const weixin_width =this.properties.width?this.properties.width+"px":"auto";
       const weixin_height =this.properties.height?this.properties.height+"px":"auto";
-      const currentUrl = TheKit.current();
+      const currentUrl = TheKit.currentUrl();
       const weixin_src = "/"+fixurl(currentUrl,this.properties.src);
       this.setData({weixin_width,weixin_height,weixin_src});
     },

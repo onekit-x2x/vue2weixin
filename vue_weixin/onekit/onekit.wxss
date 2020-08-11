@@ -1,4 +1,4 @@
-@import "vue.wxss";
+/*@import "vue.wxss";*/
 page {
     -webkit-locale: "en";
 }
@@ -8,6 +8,9 @@ page {
 page {
     display: block;
     margin: 8px;
+}
+page{
+
 }
 .onekit-div {
     display: block;

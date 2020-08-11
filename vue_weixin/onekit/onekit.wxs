@@ -1,0 +1,30 @@
+function startsWith(string,str){
+  return string.indexOf(str)==0;
+};
+function url(currentUrl,url){
+  if (startsWith(url,"/")) {
+    return url.substring(1);
+  }
+  ////////////////////
+  var folder;
+  if (currentUrl.indexOf("/")>=0) {
+      folder = currentUrl.substring(0, currentUrl.lastIndexOf("/") + 1);
+      if(startsWith(folder,"/")){
+          folder = folder.substring(1);
+      }
+  } else {
+      folder = "";
+  }
+  url = url.trim();
+  if (startsWith(url,"./")) {
+      url = url.substring("./".length);
+  }
+  while (startsWith(url,"../")) {
+      folder = folder.substring(0, folder.length - 1);
+      folder = folder.substring(0, folder.lastIndexOf("/") + 1);
+      url = url.substring("../".length);
+  }
+
+  return "src/"+folder + url;
+}
+module.exports = {url:url};

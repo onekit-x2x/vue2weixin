@@ -1,1 +1,14 @@
-/* src/components/HelloWorld.wxss */
+.onekit-h3 {
+  margin: 40px 0 0;
+}
+.onekit-ul {
+  list-style-type: none;
+  padding: 0;
+}
+.onekit-li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.onekit-a {
+  color: #42b983;
+}

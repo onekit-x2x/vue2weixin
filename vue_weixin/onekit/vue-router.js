@@ -1,5 +1,7 @@
 export default class VueRouter {
   push(options) {
+    this.UC.setData({path});
+    /*
     const name = options.name;
     const params = options.params;
     const query = options.query;
@@ -15,6 +17,6 @@ export default class VueRouter {
     }
     wx.navigateTo({
       url,
-    })
+    })*/
   }
 }

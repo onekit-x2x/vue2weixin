@@ -5,6 +5,9 @@ OnekitComponent({
   components: {
     HelloWorld
   },
+  data:{
+    URL:"/views/Home"
+  },
   created(){
     console.log("Home")
   }

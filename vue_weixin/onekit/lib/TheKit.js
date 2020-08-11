@@ -57,7 +57,13 @@ TheKit.array2str = function(array) {
 };
 TheKit.current = function(){
   const pages = getCurrentPages();
-  return pages[pages.length-1].route;
+  if(pages.length==0){
+    return {};
+  }
+  return pages[pages.length-1];
+} 
+TheKit.currentUrl = function(){
+  return TheKit.current().route;
 } 
 TheKit.fixurl = function( currentUrl,url){
   if (url.startsWith("/")) {
