@@ -16,22 +16,22 @@ export default class Vue{
 
   }
   static attached(UC){
-   /* let PAGE = TheKit.current();   
+    let PAGE = TheKit.current();   
     PAGE.vue.options.router.UC = UC;
     PAGE.UC = UC;
-    UC.$router = PAGE.vue.options.router;*/
+    UC.$router = PAGE.vue.options.router;
   }
   static detached(UC){
 
   }
   //////////////////////////
   $mount(elementId){
-    console.log("xxx")
     let pages = getCurrentPages();
     let PAGE = pages[pages.length-1]; 
     PAGE.vue = this;
-   // let components = this.options.components;
-   // let template = Object.keys(components)[0];
-    //PAGE.setData({template});
+    //
+    getApp().to = "/";
+    const flag = true;
+    PAGE.setData({flag});
   }
 }

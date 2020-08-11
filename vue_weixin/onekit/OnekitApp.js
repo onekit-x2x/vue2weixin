@@ -12,10 +12,10 @@ import TheKit from './lib/TheKit';
         }
       },
       attached: function() {
-       // Vue.attached(this);
+        Vue.attached(this);
       },
       detached: function() {
-      //  Vue.detached(this);
+        Vue.detached(this);
       },
     },
     properties:{},

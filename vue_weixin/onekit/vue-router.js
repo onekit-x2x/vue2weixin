@@ -1,5 +1,6 @@
 export default class VueRouter {
-  push(options) {
+  push(path) {
+    //console.log(this.UC);
     this.UC.setData({path});
     /*
     const name = options.name;

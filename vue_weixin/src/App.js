@@ -1,7 +1,8 @@
-import OnekitComponent from "../onekit/OnekitComponent"
-OnekitComponent({
+import OnekitApp from "../onekit/OnekitApp"
+OnekitApp({
   name:"App",
   data:{
+    path:"/",
     URL:"/App"
   }
 })
