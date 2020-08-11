@@ -1,4 +1,4 @@
-//import Vue from "../onekit/vue"
+import Vue from "../onekit/vue"
 //import TheKit from './lib/TheKit';
 
  export default function(options){
@@ -12,7 +12,7 @@
         }
       },
       attached: function() {
-       // Vue.attached(this);
+         Vue.attached(this);
       },
       detached: function() {
       //  Vue.detached(this);

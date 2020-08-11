@@ -1,4 +1,4 @@
 <onekit-div id="app-6">
   <onekit-p>{{ message }}</onekit-p>
-  <button bindtap="reverseMessage">反转消息</button>
+  <onekit-input v-model="message"/>
 </onekit-div>
