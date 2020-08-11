@@ -1,8 +1,5 @@
 import TheKit from "./lib/TheKit.js"
 class Config{
-  set productionTip(productionTip){
-    this._productionTip = productionTip;
-  }
   set silent(silent){
     this._silent = silent;
     if(silent){
@@ -18,6 +15,30 @@ class Config{
 
     }
   }
+  get optionMergeStrategies(){
+    
+  }
+  set devtools(devtools){
+    this._devtools = devtools;
+  }
+  set errorHandler(errorHandler){
+    this._errorHandler = errorHandler;
+  }
+  set warnHandler(warnHandler){
+    this._warnHandler = warnHandler;
+  }
+  set ignoredElements(ignoredElements){
+    this._ignoredElements = ignoredElements;
+  }
+  set keyCodes(keyCodes){
+    this._keyCodes = keyCodes;
+  }
+  set performance(performance){
+    this._performance = performance;
+  }
+  set productionTip(productionTip){
+    this._productionTip = productionTip;
+  }
 }
 export default class Vue{
   constructor(options){
@@ -25,7 +46,13 @@ export default class Vue{
   }
   ////////////////////////
   static get config(){
-    return new Config();
+    if(!getApp().config){
+      getApp().config = new Config();
+    }
+    return getApp().config;
+  }
+  static extend( options ){
+    
   }
   static use(plug){
 
