@@ -54,16 +54,42 @@ export default class Vue{
   static extend( options ){
     
   }
-  static use(plug){
-
-  }
   static nextTick(callback){
     wx.nextTick(callback);
   }
   static set(targe,key,value){
-   /* var data = {};
+   var data = this.data[targe];
     data[key] = value;
-    this.setData(data);*/
+    this.setData({data});
+  }
+  static delete(targe,key){
+    var data = this.data[targe];
+     Object.delete(data,key);
+     this.setData({data});
+   }
+   static directive(id,definition){
+
+   }
+   static filter(id,callback){
+
+  }
+  static component(id,definition){
+
+  }
+  static use(plug){
+
+  }
+  static mixin( mixin ){
+
+  }
+  static compile( template ){
+
+  }
+  static observable( object ){
+
+  }
+  static get version(){
+    return "2.2";
   }
   //////////////////////////
   $mount(elementId){
