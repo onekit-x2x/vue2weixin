@@ -1,2 +1,1 @@
-<!--onekit/ui/input/input.wxml-->
-<text>onekit/ui/input/input.wxml</text>
+<input class="onekit-input {{Class}}" wx:if="{{type}}"/>

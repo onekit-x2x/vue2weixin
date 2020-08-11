@@ -3,6 +3,7 @@
   "styleIsolation": "shared",
   "usingComponents": {
     "onekit-div":"/onekit/ui/div/div",
-    "onekit-img":"/onekit/ui/img/img"
+    "onekit-p":"/onekit/ui/p/p",
+    "onekit-input":"/onekit/ui/input/input"
   }
 }

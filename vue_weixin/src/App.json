@@ -7,6 +7,7 @@
     "onekit-div":"/onekit/ui/div/div",
     "onekit-img":"/onekit/ui/img/img",
     "Home":"/src/views/Home",
+    "page2":"/src/views/page2",
     "About":"/src/views/About"
   }
 }
