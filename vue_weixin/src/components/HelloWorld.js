@@ -1,4 +1,4 @@
-import OnekitComponent from "../../OnekitComponent"
+import OnekitComponent from "../../onekit/OnekitComponent"
 OnekitComponent({
   
 })

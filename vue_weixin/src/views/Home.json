@@ -3,6 +3,6 @@
   "usingComponents": {
     "onekit-div":"/onekit/ui/div/div",
     "onekit-img":"/onekit/ui/img/img",
-    "HelloWorld":"../compnents/HelloWorld"
+    "HelloWorld":"../components/HelloWorld"
   }
 }
