@@ -3,6 +3,21 @@ class Config{
   set productionTip(productionTip){
     this._productionTip = productionTip;
   }
+  set silent(silent){
+    this._silent = silent;
+    if(silent){
+      console = {
+        groupEnd(){},
+        group(){},
+        error(){},
+        warn(){},
+        assert(){},
+        log(){},
+      };
+    }else{
+
+    }
+  }
 }
 export default class Vue{
   constructor(options){
