@@ -57,14 +57,13 @@ export default class Vue{
   static use(plug){
 
   }
-  static attached(UC){
-    let PAGE = TheKit.current();   
-    PAGE.vue.options.router.UC = UC;
-    PAGE.UC = UC;
-    UC.$router = PAGE.vue.options.router;
+  static nextTick(callback){
+    wx.nextTick(callback);
   }
-  static detached(UC){
-
+  static set(targe,key,value){
+   /* var data = {};
+    data[key] = value;
+    this.setData(data);*/
   }
   //////////////////////////
   $mount(elementId){

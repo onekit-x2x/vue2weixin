@@ -4,7 +4,6 @@
       <onekit-router-link to="/about">About</onekit-router-link>
     </onekit-div>
     <onekit-router-view>
-       <page2 />
     <Home wx:if="{{path=='/'}}"/>
     <About wx:if="{{path=='/about'}}"/>
     </onekit-router-view>

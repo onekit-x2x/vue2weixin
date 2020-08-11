@@ -1,5 +1,5 @@
-import Vue from "../onekit/vue"
-//import TheKit from './lib/TheKit';
+//import Vue from "../onekit/vue"
+import TheKit from './lib/TheKit';
 
  export default function(options){
   const weixin_options = {
@@ -12,10 +12,13 @@ import Vue from "../onekit/vue"
         }
       },
       attached: function() {
-         Vue.attached(this);
+        let PAGE = TheKit.current();   
+        PAGE.vue.options.router.UC = this;
+        PAGE.UC = this;
+        this.$router = PAGE.vue.options.router;
       },
       detached: function() {
-      //  Vue.detached(this);
+
       },
     },
     properties:{},
@@ -25,7 +28,7 @@ import Vue from "../onekit/vue"
       },
       set(key,value){
         var data = {};
-        data[key] = value;
+        data[`[${key}]`] = value;
         this.setData(data);
       }
     }
