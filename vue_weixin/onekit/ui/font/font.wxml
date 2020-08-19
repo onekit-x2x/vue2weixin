@@ -1,6 +1,6 @@
 <view
-class="onekit-font {{Class}}"
-style="{{Style}}"
+class="onekit-font {{onekitClass}}"
+style="{{onekitStyle}}"
 >
 <slot/>
 </view>

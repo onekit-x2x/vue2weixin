@@ -1,6 +1,6 @@
 <text
-class="onekit-sub {{Class}}"
-style="{{Style}}"
+class="onekit-sub {{onekitClass}}"
+style="{{onekitStyle}}"
 >
 <slot/>
 </text>

@@ -3,8 +3,8 @@ Component({
     virtualHost: true
   },
   properties: {
-      Style:String,
-      Class:String,
+      OnekitStyle:String,
+      OnekitClass:String,
       src:{
           type: String,
           value: "",

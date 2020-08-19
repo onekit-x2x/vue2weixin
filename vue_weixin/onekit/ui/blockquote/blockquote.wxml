@@ -1,6 +1,6 @@
 <view
-class="onekit-blockquote {{Class}}"
-style="{{Style}}"
+class="onekit-blockquote {{onekitClass}}"
+style="{{onekitStyle}}"
 cite="{{cite}}"
 >
 <slot/>

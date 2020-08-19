@@ -1,6 +1,6 @@
 <view
-class="onekit-dnf {{Class}}"
-style="{{Style}}"
+class="onekit-dnf {{onekitClass}}"
+style="{{onekitStyle}}"
 >
 <slot/>
 </view>

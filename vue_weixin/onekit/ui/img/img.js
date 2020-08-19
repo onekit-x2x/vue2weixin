@@ -3,8 +3,8 @@ import TheKit, {fixurl} from "../../lib/TheKit"
 Component({
 
   properties: {
-    Style:String,
-    Class:String,
+    OnekitStyle:String,
+    OnekitClass:String,
     width:Number,
     height:Number,
     src:{

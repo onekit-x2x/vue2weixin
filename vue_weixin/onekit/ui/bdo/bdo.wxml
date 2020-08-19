@@ -1,6 +1,6 @@
 <text
-class="onekit-bdo {{Class}}"
-style="{{Style}}"
+class="onekit-bdo {{onekitClass}}"
+style="{{onekitStyle}}"
 >
 <slot/>
 </text>

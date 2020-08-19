@@ -2,8 +2,8 @@
 Component({
 
   properties: {
-    Style:String,
-    Class:String,
+    OnekitStyle:String,
+    OnekitClass:String,
 
   },
 
