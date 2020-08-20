@@ -6,7 +6,7 @@ Component({
   properties: {
     OnekitStyle:String,
     OnekitClass:String,
-    Id:String,
+    onekitId:String,
   },
 
   /**

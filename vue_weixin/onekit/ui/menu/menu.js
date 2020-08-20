@@ -10,7 +10,7 @@ Component({
     Class:{type:String,value:""},
     Style:{type:String,value:""},
     type:{type:String,value:""},
-    Id:{type:String,value:""},
+    onekitId:{type:String,value:""},
 
   },
 

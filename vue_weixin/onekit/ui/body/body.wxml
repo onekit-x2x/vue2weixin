@@ -1,5 +1,5 @@
 <view
-id="{{Id}}"
+id="{{onekitId}}"
 class="onekit-body {{onekitClass}}"
 style="{{onekitStyle}}"
 >

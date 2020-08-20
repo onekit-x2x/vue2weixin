@@ -2,7 +2,7 @@
 class="onekit-menu {{onekitClass}}"
 style="{{onekitStyle}}"
 type="{{type}}"
-id="{{Id}}"
+id="{{onekitId}}"
 >
 <slot/>
 </view>
