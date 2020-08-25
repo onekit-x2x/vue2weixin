@@ -4,9 +4,9 @@ Component({
     virtualHost: true
   },
 
-  properties: {
-    Class:{type:String,value:""},
-    Style:{type:String,value:""},
+  properties: {onekitId:String,
+    onekitClass:{type:String,value:""},
+    onekitStyle:{type:String,value:""},
     onekitId:{type:String,value:""},
     reversed:{type:Boolean,},
     start:{type:Number,value:1},

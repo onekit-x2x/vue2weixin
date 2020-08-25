@@ -2,9 +2,9 @@
 import TheKit, {fixurl} from "../../lib/TheKit"
 Component({
 
-  properties: {
-    OnekitStyle:String,
-    OnekitClass:String,
+  properties: {onekitId:String,
+    onekitStyle:String,
+    onekitClass:String,
     width:Number,
     height:Number,
     src:{

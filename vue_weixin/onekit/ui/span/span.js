@@ -1,9 +1,9 @@
 // onekit/ui/span/span.js
 Component({
 
-  properties: {
-    OnekitStyle:String,
-    OnekitClass:String,
+  properties: {onekitId:String,
+    onekitStyle:String,
+    onekitClass:String,
 
   },
 

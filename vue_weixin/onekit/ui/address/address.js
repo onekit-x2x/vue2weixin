@@ -3,9 +3,9 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {
-    OnekitStyle:String,
-    OnekitClass:String,
+  properties: {onekitId:String,
+    onekitStyle:String,
+    onekitClass:String,
     onekitId:{
       type:String,
       value:''

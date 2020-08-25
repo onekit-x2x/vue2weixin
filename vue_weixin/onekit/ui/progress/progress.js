@@ -1,11 +1,11 @@
 Component({
 
-  properties: {
-    Style: {
+  properties: {onekitId:String,
+    onekitStyle: {
       type: String,
       value: ''
     },
-    Class: {
+    onekitClass: {
       type: String,
       value: ''
     },

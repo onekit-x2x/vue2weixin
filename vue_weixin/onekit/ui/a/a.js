@@ -4,9 +4,9 @@ Component({
     virtualHost: true
   },
 
-  properties: {
-    Style: String,
-    Class: String,
+  properties: {onekitId:String,
+    onekitStyle: String,
+    onekitClass: String,
     href: {
       type: String,
       value: ""

@@ -3,12 +3,12 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {
-    Class: {
+  properties: {onekitId:String,
+    onekitClass: {
       type: String,
       value: ""
     },
-    Style: {
+    onekitStyle: {
       type: String,
       value: ""
     },

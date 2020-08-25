@@ -1,6 +1,6 @@
 <text
 class="onekit-time {{onekitClass}}"
-style="{{onekitStyle}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 datetime="{{datetime}}"
 pubdate="{{pubdate}}"
 >

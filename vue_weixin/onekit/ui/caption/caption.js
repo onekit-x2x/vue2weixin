@@ -3,7 +3,7 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {
+  properties: {onekitId:String,
 
   },
 

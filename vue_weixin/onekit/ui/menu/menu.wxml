@@ -1,8 +1,8 @@
 <view
 class="onekit-menu {{onekitClass}}"
-style="{{onekitStyle}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 type="{{type}}"
-id="{{onekitId}}"
+
 >
 <slot/>
 </view>

@@ -7,12 +7,12 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {
-    Class:{
+  properties: {onekitId:String,
+    onekitClass:{
       type:String,
       value:""
     },
-    Style:{
+    onekitStyle:{
       type:String,
       value:""
     },

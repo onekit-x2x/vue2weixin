@@ -1,6 +1,6 @@
 <view
 class="onekit-ol {{onekitClass}}"
-style="{{onekitStyle}}"
+style="{{onekitStyle}}"  
 id="{{onekitId}}"
 type="{{type}}"
 start="{{start}}"

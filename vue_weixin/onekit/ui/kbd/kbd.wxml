@@ -1,6 +1,6 @@
 <view
 class="onekit-kbd {{onekitClass}}"
-style="{{onekitStyle}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 >
 <slot/>
 </view>
