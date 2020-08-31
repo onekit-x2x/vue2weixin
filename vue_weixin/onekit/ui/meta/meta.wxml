@@ -1,2 +1,8 @@
-<!--onekit/ui/meta/meta.wxml-->
-<text>onekit/ui/meta/meta.wxml</text>
+<view
+class="onekit-menu {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+content="{{content}}"
+
+>
+<slot/>
+</view>

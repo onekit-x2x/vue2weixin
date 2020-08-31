@@ -11,9 +11,9 @@ Component({
    */
   properties: {
    
-    checked:{type:Boolean},
-    default:{type:Boolean},
-    disabled:{type:Boolean},
+    checked:{type:Boolean,value:""},
+    default:{type:Boolean,value:""},
+    disabled:{type:Boolean,value:""},
     command:{type:String,value:""},
     icon:{type:String,value:""},
     label:{type:String,value:""},

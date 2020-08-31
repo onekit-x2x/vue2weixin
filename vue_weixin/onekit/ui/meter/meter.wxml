@@ -1,6 +1,9 @@
 <text
 class="onekit-meter {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
+value="{{value}}"
+max="{{max}}"
+min="{{min}}"
 >
 <slot/>
 </text>

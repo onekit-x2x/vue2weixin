@@ -7,6 +7,9 @@ Component({
     virtualHost: true
   },
   properties: { 
+    value:{type:Number,value:""},
+    max:{type:Number,value:""},
+    min:{type:Number,value:""}
 
   },
 
