@@ -1,2 +1,10 @@
 <!--onekit/ui/base/base.wxml-->
-<text>onekit/ui/base/base.wxml</text>
+<view
+class="onekit-base {{onekitClass}}"
+style="{{onekitStyle}}"  
+id="{{onekitId}}"
+href="{{href}}"
+target="{{target}}"
+>
+<slot/>
+</view>

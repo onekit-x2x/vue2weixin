@@ -8,6 +8,12 @@ Component({
   },
 
   properties: { 
+    download:{type: String, value: ""},
+    hreflang:{type: String, value: ""},
+    media:{type: String, value: ""},
+    rel:{type: String, value: ""},
+    target:{type: String, value: ""},
+    type:{type: String, value: ""},
     href: {
       type: String,
       value: ""

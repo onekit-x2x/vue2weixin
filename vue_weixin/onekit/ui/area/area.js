@@ -7,6 +7,12 @@ Component({
     virtualHost: true
   },
   properties: {
+    alt:{type:String,value:""},
+    coords:{type:String,value:""},
+    href:{type:String,value:""},
+    nohref:{type:String,value:""},
+    shape:{type:String,value:""},
+    target:{type:String,value:""},
   },
 
   /**

@@ -6,6 +6,9 @@ Component({
     virtualHost: true
   },
   properties: {
+    autoplay:{type: Boolean,value: false,},
+    muted:{type: Boolean,value: false,},
+    preload:{type: Boolean,value: false,},
       src:{
           type: String,
           value: "",

@@ -1,2 +1,14 @@
 <!--onekit/ui/area/area.wxml-->
-<text>onekit/ui/area/area.wxml</text>
+<view
+class="onekit-area {{onekitClass}}"
+style="{{onekitStyle}}"  
+id="{{onekitId}}"
+alt="{{alt}}"
+coords="{{coords}}"
+href="{{href}}"
+nohref="{{nohref}}"
+shape="{{shape}}"
+target="{{target}}"
+>
+<slot/>
+</view>
