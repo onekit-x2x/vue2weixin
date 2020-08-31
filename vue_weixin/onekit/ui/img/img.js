@@ -1,10 +1,11 @@
 // onekit/ui/img/img.js
 import TheKit, {fixurl} from "../../lib/TheKit"
+import onekit_behavior from "../onekit_behavior"
+import vue_behavior from "../vue_behavior"
 Component({
+  behaviors: [onekit_behavior, vue_behavior],
 
-  properties: {onekitId:String,
-    onekitStyle:String,
-    onekitClass:String,
+  properties: {
     width:Number,
     height:Number,
     src:{

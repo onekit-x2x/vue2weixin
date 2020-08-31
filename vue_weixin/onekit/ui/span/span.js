@@ -1,9 +1,10 @@
 // onekit/ui/span/span.js
+import onekit_behavior from "../onekit_behavior"
+import vue_behavior from "../vue_behavior"
 Component({
+  behaviors: [onekit_behavior, vue_behavior],
 
-  properties: {onekitId:String,
-    onekitStyle:String,
-    onekitClass:String,
+  properties: {
 
   },
 

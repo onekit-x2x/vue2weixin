@@ -1,5 +1,8 @@
 // onekit/ui/li/li.js
+import onekit_behavior from "../onekit_behavior"
+import vue_behavior from "../vue_behavior"
 Component({
+  behaviors: [onekit_behavior, vue_behavior],
   options: {
     virtualHost: true
   },
@@ -7,10 +10,7 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
-    onekitClass:{type:String,value:""},
-    onekitStyle:{type:String,value:""},
-    onekitId:{type:String,value:""},
+  properties: {
 
   },
 
