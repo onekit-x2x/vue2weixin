@@ -2,6 +2,8 @@
 class="onekit-img {{onekitClass}}"
 style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}};"
 src="{{weixin_src}}"
+alt="{{alt}}"
+usemap="{{usemap}}"
 
 
 bindload="image_load"

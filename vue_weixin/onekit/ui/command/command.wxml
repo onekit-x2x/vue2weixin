@@ -1,0 +1,10 @@
+<!--onekit/ui/command/command.wxml-->
+
+<view>
+class="onekit-command {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+disable="{{disable}}"
+type="{{type}}"
+>
+<slot/>
+</view>

@@ -6,4 +6,15 @@ Component({
   options: {
     virtualHost: true
   }
+  ,methods: {
+    onmousemove:function(e){
+      this.triggerEvent(touchmove,e.detail);
+    },
+    onclick:function(e){
+      this.triggerEvent(bindtap,e.detail)
+    },
+    onmouseup:function(e){
+      this.triggerEvent(touchend,e.detail)
+    }
+  }
 })

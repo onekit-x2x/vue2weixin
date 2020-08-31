@@ -7,6 +7,8 @@ Component({
     virtualHost: true
   },
   properties: {
+    cite:{type:String,value:""},
+    datetime:{type:String,vlue:""},
 
   },
 

@@ -1,6 +1,9 @@
 <view
 class="onekit-dnf {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
+bindtap="onclick" 
+touchmove="onmousemove"
+touchend="onmouseup"
 >
 <slot/>
 </view>

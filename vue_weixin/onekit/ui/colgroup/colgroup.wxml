@@ -1,2 +1,13 @@
 <!--onekit/ui/colgroup/colgroup.wxml-->
-<text>onekit/ui/colgroup/colgroup.wxml</text>
+<view>
+class="onekit-colgroup {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+span="{{span}}"
+valign="{{valign}}"
+align="{{align}}"
+width="{{width}}"
+charoff="{{charoff}}"
+>
+<slot/>
+</view>
+

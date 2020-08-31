@@ -1,1 +1,6 @@
-<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='text'}}" value="{{value}}" bindinput="text_input"/>
+<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='text'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>

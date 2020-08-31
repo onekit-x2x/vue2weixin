@@ -7,6 +7,9 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    href:{type:String,value:""},
+    type:{type:String,value:""}
+
   },
 
   /**

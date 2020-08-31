@@ -1,2 +1,9 @@
-<!--onekit/ui/link/link.wxml-->
-<text>onekit/ui/link/link.wxml</text>
+<view
+class="onekit-link {{onekitClass}}"
+style="{{onekitStyle}}"  
+id="{{onekitId}}"
+href="{{href}}"
+type="{{type}}"
+>
+<slot/>
+</view>

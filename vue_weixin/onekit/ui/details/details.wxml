@@ -1,2 +1,7 @@
-<!--onekit/ui/details/details.wxml-->
-<text>onekit/ui/details/details.wxml</text>
+<view
+class="onekit-details {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+open="{{open}}"
+>
+<slot/>
+</view>

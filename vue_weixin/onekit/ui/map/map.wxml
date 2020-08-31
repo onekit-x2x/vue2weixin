@@ -1,2 +1,8 @@
-<!--onekit/ui/map/map.wxml-->
-<text>onekit/ui/map/map.wxml</text>
+<view
+class="onekit-main {{onekitClass}}"
+style="{{onekitStyle}}"  
+id="{{onekitId}}"
+
+>
+<slot/>
+</view>

@@ -8,7 +8,11 @@ Component({
   },
   properties: {onekitId:String,
     "vModel":String,
-    type:{type:String,value:"text"}
+    type:{type:String,value:"text"},
+    accept:{type:String,value:""},
+    disabled:{type:Boolean,value:""},
+    placeholder:{type:String,value:""},
+    maxlength:{type:String},
   },
   lifetimes:{
     attached(){

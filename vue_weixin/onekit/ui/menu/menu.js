@@ -11,6 +11,7 @@ Component({
    */
   properties: {
     type:{type:String,value:""},
+    label:{type:String,value:"text"}
    
 
   },

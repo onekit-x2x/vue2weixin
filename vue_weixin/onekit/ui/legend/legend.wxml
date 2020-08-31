@@ -1,2 +1,7 @@
-<!--onekit/ui/legend/legend.wxml-->
-<text>onekit/ui/legend/legend.wxml</text>
+<view
+class="onekit-legend {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+>
+<slot/>
+</view>

@@ -1,2 +1,12 @@
 <!--onekit/ui/col/col.wxml-->
-<text>onekit/ui/col/col.wxml</text>
+<text
+class="onekit-col {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+span="{{span}}"
+valign="{{valign}}"
+align="{{align}}"
+width="{{width}}"
+charoff="{{charoff}}"
+>
+<slot/>
+</text>

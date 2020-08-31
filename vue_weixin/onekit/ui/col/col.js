@@ -7,7 +7,13 @@ Component({
     virtualHost: true
   },
   properties: {onekitId:String,
-
+    span:{type:Number,value:1},
+    valign:{
+      type:String,value:""
+    },
+    align:{type:String,value:""},
+    width:{type:String,value:""},
+    charoff:{type:Number,value:""}
   },
 
   /**

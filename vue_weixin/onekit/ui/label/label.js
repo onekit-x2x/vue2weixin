@@ -4,7 +4,7 @@ import vue_behavior from "../vue_behavior"
 Component({
   behaviors: [onekit_behavior, vue_behavior],
   properties: {
-
+for:{type:String,value:""}
   },
 
   /**

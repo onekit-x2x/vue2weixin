@@ -1,2 +1,17 @@
-<!--onekit/ui/iframe/iframe.wxml-->
-<text>onekit/ui/iframe/iframe.wxml</text>
+<text
+class="onekit-iframe {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+height="{{height}}"
+width="{{width}}"
+frameborder="{{frameborder}}"
+longdesc="{{longdesc}}"
+marginheight="{{marginheight}}"
+marginwidth="{{marginwidth}}"
+scrolling="{{scrolling}}"
+src="{{src}}"
+name="{{name}}"
+seamless="{{seamless}}"
+srcdoc="{{srcdoc}}"
+>
+<slot/>
+</text>

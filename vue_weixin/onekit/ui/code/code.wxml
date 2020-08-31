@@ -1,6 +1,11 @@
 <text
 class="onekit-code {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
+bindtap="onclick" 
+touchmove="onmousemove"
+touchend="onmouseup"
+
+
 >
 <slot/>
 </text>

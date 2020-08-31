@@ -1,1 +1,9 @@
-<view class="onekit-h6"><slot/></view>
+<view
+class="onekit-h6 {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+bindtap="onclick" 
+touchmove="onmousemove"
+touchend="onmouseup"
+>
+<slot/>
+</view>

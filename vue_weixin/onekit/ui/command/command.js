@@ -1,13 +1,15 @@
-// onekit/ui/head/head.js
+// onekit/ui/command/command.js
 import onekit_behavior from "../onekit_behavior"
 import vue_behavior from "../vue_behavior"
 Component({
   behaviors: [onekit_behavior, vue_behavior],
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    virtualHost: true
+  },
   properties: {
-    profile:{type:String,value:""}
+    disabled:{type:Boolean,value:""},
+    type:{type:String,value:""},
+
   },
 
   /**

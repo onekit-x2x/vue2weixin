@@ -6,12 +6,14 @@ Component({
   behaviors: [onekit_behavior, vue_behavior],
 
   properties: {
-    width:Number,
-    height:Number,
+    width:{type:Number,value:""},
+    height:{type:Number,value:""},
     src:{
       type:String,
       value:''
     },
+    alt:{type:String,value:""},
+    usemap:{type:String,value:""}
     
   },
 
