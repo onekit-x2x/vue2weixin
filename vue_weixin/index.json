@@ -19,7 +19,10 @@
     "onekit-h3":"/onekit/ui/h3/h3",
     "onekit-h4":"/onekit/ui/h4/h4",
     "onekit-h5":"/onekit/ui/h5/h5",
-    "onekit-h6":"/onekit/ui/h6/h6"
+    "onekit-h6":"/onekit/ui/h6/h6",
+    "onekit-figure":"/onekit/ui/figure/figure",
+    "onekit-img":"/onekit/ui/img/img"
+
 
   }
 }

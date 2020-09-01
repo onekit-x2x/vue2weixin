@@ -6,6 +6,12 @@ Component({
   /**
    * 组件的属性列表
    */
+  options: {
+    virtualHost: true
+  },
+  options: {
+    virtualHost: true
+  },
   properties: {
     profile:{type:String,value:""}
   },

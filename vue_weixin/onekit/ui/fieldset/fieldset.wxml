@@ -1,8 +1,10 @@
 <!--onekit/ui/fieldset/fieldset.wxml-->
-<text
+<view
 class="onekit-fieldset {{onekitClass}} "
 style="{{onekitStyle}}"  id="{{onekitId}}"
 disabled="{{disabled}}"
 form="{{form}}"
 name="{{name}}"
-></text>
+>
+<slot/>
+</view>

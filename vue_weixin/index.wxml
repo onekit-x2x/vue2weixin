@@ -1,62 +1,91 @@
   <!-- <App wx:if="{{flag}}"/> -->
 
-   <onekit-a href="https://baidu.com">Website</onekit-a>
+
+<!-- a -->
+<!-- <onekit-a href="https://baidu.com">Website</onekit-a>
 <onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
-<onekit-a href="tel:+123456789">Phone</onekit-a>
+<onekit-a href="tel:+123456789">Phone</onekit-a> -->
 
 
-<onekit-address>
+<!-- address -->
+<!-- <onekit-address>
 Written by <onekit-a href="mailto:webmaster@example.com">Donald Duck</onekit-a>.<onekit-br/> 
 Visit us at:<onekit-br/>
 Example.com<onekit-br/>
 Box 564, Disneyland<onekit-br/>
 USA
-</onekit-address>
-
-<p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</p>
-
-<p>To break,<onekit-br/>lines,<onekit-br/>in a,onekit-<br/>paragraph,<onekit-br/>use the br tag.</p>
+</onekit-address> -->
 
 
+<!-- b -->
+<!-- <p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</p> -->
 
-<onekit-h3>This is a header</onekit-h3>
+
+<!-- br -->
+<!-- <p>To break,<onekit-br/>lines,<onekit-br/>in a,onekit-<br/>paragraph,<onekit-br/>use the br tag.</p> -->
+
+
+
+<!-- div -->
+<!-- <onekit-h3>This is a header</onekit-h3>
 <onekit-p>This is a paragraph.</onekit-p>
-<onekit-div onekit-class="warning">
+<onekit-div onekit-style="color:red">
   <onekit-h3>This is a header</onekit-h3>
   <onekit-p>This is a paragraph.</onekit-p>
-</onekit-div>
+</onekit-div> -->
 
-<onekit-dl>
+
+
+<!-- dl、dt、dd -->
+<!-- <onekit-dl>
    <onekit-dt>计算机</onekit-dt>
    <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
    <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
    <onekit-dt>显示器</onekit-dt>
    <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
    <onekit-dd>以视觉方式显示信息的装置2... ...</onekit-dd>
-</onekit-dl>
+</onekit-dl> -->
 
-<onekit-p>
+
+
+<!-- em -->
+<!-- <onekit-p>
   In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
-</onekit-p>
+</onekit-p> -->
 
-<form>
+
+
+<!-- fieldset -->
+<!-- <form>
   <onekit-fieldset>
     <onekit-legend>健康信息</onekit-legend>
     身高：<onekit-input type="text" />
     体重：<onekit-input type="text" />
   </onekit-fieldset>
-</form>
+</form> -->
 
 
-<onekit-h1>这是标题 1</onekit-h1>
+
+<!-- h -->
+<!-- <onekit-h1>这是标题 1</onekit-h1>
 <onekit-h2>这是标题 2</onekit-h2>
 <onekit-h3>这是标题 3</onekit-h3>
 <onekit-h4>这是标题 4</onekit-h4>
 <onekit-h5>这是标题 5</onekit-h5>
-<onekit-h6>这是标题 6</onekit-h6>
+<onekit-h6>这是标题 6</onekit-h6> -->
 
 
+
+<!-- p -->
+<!-- <onekit-p>这是段落。</onekit-p>
 <onekit-p>这是段落。</onekit-p>
 <onekit-p>这是段落。</onekit-p>
-<onekit-p>这是段落。</onekit-p>
-<onekit-p>段落元素由 p 标签定义。</onekit-p> 
+<onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
+
+<onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
+<onekit-figure>
+  <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
+  <onekit-p>拍摄者：W3School 项目组，拍摄时间：2010 年 10 月</onekit-p>
+  <onekit-img src="/pages/img/1.jpg" width="35" height="25" />
+</onekit-figure>
+
