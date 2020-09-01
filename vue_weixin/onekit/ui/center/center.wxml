@@ -1,7 +1,7 @@
 <!--onekit/ui/center/center.wxml-->
 <text
-class="onekit-center {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+class="onekit-center "
+style="{{style}}"  id="{{id}}"
 >
 <slot/>
 </text>

@@ -1,3 +1,1 @@
-<onekit-canvas id="canvas"> 
-
-</onekit-canvas>
+<onekit-canvas id="myCanvas"></onekit-canvas>

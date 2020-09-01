@@ -1,2 +1,4 @@
-<text class="onekit-br">
-</text>
+<text
+class="onekit-br "
+style="{{style}}"  id="{{id}}"
+>\n</text>
