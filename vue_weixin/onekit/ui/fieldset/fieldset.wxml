@@ -1,2 +1,8 @@
 <!--onekit/ui/fieldset/fieldset.wxml-->
-<text>onekit/ui/fieldset/fieldset.wxml</text>
+<text
+class="onekit-fieldset {{onekitClass}} "
+style="{{onekitStyle}}"  id="{{onekitId}}"
+disabled="{{disabled}}"
+form="{{form}}"
+name="{{name}}"
+></text>

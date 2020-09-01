@@ -1,1 +1,62 @@
-  <App wx:if="{{flag}}"/>
+  <!-- <App wx:if="{{flag}}"/> -->
+
+   <onekit-a href="https://baidu.com">Website</onekit-a>
+<onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
+<onekit-a href="tel:+123456789">Phone</onekit-a>
+
+
+<onekit-address>
+Written by <onekit-a href="mailto:webmaster@example.com">Donald Duck</onekit-a>.<onekit-br/> 
+Visit us at:<onekit-br/>
+Example.com<onekit-br/>
+Box 564, Disneyland<onekit-br/>
+USA
+</onekit-address>
+
+<p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</p>
+
+<p>To break,<onekit-br/>lines,<onekit-br/>in a,onekit-<br/>paragraph,<onekit-br/>use the br tag.</p>
+
+
+
+<onekit-h3>This is a header</onekit-h3>
+<onekit-p>This is a paragraph.</onekit-p>
+<onekit-div onekit-class="warning">
+  <onekit-h3>This is a header</onekit-h3>
+  <onekit-p>This is a paragraph.</onekit-p>
+</onekit-div>
+
+<onekit-dl>
+   <onekit-dt>计算机</onekit-dt>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+   <onekit-dt>显示器</onekit-dt>
+   <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
+   <onekit-dd>以视觉方式显示信息的装置2... ...</onekit-dd>
+</onekit-dl>
+
+<onekit-p>
+  In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
+</onekit-p>
+
+<form>
+  <onekit-fieldset>
+    <onekit-legend>健康信息</onekit-legend>
+    身高：<onekit-input type="text" />
+    体重：<onekit-input type="text" />
+  </onekit-fieldset>
+</form>
+
+
+<onekit-h1>这是标题 1</onekit-h1>
+<onekit-h2>这是标题 2</onekit-h2>
+<onekit-h3>这是标题 3</onekit-h3>
+<onekit-h4>这是标题 4</onekit-h4>
+<onekit-h5>这是标题 5</onekit-h5>
+<onekit-h6>这是标题 6</onekit-h6>
+
+
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>段落元素由 p 标签定义。</onekit-p> 
