@@ -1,2 +1,13 @@
-<!--onekit/ui/table/table.wxml-->
-<text>onekit/ui/table/table.wxml</text>
+<view
+class="onekit-table {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+border="{{border}}"
+cellpadding="{{cellpadding}}"
+cellspacing="{{cellspacing}}"
+frame="{{frame}}"
+rules="{{rules}}"
+width="{{width}}"
+
+>
+<slot/>
+</view>

@@ -6,8 +6,10 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
-
+  properties: {
+    media:{type:String,value:""},
+    src:{type:String,value:""},
+type:{type:String,value:""},
   },
 
   /**

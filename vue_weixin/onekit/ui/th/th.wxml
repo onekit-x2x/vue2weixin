@@ -1,2 +1,13 @@
-<!--onekit/ui/th/th.wxml-->
-<text>onekit/ui/th/th.wxml</text>
+<view
+class="onekit-th {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+charoff="{{charoff}}"
+colspan="{{colspan}}"
+rowspan="{{rowspan}}"
+valign="{{valign}}"
+scope="{{scope}}"
+
+>
+<slot/>
+</view>

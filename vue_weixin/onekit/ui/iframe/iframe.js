@@ -5,7 +5,9 @@ Component({
   behaviors: [onekit_behavior, vue_behavior],
   /**
    * 组件的属性列表
-   */
+   */ options: {
+    virtualHost: true
+  },
   properties: {
     width:{type:String,value:""},
     height:{type:String,value:""},

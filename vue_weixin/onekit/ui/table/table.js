@@ -6,7 +6,14 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
+  properties: {
+    border:{type:String,value:""},
+    cellpadding:{type:String,value:""},
+    cellspacing:{type:String,value:""},
+    frame:{type:String,value:""},
+    rules:{type:String,value:""},
+    width:{type:String,value:""}
+
 
   },
 

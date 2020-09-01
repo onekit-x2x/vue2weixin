@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "onekit-p":"/onekit/ui/p/p",
-    "onekit-div":"/onekit/ui/div/div",
-    "onekit-h3":"/onekit/ui/h3/h3"
-  }
-}

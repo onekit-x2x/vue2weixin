@@ -6,7 +6,12 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
+  properties: {disabled:{type:Boolean,value:""},
+  form:{type:String,value:""},
+  multiple:{type:String,value:""},
+  name:{type:String,value:""},
+  required:{type:String,value:""},
+  size:{type:Number,value:""}
 
   },
 

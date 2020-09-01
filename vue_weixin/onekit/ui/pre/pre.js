@@ -7,6 +7,7 @@ Component({
     virtualHost: true
   },
   properties: { 
+    width:{type:String,value:""}
   },
 
   /**

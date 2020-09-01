@@ -1,2 +1,11 @@
-<!--onekit/ui/option/option.wxml-->
-<text>onekit/ui/option/option.wxml</text>
+<view
+class="onekit-option {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+label="{{label}}"
+disabled="{{disabled}}"
+selected="{{selected}}"
+value="{{value}}"
+
+>
+<slot/>
+</view>

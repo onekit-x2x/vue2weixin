@@ -1,2 +1,6 @@
-<!--onekit/ui/rb/rb.wxml-->
-<text>onekit/ui/rb/rb.wxml</text>
+<text
+class="onekit-rb {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+>
+<slot/>
+</text>

@@ -1,2 +1,7 @@
-<!--onekit/ui/template/template.wxml-->
-<text>onekit/ui/template/template.wxml</text>
+<view
+class="onekit-template {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</view>

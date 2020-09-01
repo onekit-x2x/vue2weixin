@@ -6,8 +6,13 @@ Component({
   /**
    * 组件的属性列表
    */
+  options: {
+    virtualHost: true
+  },
   properties: {
-
+    disabled:{type:Boolean,value:false},
+    form:{type:String,value:""},
+    name:{type:String,value:""},
   },
 
   /**

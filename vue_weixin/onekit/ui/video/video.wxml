@@ -1,6 +1,6 @@
 <video
-class="onekit-image "
-style="width:{{weixin_width}};height:{{weixin_height}};{{style}};"
+class="onekit-image {{onekitClass}}"
+style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}};"
 src="{{src}}"
 autoplay="{{autoplay}}"
 controls="{{controls}}"

@@ -1,2 +1,12 @@
-<!--onekit/ui/select/select.wxml-->
-<text>onekit/ui/select/select.wxml</text>
+<view
+class="onekit-select {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+disabled="{{disabled}}"
+form="{{form}}"
+multiple="{{multiple}}"
+name="{{name}}"
+required="{{required}}"
+size="{size}"
+>
+<slot/>
+</view>

@@ -9,7 +9,12 @@ Component({
   properties: { 
     value:{type:Number,value:""},
     max:{type:Number,value:""},
-    min:{type:Number,value:""}
+    min:{type:Number,value:""},
+    high:{type:Number,value:""},
+    low:{type:Number,value:""},
+    form:{type:String,value:""}
+
+
 
   },
 

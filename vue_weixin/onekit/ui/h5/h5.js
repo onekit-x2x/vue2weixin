@@ -5,7 +5,8 @@ Component({
   behaviors: [onekit_behavior, vue_behavior],
   options: {
     virtualHost: true
-  },methods: {
+  },
+  methods: {
     onmousemove:function(e){
       this.triggerEvent(touchmove,e.detail);
     },

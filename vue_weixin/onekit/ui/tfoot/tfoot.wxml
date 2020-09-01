@@ -1,2 +1,9 @@
-<!--onekit/ui/tfoot/tfoot.wxml-->
-<text>onekit/ui/tfoot/tfoot.wxml</text>
+<view
+class="onekit-tfoot {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+charoff="{{charoff}}"
+valign="{{valign}}"
+>
+<slot/>
+</view>

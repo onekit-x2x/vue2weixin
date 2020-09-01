@@ -1,2 +1,9 @@
-<!--onekit/ui/tr/tr.wxml-->
-<text>onekit/ui/tr/tr.wxml</text>
+<view
+class="onekit-tr {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+charoff="{{charoff}}"
+valign="{{valign}}"
+>
+<slot/>
+</view>

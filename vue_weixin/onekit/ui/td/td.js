@@ -6,8 +6,13 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
-
+  properties: {
+    align:{type:String,value:""},
+    charoff:{type:String,value:""},
+    colspan:{type:Number,value:""},
+    rowspan:{type:Number,value:""},
+    valign:{type:String,value:""},
+    scope:{type:String,value:""}
   },
 
   /**

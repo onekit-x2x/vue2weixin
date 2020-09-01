@@ -1,2 +1,10 @@
-<!--onekit/ui/object/object.wxml-->
-<text>onekit/ui/object/object.wxml</text>
+<view
+class="onekit-object {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+width="{{width}}"
+height="{{height}}"
+
+>
+<slot/>
+</view>

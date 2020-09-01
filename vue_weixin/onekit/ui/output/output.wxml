@@ -1,2 +1,10 @@
-<!--onekit/ui/output/output.wxml-->
-<text>onekit/ui/output/output.wxml</text>
+<view
+class="onekit-output {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+for="{{for}}"
+form="{{form}}"
+name="{{name}}"
+
+>
+<slot/>
+</view>
