@@ -82,10 +82,12 @@ USA
 <onekit-p>这是段落。</onekit-p>
 <onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
 
+
+<!-- figure   figcaption -->
 <onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
 <onekit-figure>
   <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
   <onekit-p>拍摄者：W3School 项目组，拍摄时间：2010 年 10 月</onekit-p>
-  <onekit-img src="/pages/img/1.jpg" width="35" height="25" />
+  <onekit-img src="/pages/img/1.jpg" width="200" height="150" />
+  <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure>
-
