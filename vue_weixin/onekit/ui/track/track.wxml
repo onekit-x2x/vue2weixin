@@ -1,2 +1,11 @@
-<!--onekit/ui/track/track.wxml-->
-<text>onekit/ui/track/track.wxml</text>
+<view
+class="onekit-track {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+default="{{default}}"
+label="{{label}}"
+src="{{src}}"
+kind="{{kind}}"
+srclang="{{srclang}}"
+>
+<slot/>
+</view>

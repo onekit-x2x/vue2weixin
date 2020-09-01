@@ -1,2 +1,7 @@
-<!--onekit/ui/script/script.wxml-->
-<text>onekit/ui/script/script.wxml</text>
+<view
+class="onekit-script {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</view>

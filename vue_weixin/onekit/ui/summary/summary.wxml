@@ -1,2 +1,7 @@
-<!--onekit/ui/summary/summary.wxml-->
-<text>onekit/ui/summary/summary.wxml</text>
+<view
+class="onekit-summary {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</view>

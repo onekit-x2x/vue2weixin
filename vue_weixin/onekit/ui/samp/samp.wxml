@@ -1,6 +1,9 @@
 <text
-class="onekit-samp "
-style="{{style}}"  id="{{id}}"
+class="onekit-samp {{onekitClass}}"
+style="{{onekitStyle}} font-family: monospace;"  id="{{onekitId}}"
+bindtap="onclick" 
+touchmove="onmousemove"
+touchend="onmouseup"
 >
 <slot/>
 </text>

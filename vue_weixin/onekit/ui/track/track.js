@@ -6,7 +6,12 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
+  properties: {
+    default:{type:String,value:""},
+    label:{type:String,value:""},
+    src:{type:String,value:""},
+    kind:{type:String,value:""},
+    srclang:{type:String,value:""}
 
   },
 

@@ -1,2 +1,6 @@
-<!--onekit/ui/embed/embed.wxml-->
-<text>onekit/ui/embed/embed.wxml</text>
+<view
+class="onekit-view {{onekitClass}}"
+style="{{onekitStyle}} font-style: italic;"  id="{{onekitId}}"
+>
+<slot/>
+</view>

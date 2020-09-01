@@ -6,7 +6,9 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
+  properties: { align:{type:String,value:""},
+  charoff:{type:String,value:""},
+  valign:{type:String,value:""}
 
   },
 

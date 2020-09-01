@@ -1,2 +1,13 @@
-<!--onekit/ui/td/td.wxml-->
-<text>onekit/ui/td/td.wxml</text>
+<view
+class="onekit-td {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+charoff="{{charoff}}"
+colspan="{{colspan}}"
+rowspan="{{rowspan}}"
+valign="{{valign}}"
+scope="{{scope}}"
+
+>
+<slot/>
+</view>

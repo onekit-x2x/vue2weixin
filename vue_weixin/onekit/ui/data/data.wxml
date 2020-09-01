@@ -1,5 +1,5 @@
 <!--onekit/ui/data/data.wxml-->
-<view>
+<view
 class="onekit-data {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 >

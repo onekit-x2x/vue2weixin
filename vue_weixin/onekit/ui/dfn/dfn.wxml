@@ -1,9 +1,11 @@
-<view
-class="onekit-dnf {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+<text
+class="onekit-dfn {{onekitClass}}"
+style="{{onekitStyle}} font-style: italic;"  id="{{onekitId}}"
 bindtap="onclick" 
 touchmove="onmousemove"
 touchend="onmouseup"
+
+
 >
 <slot/>
-</view>
+</text>

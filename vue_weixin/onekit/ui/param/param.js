@@ -6,7 +6,7 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
+  properties: {name:{type:String,value:""}
 
   },
 

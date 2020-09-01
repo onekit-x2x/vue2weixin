@@ -1,2 +1,16 @@
-<!--onekit/ui/textarea/textarea.wxml-->
-<text>onekit/ui/textarea/textarea.wxml</text>
+<view
+class="onekit-textarea {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+maxlength="{{maxlength}}"
+name="{{name}}"
+disable="{{disable}}"
+form="{{form}}"
+placeholder="{{placeholder}}"
+readonly="{{readonly}}"
+required="{{required}}"
+rows="{{rows}}"
+wrap="{{wrap}}"
+
+>
+<slot/>
+</view>

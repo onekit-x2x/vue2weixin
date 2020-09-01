@@ -4,6 +4,9 @@ style="{{onekitStyle}}"  id="{{onekitId}}"
 value="{{value}}"
 max="{{max}}"
 min="{{min}}"
+high="{{high}}"
+low="{{low}}"
+form="{{form}}"
 >
 <slot/>
 </text>

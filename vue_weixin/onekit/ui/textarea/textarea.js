@@ -6,8 +6,15 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {onekitId:String,
-
+  properties: {maxlength:{type:Number,value:""},
+  name:{type:String,value:""},
+  disable:{type:Boolean,value:""},
+  form:{type:String,value:""},
+  placeholder:{type:String,value:"text"},
+  readonly:{type:String,value:""},
+  required:{type:String,value:""},
+  rows:{type:Number,value:""},
+  wrap:{type:String,value:""},
   },
 
   /**

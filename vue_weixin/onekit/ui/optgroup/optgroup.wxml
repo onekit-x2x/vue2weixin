@@ -1,2 +1,8 @@
-<!--onekit/ui/optgroup/optgroup.wxml-->
-<text>onekit/ui/optgroup/optgroup.wxml</text>
+<view
+class="onekit-optgroup {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+label="{{label}}"
+
+>
+<slot/>
+</view>

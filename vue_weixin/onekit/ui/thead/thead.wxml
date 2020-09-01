@@ -1,5 +1,5 @@
 <view
-class="onekit-tbody {{onekitClass}}"
+class="onekit-thread {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 align="{{align}}"
 charoff="{{charoff}}"
