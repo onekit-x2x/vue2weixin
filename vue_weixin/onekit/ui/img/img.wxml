@@ -1,6 +1,6 @@
 <image
-class="onekit-img {{onekitClass}}"
-style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}};"
+class="onekit-img "
+style="width:{{weixin_width}};height:{{weixin_height}};{{style}};"
 src="{{weixin_src}}"
 alt="{{alt}}"
 usemap="{{usemap}}"

@@ -1,1 +1,7 @@
-/* pages/bdo/bdo.wxss */
+page {
+  font-family: sans-serif;
+}
+
+bdo {
+
+}

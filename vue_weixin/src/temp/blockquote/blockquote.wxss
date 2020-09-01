@@ -1,53 +1,17 @@
-/* .onekit-blockquote {
+blockquote {
   margin: 0;
 }
 
-.onekit-blockquote .onekit-p {
+blockquote p {
   padding: 15px;
   background: #eee;
   border-radius: 5px;
 }
 
-.onekit-blockquote .onekit-p::before {
+blockquote p::before {
   content: '\201C';
 }
 
-.onekit-blockquote .onekit-p::after {
+blockquote p::after {
   content: '\201D';
 }
-.onekit-del,
-.onekit-ins {
-    display: block;
-    text-decoration: none;
-    position: relative;
-}
-
-.onekit-del {
-    background-color: #fbb;
-}
-
-.onekit-ins {
-    background-color: #d4fcbc;
-}
-
-.onekit-del::before,
-.onekit-ins::before {
-    position: absolute;
-    left: .5rem;
-    font-family: monospace;
-}
-
-.onekit-del::before {
-    content: '−';
-}
-
-.onekit-ins::before {
-    content: '+';
-}
-
-.onekit-p {
-    margin: 0 1.8rem 0;
-    font-family: Georgia, serif;
-    font-size: 1rem;
-} */
-

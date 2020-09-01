@@ -1,7 +1,7 @@
 <view
-class="onekit-ul {{onekitClass}}"
-style="{{onekitStyle}}"  
-id="{{onekitId}}"
+class="onekit-ul "
+style="{{style}}"  
+id="{{id}}"
 >
 <slot/>
 </view>

@@ -23,7 +23,6 @@ Component({
       type:String,
       value:""
     },
-
   },
 
   /**

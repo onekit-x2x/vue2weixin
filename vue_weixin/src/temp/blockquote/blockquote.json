@@ -12,6 +12,7 @@
     "onekit-bdi": "/onekit/ui/bdi/bdi",
     "onekit-base": "/onekit/ui/base/base",
     "onekit-blockquote": "/onekit/ui/blockquote/blockquote",
+    "onekit-body": "/onekit/ui/body/body",
     "onekit-center":"/onekit/ui/center/center",
     "onekit-font":"/onekit/ui/font/font",
     "onekit-br": "/onekit/ui/br/br",
