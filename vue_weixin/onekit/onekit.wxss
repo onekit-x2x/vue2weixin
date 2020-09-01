@@ -1,16 +1,13 @@
-/*@import "vue.wxss";*/
-page {
+
+html {
     -webkit-locale: "en";
 }
-page {
+html {
     display: block;
 }
-page {
+body {
     display: block;
     margin: 8px;
-}
-page{
-
 }
 .onekit-div {
     display: block;
@@ -103,9 +100,7 @@ page{
     text-align: center;
 }
 
-.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
-    font-style: italic;
-}
+
 .onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
     font-family: monospace;
 }
@@ -122,9 +117,7 @@ page{
 .onekit-details {
     display: block;
 }
-.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
-    font-style: italic;
-}
+
 .onekit-dialog::backdrop {
     position: fixed;
     top: 0;
@@ -215,6 +208,50 @@ page{
     -webkit-margin-end: 0;
      font-weight: bold;
  }
+ .onekit-h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.onekit-h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.onekit-h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.onekit-h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.onekit-h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 
 .onekit-hr {
     display: block;
@@ -269,10 +306,9 @@ page{
 }
 .onekit-u, .onekit-ins {
     text-decoration: underline;
+
 }
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
+
 .onekit-legend {
     display: block;
     -webkit-padding-start: 2px;
@@ -409,9 +445,7 @@ page{
     text-align: start;
 }
 
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
+
 .onekit-script {
     display: none;
 }
@@ -528,28 +562,12 @@ page{
     border-image: initial;
     padding: 2px;
 }
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
-.onekit-u, .onekit-ins {
-    text-decoration: underline;
-}
-.onekit-ul, .onekit-menu, .onekit-dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    -webkit-padding-start: 40px;
-}
+
+
 
 .onekit-video {
     object-fit: contain;
 }
 .onekit-img{
-    display:inline-block;
-    width: auto;
-    height: auto;
+	display:inline-block;
 }
-

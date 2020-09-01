@@ -1,4 +1,4 @@
-// pages/abbr/abbr.js
+// pages/area/area.js
 Page({
 
   /**

@@ -4,7 +4,7 @@ module.exports = Behavior({
     onekitId: {
       type: String
     },
-    onekitString: {
+    onekitStyle: {
       type: String
     },
     onekitClass: {

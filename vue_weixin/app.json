@@ -1,8 +1,16 @@
 {
   "pages": [
+    "pages/dlt/dlt",
+    "pages/div/div",
+    "pages/h/h",
+    "pages/p/p",
+    "pages/b/b",
+    "pages/article/article",
+    "pages/area/area",
+    "pages/address/address",
+    "pages/br/br",
     "pages/a/a",
-    "index",
-    "pages/abbr/abbr"
+    "index"
   ],
   "window": {
     "backgroundTextStyle": "light",

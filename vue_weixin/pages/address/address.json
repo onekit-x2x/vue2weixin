@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "onekit-a":"/onekit/ui/a/a",
+    "onekit-address":"/onekit/ui/address/address",
+    "onekit-br":"/onekit/ui/br/br"
+
+  }
+}

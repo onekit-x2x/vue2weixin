@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "onekit-dl":"/onekit/ui/dl/dl",
+    "onekit-dt":"/onekit/ui/dt/dt",
+    "onekit-dd":"/onekit/ui/dd/dd"
+  }
+}

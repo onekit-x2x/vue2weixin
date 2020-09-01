@@ -1,0 +1,2 @@
+<!--pages/b/b.wxml-->
+<p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</p>

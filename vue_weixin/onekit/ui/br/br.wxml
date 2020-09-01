@@ -1,2 +1,1 @@
-<text class="onekit-br">
-</text>
+<text class="onekit-br {{onekitClass}}">\n</text>
