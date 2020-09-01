@@ -1,5 +1,25 @@
 {
   "usingComponents": {
-    "App":"/src/App"
+    "App":"/src/App",
+    "onekit-a":"/onekit/ui/a/a",
+    "onekit-address":"/onekit/ui/address/address",
+    "onekit-br":"/onekit/ui/br/br",
+    "onekit-b":"/onekit/ui/b/b",
+    "onekit-p":"/onekit/ui/p/p",
+    "onekit-div":"/onekit/ui/div/div",
+    "onekit-dl":"/onekit/ui/dl/dl",
+    "onekit-dt":"/onekit/ui/dt/dt",
+    "onekit-dd":"/onekit/ui/dd/dd",
+    "onekit-em":"/onekit/ui/em/em",
+    "onekit-fieldset":"/onekit/ui/fieldset/fieldset",
+    "onekit-legend":"/onekit/ui/legend/legend",
+    "onekit-input":"/onekit/ui/input/input",
+    "onekit-h1":"/onekit/ui/h1/h1",
+    "onekit-h2":"/onekit/ui/h2/h2",
+    "onekit-h3":"/onekit/ui/h3/h3",
+    "onekit-h4":"/onekit/ui/h4/h4",
+    "onekit-h5":"/onekit/ui/h5/h5",
+    "onekit-h6":"/onekit/ui/h6/h6"
+
   }
 }
