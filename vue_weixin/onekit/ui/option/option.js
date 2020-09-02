@@ -1,31 +1,19 @@
-// onekit/ui/option/option.js
-import onekit_behavior from "../onekit_behavior"
-import vue_behavior from "../vue_behavior"
 Component({
-  behaviors: [onekit_behavior, vue_behavior],
   options: {
     virtualHost: true
   },
-  properties: {label:{type:String,value:"text"},
-  disable:{type:Boolean,value:""},
-  selected:{type:String,value:""},
-  value:{type:String,value:""}
-
-
-
+  properties:{
+    onekitClass:{type:String,value:""},
+    onekitStyle:{type:String,value:""},
+    onekitId:{type:String,value:""},
+    text:{type:String,value:""},
+    value:{type:String,value:""}
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
+  methods:{
+  option_tap(e){
+    const value = this.properties.value;
+    const text = this.properties.text || value;
+    this.triggerEvent('onekit_option_change', {value,text}, { bubbles: true, composed: true }) 
   }
+}
 })

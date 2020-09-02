@@ -1,11 +1,1 @@
-<view
-class="onekit-option {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-label="{{label}}"
-disabled="{{disabled}}"
-selected="{{selected}}"
-value="{{value}}"
-
->
-<slot/>
-</view>
+<text  class="onekit-option {{onekitClass}}" style="{{onekitStyle}}" id="{{onekitId}}" bindtap="option_tap">{{text}}</text>
