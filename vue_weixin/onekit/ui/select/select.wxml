@@ -1,12 +1,9 @@
-<view
-class="onekit-select {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-disabled="{{disabled}}"
-form="{{form}}"
-multiple="{{multiple}}"
-name="{{name}}"
-required="{{required}}"
-size="{size}"
->
-<slot/>
-</view>
+<view class="onekit-select {{onekitClass}}" style="{{onekitStyle}} width:100px;height:30px;"
+id="{{onekitId}}" bindtap="select_click">
+  {{text}}
+  </view>
+
+  
+<view class="onekit-select-box" wx:if="{{show}}" bindonekit_option_change="option_change">
+    <slot/>
+  </view>

@@ -1,16 +1,9 @@
-<view
+<textarea
 class="onekit-textarea {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-maxlength="{{maxlength}}"
-name="{{name}}"
-disable="{{disable}}"
-form="{{form}}"
+style="{{onekitStyle}}"
+id="{{onekitId}}"
 placeholder="{{placeholder}}"
-readonly="{{readonly}}"
-required="{{required}}"
-rows="{{rows}}"
-wrap="{{wrap}}"
+maxlength="{{maxlength}}"
 
->
-<slot/>
-</view>
+
+><slot/></textarea>

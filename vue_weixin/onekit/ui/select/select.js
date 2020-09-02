@@ -1,31 +1,23 @@
-// onekit/ui/select/select.js
-import onekit_behavior from "../onekit_behavior"
-import vue_behavior from "../vue_behavior"
 Component({
-  behaviors: [onekit_behavior, vue_behavior],
   options: {
     virtualHost: true
   },
-  properties: {disabled:{type:Boolean,value:""},
-  form:{type:String,value:""},
-  multiple:{type:String,value:""},
-  name:{type:String,value:""},
-  required:{type:String,value:""},
-  size:{type:Number,value:""}
-
+  properties: {
+    
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
+  data:{
+    show:false
   },
-
-  /**
-   * 组件的方法列表
-   */
   methods: {
-
+    select_click(){
+     this.setData({show:true});
+    },
+    option_change(e){
+      //console.log("B",e);
+      const newValue = e.detail.value;
+      const text = e.detail.text;
+      this.triggerEvent('change', {newValue}) 
+      this.setData({show:false,text});
+    }
   }
 })
