@@ -1,0 +1,5 @@
+<onekit-noscript>
+  <!-- anchor linking to external file -->
+  <onekit-a href="http://www.mozilla.com/">External Link</onekit-a>
+</onekit-noscript>
+<onekit-p>Rocks!</onekit-p>
