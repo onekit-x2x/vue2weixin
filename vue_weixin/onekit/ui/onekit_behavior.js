@@ -2,13 +2,13 @@ module.exports = Behavior({
 
   properties: {
     onekitId: {
-      type: String
+      type: String,value:""
     },
     onekitStyle: {
-      type: String
+      type: String,value:""
     },
     onekitClass: {
-      type: String
+      type: String,value:""
     },
   },
 })

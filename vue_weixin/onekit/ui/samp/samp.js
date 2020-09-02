@@ -1,4 +1,4 @@
-// onekit/ui/samp/samp.js
+
 import onekit_behavior from "../onekit_behavior"
 import vue_behavior from "../vue_behavior"
 Component({
@@ -6,7 +6,7 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: { 
+  properties: {
 
   },
 
@@ -30,6 +30,5 @@ Component({
     onmouseup:function(e){
       this.triggerEvent(touchend,e.detail)
     }
-
   }
 })

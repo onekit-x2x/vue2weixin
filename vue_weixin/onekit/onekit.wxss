@@ -13,7 +13,7 @@ page {
 .onekit-div {
     display: block;
 }
-.onekit-a:-webkit-any-link {
+.onekit-a {
     color: -webkit-link;
     cursor: auto;
     text-decoration: underline;
