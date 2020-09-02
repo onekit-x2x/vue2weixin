@@ -1,19 +1,18 @@
-/*@import "vue.wxss";*/
-page {
+
+html {
     -webkit-locale: "en";
 }
-page {
+html {
     display: block;
 }
-page {
+body {
     display: block;
     margin: 8px;
 }
-
 .onekit-div {
     display: block;
 }
-.onekit-a:-webkit-any-link {
+.onekit-a {
     color: -webkit-link;
     cursor: auto;
     text-decoration: underline;
@@ -98,7 +97,7 @@ page {
 }
 .onekit-center {
     display: block;
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -168,7 +167,9 @@ page {
 .onekit-dt {
     display: block;
 }
-
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
+    font-style: italic;
+}
 .onekit-fieldset {
     display: block;
     -webkit-margin-start: 2px;
@@ -252,7 +253,6 @@ page {
     font-weight: bold;
 }
 
-
 .onekit-hr {
     display: block;
     unicode-bidi: isolate;
@@ -306,10 +306,9 @@ page {
 }
 .onekit-u, .onekit-ins {
     text-decoration: underline;
+
 }
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
+
 .onekit-legend {
     display: block;
     -webkit-padding-start: 2px;
@@ -446,9 +445,7 @@ page {
     text-align: start;
 }
 
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
+
 .onekit-script {
     display: none;
 }
@@ -565,28 +562,12 @@ page {
     border-image: initial;
     padding: 2px;
 }
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
-.onekit-u, .onekit-ins {
-    text-decoration: underline;
-}
-.onekit-ul, .onekit-menu, .onekit-dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    -webkit-padding-start: 40px;
-}
+
+
 
 .onekit-video {
     object-fit: contain;
 }
 .onekit-img{
-    display:inline-block;
-    width: auto;
-    height: auto;
+	display:inline-block;
 }
-
