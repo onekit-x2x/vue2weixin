@@ -1,10 +1,6 @@
 <view
 class="onekit-td {{onekitCass}}"
-<<<<<<< HEAD
-style=" border:1px inset gray;background-color:{{bgcolor}};vertical-align:{{valign}};{{onekitStyle}}"  id="{{onekitId}}"
-=======
 style=" border:1px inset gray;background-color:{{bgcolor}}{{onekitStyle}}"  id="{{onekitId}}"
->>>>>>> parent of 592ac5a... v0.1
 >
 <slot/>
 </view>

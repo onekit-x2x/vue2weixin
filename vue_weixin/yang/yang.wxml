@@ -55,11 +55,7 @@
     <onekit-tfoot>
       <onekit-tr>
         <onekit-td onekit-style="border-width:10px;">Sum</onekit-td>
-<<<<<<< HEAD
-        <onekit-td bgcolor="#f00"  valign="bottom">$180</onekit-td>
-=======
         <onekit-td bgcolor="#f00">$180</onekit-td>
->>>>>>> parent of 592ac5a... v0.1
       </onekit-tr>
     </onekit-tfoot>
   
