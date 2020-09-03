@@ -1,8 +1,0 @@
-<text
-class="onekit-acronym {{onekitClass}}"
-style="{{onekitStyle}}"  
-id="{{onekitId}}"
-title="{{title}}"
->
-<slot/>
-</text>

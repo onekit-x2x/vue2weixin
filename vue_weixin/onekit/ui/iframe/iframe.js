@@ -9,23 +9,6 @@ Component({
     virtualHost: true
   },
   properties: {
-    width:{type:String,value:""},
-    height:{type:String,value:""},
-    frameborder:{type:Number,value:""},
-    longdesc:{type:String,value:""},
-    marginheight:{type:String,value:""},
-    marginwidth:{type:String,value:""},
-    scrolling:{type:String,value:""},
-    src:{type:String,value:""},
-    name:{type:String,value:""},
-    seamless:{type:String,value:""},
-    srcdoc:{type:String,value:""},
-    sandbox:{type:String,value:""}
-
-
-
-
-
   },
 
   /**

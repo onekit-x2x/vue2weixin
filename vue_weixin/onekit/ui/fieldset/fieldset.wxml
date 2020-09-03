@@ -2,9 +2,7 @@
 <view
 class="onekit-fieldset {{onekitClass}} "
 style="{{onekitStyle}}"  id="{{onekitId}}"
-disabled="{{disabled}}"
-form="{{form}}"
-name="{{name}}"
+
 >
 <slot/>
 </view>

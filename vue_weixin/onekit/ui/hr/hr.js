@@ -9,9 +9,7 @@ Component({
   options: {
     virtualHost: true
   },
-  options: {
-    virtualHost: true
-  },
+
   properties: {
 
   },

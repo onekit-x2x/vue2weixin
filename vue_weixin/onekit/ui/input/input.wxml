@@ -5,7 +5,35 @@ placeholder="{{placeholder}}"
 maxlength="{{maxlength}}"
 />
 
-<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='text'}}" value="{{value}}" bindinput="text_input"
+<button class="onekit-button {{onekitClass}}"  wx:if="{{type=='button'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='file'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='reset'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='submit'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<image class="onekit-input {{onekitClass}}"  wx:if="{{type=='image'}}" value="{{value}}" bindinput="text_input"
 accept="{{accept}}"
 disabled="{{disabled}}"
 placeholder="{{placeholder}}"
