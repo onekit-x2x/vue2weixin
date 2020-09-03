@@ -1,6 +1,6 @@
 <view
 class="onekit-th {{onekitClass}}"
-style="{{onekitStyle}} border:1px solid black;"  id="{{onekitId}}"
+style=" border:1px inset gray;{{onekitStyle}}"  id="{{onekitId}}"
 align="{{align}}"
 charoff="{{charoff}}"
 colspan="{{colspan}}"

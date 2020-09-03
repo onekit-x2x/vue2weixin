@@ -54,14 +54,14 @@
   
     <onekit-tfoot>
       <onekit-tr>
-        <onekit-td>Sum</onekit-td>
+        <onekit-td onekit-style="border-width:10px;">Sum</onekit-td>
         <onekit-td>$180</onekit-td>
       </onekit-tr>
     </onekit-tfoot>
   
     <onekit-tbody>
       <onekit-tr>
-        <onekit-td>January</onekit-td>
+        <onekit-td >January</onekit-td>
         <onekit-td>$100</onekit-td>
       </onekit-tr>
       <onekit-tr>
