@@ -1,6 +1,6 @@
-<view
-class="onekit-menuitem "
-style="{{style}}"  id="{{id}}"
+<text
+class="onekit-menuitem {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 
 checked="{{checked}}"
 command="{{command}}"
@@ -12,4 +12,4 @@ radiogroup="{{radiogroup}}"
 type="{{type}}"
 >
 <slot/>
-</view>
+</text>
