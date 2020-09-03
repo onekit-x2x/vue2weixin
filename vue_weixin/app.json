@@ -1,7 +1,9 @@
 {
   "pages": [
+    "yang/yang",
     "gong/gong",
     "index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

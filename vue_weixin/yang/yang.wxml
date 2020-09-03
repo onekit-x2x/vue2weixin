@@ -55,7 +55,7 @@
     <onekit-tfoot>
       <onekit-tr>
         <onekit-td onekit-style="border-width:10px;">Sum</onekit-td>
-        <onekit-td>$180</onekit-td>
+        <onekit-td bgcolor="#f00">$180</onekit-td>
       </onekit-tr>
     </onekit-tfoot>
   
