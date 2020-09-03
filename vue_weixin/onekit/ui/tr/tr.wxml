@@ -2,7 +2,6 @@
 class="onekit-tr {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 align="{{align}}"
-charoff="{{charoff}}"
 valign="{{valign}}"
 >
 <slot/>
