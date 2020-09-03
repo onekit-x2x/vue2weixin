@@ -1,4 +1,5 @@
 <onekit-div id="app-6">
   <onekit-p>{{ message }}</onekit-p>
   <onekit-input v-model="message"/>
+  
 </onekit-div>

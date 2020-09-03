@@ -38,11 +38,11 @@
            
           </onekit-summary>
           </onekit-details> -->
-          <onekit-tt>tt</onekit-tt>
+          <!-- <onekit-tt>tt</onekit-tt>
 <onekit-u>对其使用下划线</onekit-u>
 <onekit-var>var</onekit-var>
 <onekit-wbr>wbr</onekit-wbr>
-<onekit-del>del</onekit-del>
+<onekit-del>del</onekit-del> -->
 
   <onekit-table border="1">
     <onekit-thead>
