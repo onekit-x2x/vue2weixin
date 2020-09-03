@@ -1,6 +1,6 @@
 <view
 class="onekit-table {{onekitClass}}"
-style="{{onekitStyle}} border:{{1}}px solid black;"  id="{{onekitId}}"
+style="border-width:{{border}}px;border-style:outset;{{onekitStyle}}"  id="{{onekitId}}"
 border="{{border}}"
 cellpadding="{{cellpadding}}"
 cellspacing="{{cellspacing}}"
@@ -8,7 +8,6 @@ frame="{{frame}}"
 rules="{{rules}}"
 width="{{width}}"
 border="{{border}}"
-
 >
 <slot/>
 </view>
