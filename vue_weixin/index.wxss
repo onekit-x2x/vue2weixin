@@ -18,3 +18,22 @@
 #nav .onekit-a.router-link-exact-active {
   color: #42b983;
 }
+onekit-iframe {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.output {
+  background: #eee;
+}
+.preference {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: .5rem;
+}
+onekit-div {
+  width: 300px;
+  height: 80px;
+  background-color: lightgreen;
+}

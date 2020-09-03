@@ -1,4 +1,4 @@
-<view
+<text
 class="onekit-ins {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 cite="{{cite}}"
@@ -6,4 +6,4 @@ datetime="{{datetime}}"
 
 >
 <slot/>
-</view>
+</text>

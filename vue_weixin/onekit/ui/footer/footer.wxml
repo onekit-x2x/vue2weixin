@@ -1,2 +1,6 @@
-<!--onekit/ui/footer/footer.wxml-->
-<text>onekit/ui/footer/footer.wxml</text>
+<view
+class="onekit-footer {{onekitClass}} "
+style="{{onekitStyle}}"  id="{{onekitId}}"
+>
+<slot/>
+</view>

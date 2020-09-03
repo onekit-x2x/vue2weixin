@@ -2,11 +2,11 @@ import TheKit, { current } from "../../lib/TheKit"
 import onekit_behavior from "../onekit_behavior"
 import vue_behavior from "../vue_behavior"
 Component({
-  behaviors: [onekit_behavior, vue_behavior],
+  behaviors: [onekit_behavior, vue_behavior,'wx://form-field'],
   options: {
     virtualHost: true
   },
-  properties: {onekitId:String,
+  properties: {
     "vModel":String,
     type:{type:String,value:"text"},
     accept:{type:String,value:""},

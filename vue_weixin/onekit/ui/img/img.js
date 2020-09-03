@@ -43,8 +43,11 @@ Component({
     attached: function() {
       const weixin_width =this.properties.width?this.properties.width+"px":"auto";
       const weixin_height =this.properties.height?this.properties.height+"px":"auto";
-      const currentUrl = TheKit.currentUrl();
-      const weixin_src = "/"+fixurl(currentUrl,this.properties.src);
+      var weixin_src = this.properties.src;
+      if(!weixin_src.indexOf("://")){
+        const currentUrl = TheKit.currentUrl();
+        weixin_src =  "/"+fixurl(currentUrl,weixin_src);
+    }
       this.setData({weixin_width,weixin_height,weixin_src});
     },
     detached: function() {

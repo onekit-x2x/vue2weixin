@@ -19,7 +19,8 @@ Component({
     src:{type:String,value:""},
     name:{type:String,value:""},
     seamless:{type:String,value:""},
-    srcdoc:{type:String,value:""}
+    srcdoc:{type:String,value:""},
+    sandbox:{type:String,value:""}
 
 
 

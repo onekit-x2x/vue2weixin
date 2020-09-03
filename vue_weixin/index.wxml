@@ -47,7 +47,6 @@ USA
 </onekit-dl> -->
 
 
-
 <!-- em -->
 <!-- <onekit-p>
   In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
@@ -55,7 +54,7 @@ USA
 
 
 
-<!-- fieldset -->
+<!-- fieldset legend-->
 <!-- <form>
   <onekit-fieldset>
     <onekit-legend>健康信息</onekit-legend>
@@ -84,10 +83,99 @@ USA
 
 
 <!-- figure   figcaption -->
-<onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
+<!-- <onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
 <onekit-figure>
   <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
   <onekit-p>拍摄者：W3School 项目组，拍摄时间：2010 年 10 月</onekit-p>
   <onekit-img src="/pages/img/1.jpg" width="200" height="150" />
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
-</onekit-figure>
+</onekit-figure> -->
+
+
+<!-- font -->
+<!-- <onekit-footer>
+  <onekit-p>Posted by: W3School</onekit-p>
+  <onekit-p>Contact information: <onekit-a href="mailto:someone@example.com">someone@example.com</onekit-a>.</onekit-p>
+</onekit-footer> -->
+
+
+<!-- hr -->
+<!-- <onekit-p>hr 标签定义水平线：</onekit-p>
+<onekit-hr/>
+<onekit-p>这是段落。</onekit-p>
+<onekit-hr/>
+<onekit-p>这是段落。</onekit-p>
+<onekit-hr/>
+<onekit-p>这是段落。</onekit-p> -->
+
+<!-- i -->
+<!-- <onekit-p>The Latin phrase <onekit-i class="latin">Veni, vidi, vici</onekit-i> is often
+mentioned in music, art, and literature</onekit-p> -->
+
+<!-- iframe -->
+<!-- <onekit-iframe src ="/pages/img/1.jpg" width="400" height="300" frameborder="0">
+  <onekit-p>Your browser does not support iframes.</onekit-p>
+</onekit-iframe> -->
+
+<!-- ins -->
+<!-- <onekit-p>一打有 <onekit-del>二十</onekit-del> <onekit-ins>十二</onekit-ins> 件。</onekit-p>
+<onekit-p>大多数浏览器会改写为删除文本和下划线文本。</onekit-p>
+<onekit-p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</onekit-p> -->
+
+<!-- kbd -->
+<!-- <onekit-p>Type the following in the Run dialog: <onekit-kbd>cmd</onekit-kbd><onekit-br/>Then click the OK button.</onekit-p>
+<onekit-p>Save the document by pressing <onekit-kbd>Ctrl</onekit-kbd> + <onekit-kbd>S</onekit-kbd></onekit-p> -->
+
+
+<!-- label -->
+<!-- <onekit-div onekit-class="preference">
+    <onekit-label for="cheese">Do you like cheese?</onekit-label>
+    <onekit-input type="checkbox" name="cheese" onekit-id="cheese"/>
+</onekit-div>
+
+<onekit-div onekit-class="preference">
+    <onekit-label for="peas">Do you like peas?</onekit-label>
+    <onekit-input type="checkbox" name="peas" onekit-id="peas"/>
+</onekit-div> -->
+
+<!-- 表单 -->
+<form>
+<!-- 
+<onekit-p>列表dl、dt、dd：</onekit-p>
+<onekit-dl>
+   <onekit-dt>列表1</onekit-dt>
+     <onekit-dd>1</onekit-dd>
+     <onekit-dd>2</onekit-dd>
+   <onekit-dt>列表2</onekit-dt>
+     <onekit-dd>3</onekit-dd>
+     <onekit-dd>4</onekit-dd>
+</onekit-dl> -->
+
+<onekit-fieldset>
+    <onekit-legend>健康信息</onekit-legend>
+    <onekit-label for="male">Male</onekit-label>
+    <onekit-input type="radio" name="sex" id="male" />
+    <onekit-br />
+    <onekit-label for="female">Female</onekit-label>
+    <onekit-input type="radio" name="sex" id="female" />
+</onekit-fieldset>
+</form>
+
+<!-- 
+<onekit-div contextmenu="popup-menu">
+  Right-click to see the adjusted context menu
+</onekit-div>
+
+<onekit-menu type="context" id="popup-menu">
+  <onekit-menuitem type="checkbox" checked>Checkbox</onekit-menuitem>
+  <onekit-hr/>
+  <onekit-menuitem type="command" label="This command does nothing" icon="https://developer.cdn.mozilla.net/static/img/favicon144.png">
+    Commands don't render their contents.
+  </onekit-menuitem>
+  <onekit-menuitem type="command" label="This command has javascript" >
+    Commands don't render their contents.
+  </onekit-menuitem>
+  <onekit-hr/>
+  <onekit-menuitem type="radio" radiogroup="group1">Radio Button 1</onekit-menuitem>
+  <onekit-menuitem type="radio" radiogroup="group1">Radio Button 2</onekit-menuitem>
+</onekit-menu> -->

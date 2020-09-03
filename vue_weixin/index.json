@@ -22,8 +22,15 @@
     "onekit-h6":"/onekit/ui/h6/h6",
     "onekit-figure":"/onekit/ui/figure/figure",
     "onekit-img":"/onekit/ui/img/img",
-    "onekit-figcaption":"/onekit/ui/figcaption/figcaption"
-
+    "onekit-figcaption":"/onekit/ui/figcaption/figcaption",
+    "onekit-footer":"/onekit/ui/footer/footer",
+    "onekit-hr":"/onekit/ui/hr/hr",
+    "onekit-i":"/onekit/ui/i/i",
+    "onekit-iframe":"/onekit/ui/iframe/iframe",
+    "onekit-del":"/onekit/ui/del/del",
+    "onekit-ins":"/onekit/ui/ins/ins",
+    "onekit-kbd":"/onekit/ui/kbd/kbd",
+    "onekit-label":"/onekit/ui/label/label"
 
   }
 }

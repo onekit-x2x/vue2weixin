@@ -1,4 +1,4 @@
-<text
+<view
 class="onekit-iframe {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 height="{{height}}"
@@ -12,6 +12,7 @@ src="{{src}}"
 name="{{name}}"
 seamless="{{seamless}}"
 srcdoc="{{srcdoc}}"
+sandbox="{{sandbox}}"
 >
 <slot/>
-</text>
+</view>

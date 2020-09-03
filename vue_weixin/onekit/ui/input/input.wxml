@@ -4,3 +4,39 @@ disabled="{{disabled}}"
 placeholder="{{placeholder}}"
 maxlength="{{maxlength}}"
 />
+
+<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='text'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+
+<input class="onekit-input {{onekitClass}}" style="display:none;"  wx:if="{{type=='hidden'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<input password class="onekit-input {{onekitClass}}"  wx:if="{{type=='password'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<radio class="onekit-input {{onekitClass}}"  wx:if="{{type=='radio'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
+
+<checkbox class="onekit-input {{onekitClass}}"  wx:if="{{type=='checkbox'}}" value="{{value}}" bindinput="text_input"
+accept="{{accept}}"
+disabled="{{disabled}}"
+placeholder="{{placeholder}}"
+maxlength="{{maxlength}}"
+/>
