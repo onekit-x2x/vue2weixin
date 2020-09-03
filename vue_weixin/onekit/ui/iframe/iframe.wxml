@@ -1,18 +1,6 @@
 <view
 class="onekit-iframe {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
-height="{{height}}"
-width="{{width}}"
-frameborder="{{frameborder}}"
-longdesc="{{longdesc}}"
-marginheight="{{marginheight}}"
-marginwidth="{{marginwidth}}"
-scrolling="{{scrolling}}"
-src="{{src}}"
-name="{{name}}"
-seamless="{{seamless}}"
-srcdoc="{{srcdoc}}"
-sandbox="{{sandbox}}"
 >
-<slot/>
+暂不支持iframe
 </view>

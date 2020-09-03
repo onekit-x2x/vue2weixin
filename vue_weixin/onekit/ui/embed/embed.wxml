@@ -1,6 +1,6 @@
 <view
-class="onekit-view {{onekitClass}}"
-style="{{onekitStyle}} font-style: italic;"  id="{{onekitId}}"
+class="onekit-embed {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 >
-<slot/>
+不支持embed
 </view>

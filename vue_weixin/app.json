@@ -1,8 +1,7 @@
 {
   "pages": [
-    "pages/select/select",
+    "gong/gong",
     "index"
-   
   ],
   "window": {
     "backgroundTextStyle": "light",
