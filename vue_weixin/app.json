@@ -1,19 +1,9 @@
 {
   "pages": [
-    "src/temp/noframes/noframes",
-    "src/temp/progress/progress",
-    "src/temp/meter/meter",
-    "src/temp/map/map",
-    "src/temp/rb/rb",
-    "src/temp/picture/picture",
-    "src/temp/param/param",
-    "src/temp/output/output",
-    "src/temp/option/option",
-    "src/temp/optgroup/optgroup",
-    "src/temp/ol/ol",
-    "src/temp/object/object",
-    "src/temp/meta/meta",
-    "li/li"
+    "yang/yang",
+    "gong/gong",
+    "index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

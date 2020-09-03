@@ -1,5 +1,0 @@
-<onekit-p>显示度量值：</onekit-p>
-<onekit-meter value="3" min="0" max="10">3/10</onekit-meter><onekit-br/>
-<onekit-meter value="0.6">60%</onekit-meter>
-
-<onekit-p><onekit-b>注释：</onekit-b>Internet Explorer 不支持 meter 标签。</onekit-p>

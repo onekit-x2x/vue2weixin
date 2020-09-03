@@ -1,4 +1,0 @@
-<onekit-meta charset="utf-8"/>
-
-<!-- Redirect page after 3 seconds -->
-<onekit-meta http-equiv="refresh" content="3;url=https://www.mozilla.org"/>
