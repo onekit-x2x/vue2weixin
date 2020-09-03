@@ -1,0 +1,5 @@
+<onekit-frameset cols="50%,50%">
+  <onekit-frame src="https://developer.mozilla.org/en/HTML/Element/frameset" />
+  <onekit-frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+  <onekit-noframes><onekit-p>It seems your browser does not support frames or is not configured do so.</onekit-p></onekit-noframes>
+</onekit-frameset>

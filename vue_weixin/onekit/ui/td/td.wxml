@@ -1,6 +1,12 @@
 <view
 class="onekit-td {{onekitCass}}"
-style=" border:1px inset gray;background-color:{{bgcolor}}{{onekitStyle}}"  id="{{onekitId}}"
+style=" border:1px inset gray;{{onekitStyle}}"  id="{{onekitId}}"
+align="{{align}}"
+charoff="{{charoff}}"
+colspan="{{colspan}}"
+rowspan="{{rowspan}}"
+valign="{{valign}}"
+scope="{{scope}}"
 >
 <slot/>
 </view>

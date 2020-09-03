@@ -1,5 +1,5 @@
 <view
-class="onekit-main {{onekitClass}}"
+class="onekit-map {{onekitClass}}"
 style="{{onekitStyle}}"  
 id="{{onekitId}}"
 

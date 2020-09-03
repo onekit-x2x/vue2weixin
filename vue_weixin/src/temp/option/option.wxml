@@ -1,0 +1,6 @@
+<onekit-select>
+  <onekit-option value ="volvo">Volvo</onekit-option>
+  <onekit-option value ="saab">Saab</onekit-option>
+  <onekit-option value="opel">Opel</onekit-option>
+  <onekit-option value="audi">Audi</onekit-option>
+</onekit-select>

@@ -1,0 +1,5 @@
+<onekit-picture>
+  <onekit-source media="(min-width: 650px)" srcset="https://static.runoob.com/images/mix/html-css-js.png"/>
+  <onekit-source media="(min-width: 465px)" srcset="https://static.runoob.com/images/mix/htmlbig.png"/>
+  <onekit-img src="https://static.runoob.com/images/mix/img_avatar.png"  style="width:auto;"/>
+</onekit-picture>

@@ -6,8 +6,14 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {onekitId:String,
-
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+    content:{
+      type:String,
+      value:""
+    }
   },
 
   /**
