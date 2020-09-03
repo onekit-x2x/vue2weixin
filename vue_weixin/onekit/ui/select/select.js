@@ -3,7 +3,8 @@ Component({
     virtualHost: true
   },
   properties: {
-    
+    text:{type:String,value:"volvo"
+    }
   },
   data:{
     show:false

@@ -12,7 +12,8 @@ Component({
     cellspacing:{type:String,value:""},
     frame:{type:String,value:""},
     rules:{type:String,value:""},
-    width:{type:String,value:""}
+    width:{type:String,value:""},
+    border:{type:String,value:""}
 
 
   },

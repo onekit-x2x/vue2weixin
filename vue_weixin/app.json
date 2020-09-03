@@ -1,6 +1,8 @@
 {
   "pages": [
+    "pages/select/select",
     "index"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

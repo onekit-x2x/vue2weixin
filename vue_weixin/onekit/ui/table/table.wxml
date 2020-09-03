@@ -1,12 +1,13 @@
 <view
 class="onekit-table {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+style="{{onekitStyle}} border:{{1}}px solid black;"  id="{{onekitId}}"
 border="{{border}}"
 cellpadding="{{cellpadding}}"
 cellspacing="{{cellspacing}}"
 frame="{{frame}}"
 rules="{{rules}}"
 width="{{width}}"
+border="{{border}}"
 
 >
 <slot/>
