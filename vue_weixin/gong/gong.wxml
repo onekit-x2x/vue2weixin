@@ -54,13 +54,13 @@ USA
 
 
 <!-- fieldset legend-->
-<form>
+<!-- <form>
   <onekit-fieldset>
     <onekit-legend>健康信息</onekit-legend>
     身高：<onekit-input type="text" />
     体重：<onekit-input type="text" />
   </onekit-fieldset>
-</form>
+</form> -->
 
 
 
@@ -90,6 +90,7 @@ USA
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure> -->
 
+<onekit-img src="/pages/img/1.jpg" width="200" height="150" />
 
 <!-- font -->
 <!-- <onekit-footer>
@@ -127,7 +128,7 @@ mentioned in music, art, and literature</onekit-p> -->
 
 
 <!-- label -->
-<onekit-div onekit-class="preference">
+<!-- <onekit-div onekit-class="preference">
     <onekit-label for="cheese">Do you like cheese?</onekit-label>
     <onekit-input type="checkbox" name="cheese" onekit-id="cheese"/>
 </onekit-div>
@@ -135,7 +136,7 @@ mentioned in music, art, and literature</onekit-p> -->
 <onekit-div onekit-class="preference">
     <onekit-label for="peas">Do you like peas?</onekit-label>
     <onekit-input type="checkbox" name="peas" onekit-id="peas"/>
-</onekit-div>
+</onekit-div> -->
 
 <!-- 表单 -->
 <!-- <form> -->
