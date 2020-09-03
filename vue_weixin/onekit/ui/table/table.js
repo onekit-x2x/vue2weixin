@@ -7,9 +7,9 @@ Component({
     virtualHost: true
   },
   properties: {
-    border:{type:String,value:""},
-    cellpadding:{type:String,value:""},
-    cellspacing:{type:String,value:""},
+    border:{type:String|Number,value:1},
+    cellpadding:{type:String|Number,value:2},
+    cellspacing:{type:String|Number,value:1},
     frame:{type:String,value:""},
     rules:{type:String,value:""},
     width:{type:String,value:""},
