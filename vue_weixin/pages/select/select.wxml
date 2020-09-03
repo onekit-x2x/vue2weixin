@@ -1,0 +1,73 @@
+<!-- <onekit-select>
+    <onekit-option text ="volvo">Volvo</onekit-option>
+    <onekit-option text ="Saab">Saab</onekit-option>
+    <onekit-option text="Opel">Opel</onekit-option>
+    <onekit-option text="audi">Audi</onekit-option>
+  </onekit-select>
+  <onekit-p>zhesssssss</onekit-p>
+  <onekit-span> span</onekit-span>
+  <onekit-strike>strike</onekit-strike>
+ <onekit-strong>ste</onekit-strong>
+ <onekit-sub>下标</onekit-sub>
+ <onekit-sup>shangb</onekit-sup>
+  <onekit-textarea rows="3" cols="20">
+   
+    </onekit-textarea>
+    <onekit-p>我在 <onekit-time datetime="2008-02-14">情人节</onekit-time> 有个约会。</onekit-p>
+    <onekit-title>XHTML Tag Reference</onekit-title>
+    <onekit-video width="320" height="240" controls="controls">
+        <onekit-source src="forrest_gump.mp4" type="video/mp4" />
+        <onekit-track kind="subtitles" src="subs_eng.srt" srclang="en" label="English"/>
+      </onekit-video>
+
+<onekit-ul>
+    <onekit-li>Coffee</onekit-li>
+    <onekit-li>Tea</onekit-li>
+    <onekit-li>Milk</onekit-li>
+  </onekit-ul>
+  <onekit-ol>
+    <onekit-li>Coffee</onekit-li>
+    <onekit-li>Tea</onekit-li>
+    <onekit-li>Milk</onekit-li>
+  </onekit-ol>
+
+    <onekit-menuitem >menuitem</onekit-menuitem>
+    <onekit-details>
+          <onekit-summary>
+          sssssssssssssssssssssssssssssggggggggggggg
+           
+          </onekit-summary>
+          </onekit-details> -->
+          <onekit-tt>tt</onekit-tt>
+<onekit-u>对其使用下划线</onekit-u>
+<onekit-var>var</onekit-var>
+<onekit-wbr>wbr</onekit-wbr>
+<onekit-del>del</onekit-del>
+
+  <onekit-table border="1">
+    <onekit-thead>
+      <onekit-tr>
+        <onekit-th>Month</onekit-th>
+        <onekit-th>Savings</onekit-th>
+      </onekit-tr>
+    </onekit-thead>
+  
+    <onekit-tfoot>
+      <onekit-tr>
+        <onekit-td>Sum</onekit-td>
+        <onekit-td>$180</onekit-td>
+      </onekit-tr>
+    </onekit-tfoot>
+  
+    <onekit-tbody>
+      <onekit-tr>
+        <onekit-td>January</onekit-td>
+        <onekit-td>$100</onekit-td>
+      </onekit-tr>
+      <onekit-tr>
+        <onekit-td>February</onekit-td>
+        <onekit-td>$80</onekit-td>
+      </onekit-tr>
+    </onekit-tbody>
+  </onekit-table>
+  

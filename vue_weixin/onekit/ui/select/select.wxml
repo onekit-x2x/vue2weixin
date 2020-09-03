@@ -1,5 +1,6 @@
 <view class="onekit-select {{onekitClass}}" style="{{onekitStyle}} width:100px;height:30px;"
-id="{{onekitId}}" bindtap="select_click">
+id="{{onekitId}}" bindtap="select_click"
+>
   {{text}}
   </view>
 
