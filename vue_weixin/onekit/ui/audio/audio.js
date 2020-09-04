@@ -15,7 +15,7 @@ Component({
       },
       controls:{
           type: Boolean,
-          value: false,
+          value: true,
       },
       loop:{
         type: Boolean,

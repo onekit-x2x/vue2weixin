@@ -90,7 +90,7 @@ USA
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure> -->
 
-<onekit-img src="/pages/img/1.jpg" width="200" height="150" />
+<!-- <onekit-img src="/pages/img/1.jpg" width="200" height="150" /> -->
 
 <!-- font -->
 <!-- <onekit-footer>
@@ -138,9 +138,6 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-input type="checkbox" name="peas" onekit-id="peas"/>
 </onekit-div> -->
 
-<!-- 表单 -->
-<!-- <form> -->
-
 <!-- <onekit-p>列表dl、dt、dd：</onekit-p>
 <onekit-dl>
    <onekit-dt>列表1<onekit-dialog open>这是打开的对话窗口</onekit-dialog></onekit-dt>
@@ -160,4 +157,11 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-input type="radio" name="sex" id="female" />
 </onekit-fieldset>
 </form> -->
+  
+<!-- <onekit-audio src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/audio/music.mp3" 
+controls autoplay loop  preload>
+</onekit-audio> -->
 
+ 
+ <onekit-dialog open>这是对话框中内容</onekit-dialog>
+   

@@ -1,0 +1,6 @@
+<view
+class="onekit-hgroup {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+>
+<slot/>
+</view>

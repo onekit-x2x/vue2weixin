@@ -1,7 +1,9 @@
 <!--onekit/ui/dialog/dialog.wxml-->
+
 <view
-class="onekit-dnf {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+class="onekit-dialog {{onekitClass}}"
+style="border-width:medium;border-style:solid;{{onekitStyle}};display:{{open?'block':'none'}}"  
+id="{{onekitId}}"
 open="{{open}}"
 >
 <slot/>
