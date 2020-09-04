@@ -8,7 +8,7 @@ Component({
    */
    
   properties: {
-align:{type:String,value:""}
+    align:{type:String,value:""}
   },
 
   /**
