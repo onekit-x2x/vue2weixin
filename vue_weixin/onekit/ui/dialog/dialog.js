@@ -10,7 +10,6 @@ Component({
     virtualHost: true
   },
   properties: {
-open:{type:String,value:""}
   },
 
   /**
