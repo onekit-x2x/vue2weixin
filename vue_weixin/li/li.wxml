@@ -1,2 +1,11 @@
-<!--li/li.wxml-->
-<text>li/li.wxml</text>
+<!-- <ol> -->
+<onekit-ol start="2">
+  <onekit-li>vdfvf</onekit-li>
+  <onekit-li>cvc</onekit-li>
+  <onekit-li>bfgbf</onekit-li>
+</onekit-ol>
+
+
+<!-- <progress> -->
+<!-- <onekit-label for="file">File onekit-progress:</onekit-label>
+<onekit-progress id="file" max="100" value="70"> 70% </onekit-progress> -->

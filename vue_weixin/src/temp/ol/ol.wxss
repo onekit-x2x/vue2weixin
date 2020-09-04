@@ -1,5 +1,4 @@
 /* pages/ol/ol.wxss */
-.onekit-li {
-  font: 1rem 'Fira Sans', sans-serif;
-  margin-bottom: .5rem;
+.onekit-li::marker {
+  content: "(" counter(list-item) ")"; 
 }
