@@ -52,18 +52,6 @@ USA
 </onekit-p> -->
 
 
-
-<!-- fieldset legend-->
-<!-- <form>
-  <onekit-fieldset>
-    <onekit-legend>健康信息</onekit-legend>
-    身高：<onekit-input type="text" />
-    体重：<onekit-input type="text" />
-  </onekit-fieldset>
-</form> -->
-
-
-
 <!-- h -->
 <!-- <onekit-h1>这是标题 1</onekit-h1>
 <onekit-h2>这是标题 2</onekit-h2>
@@ -162,7 +150,19 @@ mentioned in music, art, and literature</onekit-p> -->
 controls autoplay loop  preload>
 </onekit-audio> -->
 
- 
+
+<!-- dialog -->
+<!--  
  <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
-  <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog>
+  <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog> -->
    
+
+   <!-- fieldset legend-->
+  <onekit-fieldset>
+    <onekit-legend>健康信息</onekit-legend>
+    身高：<onekit-input type="text" />
+  </onekit-fieldset>
+<onekit-br/>
+   <onekit-fieldset>
+    身高：<onekit-input type="text" />
+  </onekit-fieldset>
