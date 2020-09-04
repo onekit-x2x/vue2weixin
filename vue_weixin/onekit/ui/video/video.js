@@ -1,11 +1,9 @@
 import {fixurl} from "../../lib/TheKit"
 import onekit_behavior from "../onekit_behavior"
-import vue_behavior from "../onekit_behavior"
+import web_behavior from "../onekit_behavior"
 Component({
-  behaviors: [onekit_behavior,vue_behavior],
-  options: {
-    virtualHost: true
-  },
+  behaviors: [onekit_behavior,web_behavior],
+   
   properties: {
     width:Number,
     height:Number,

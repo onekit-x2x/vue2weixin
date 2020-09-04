@@ -1,11 +1,9 @@
 // onekit/ui/ul/ul.js
 import onekit_behavior from "../onekit_behavior"
-import vue_behavior from "../vue_behavior"
+import web_behavior from "../web_behavior"
 Component({
-  behaviors: [onekit_behavior, vue_behavior],
-  options: {
-    virtualHost: true
-  },
+  behaviors: [onekit_behavior, web_behavior],
+
   /**
    * 组件的属性列表
    */

@@ -1,19 +1,12 @@
 import URL from "../../lib/URL.js"
 import onekit_behavior from "../onekit_behavior"
-import vue_behavior from "../vue_behavior"
+import web_behavior from "../web_behavior"
 Component({
-  behaviors: [onekit_behavior,vue_behavior],
-  options: {
-    virtualHost: true
-  },
+  behaviors: [onekit_behavior,web_behavior],
+   
 
   properties: { 
-    download:{type: String, value: ""},
-    hreflang:{type: String, value: ""},
-    media:{type: String, value: ""},
-    rel:{type: String, value: ""},
-    target:{type: String, value: ""},
-    type:{type: String, value: ""},
+  
     href: {
       type: String,
       value: ""

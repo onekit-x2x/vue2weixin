@@ -3,12 +3,7 @@ class="onekit-a {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 bindtap="a_tap"
 href="{{href}}"
-download="{{download}}"
-hreflang="{{hreflang}}"
-media="{{media}}"
-rel="{{rel}}"
-target="{{target}}"
-type="{{type}}"
+
 >
 <slot/>
 </text>

@@ -163,5 +163,6 @@ controls autoplay loop  preload>
 </onekit-audio> -->
 
  
- <onekit-dialog open>这是对话框中内容</onekit-dialog>
+ <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
+  <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog>
    

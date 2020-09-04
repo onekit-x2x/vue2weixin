@@ -1,5 +1,5 @@
 module.exports = Behavior({
-
+   
   properties: {
     onekitId: {
       type: String,value:""

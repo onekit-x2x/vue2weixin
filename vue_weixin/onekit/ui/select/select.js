@@ -1,7 +1,8 @@
+import onekit_behavior from "../onekit_behavior"
+import web_behavior from "../web_behavior"
 Component({
-  options: {
-    virtualHost: true
-  },
+  behaviors: [onekit_behavior, web_behavior],
+
   properties: {
     text:{type:String,value:"volvo"
     }

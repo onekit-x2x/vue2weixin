@@ -1,8 +1,7 @@
 <view
 class="onekit-html {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
-manifest="{{manifest}}"
-xmlns="{{xmlns}}"
+
 
 >
 <slot/>

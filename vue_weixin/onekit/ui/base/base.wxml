@@ -4,7 +4,6 @@ class="onekit-base {{onekitClass}}"
 style="{{onekitStyle}}"  
 id="{{onekitId}}"
 href="{{href}}"
-target="{{target}}"
 >
 <slot/>
 </view>
