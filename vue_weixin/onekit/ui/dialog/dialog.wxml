@@ -4,7 +4,6 @@
 class="onekit-dialog {{onekitClass}}"
 style="border-width:medium;border-style:solid;{{onekitStyle}};display:{{open?'block':'none'}}"  
 id="{{onekitId}}"
-open="{{open}}"
 >
 <slot/>
 </view>
