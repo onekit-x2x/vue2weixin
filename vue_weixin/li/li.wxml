@@ -1,21 +1,13 @@
 <!-- <ol> -->
-<onekit-ol start="2">
+<!-- <onekit-ol start="2">
   <onekit-li>vdfvf</onekit-li>
   <onekit-li>cvc</onekit-li>
   <onekit-li>bfgbf</onekit-li>
-</onekit-ol>
-
-<!-- <li> -->
-<!-- <onekit-ol type="I">
-    <onekit-li value="3">third item</onekit-li>
-    <onekit-li>fourth item</onekit-li>
-    <onekit-li>fifth item</onekit-li>
-</onekit-ol>	 -->
-
+</onekit-ol> -->
 
 <!-- <progress> -->
-<!-- <onekit-label for="file">File onekit-progress:</onekit-label>
-<onekit-progress id="file" max="100" value="70"> 70% </onekit-progress> -->
+<onekit-label for="file">File onekit-progress:</onekit-label>
+<onekit-progress id="file" max="100" value="70">70%</onekit-progress>
 
 <!-- <blockquote> -->
 <!-- <onekit-body>

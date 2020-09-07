@@ -10,10 +10,6 @@ Component({
     value: {
       type: Number,
       Number: 0
-    },
-    max: {
-      type: Number,
-      Number: 0
     }
   },
 

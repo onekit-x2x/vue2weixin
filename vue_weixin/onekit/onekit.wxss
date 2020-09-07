@@ -393,10 +393,6 @@ onekit-input[type="radio"] {
     display: list-item;
     text-align: match-parent;
 }
-.onekit-li:before {
-    counter-increment: section;            
-    content: counters(section, ".") ".";   
-}
 .onekit-optgroup {
     font-weight: bolder;
     display: block;

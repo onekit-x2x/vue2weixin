@@ -1,7 +1,6 @@
 <progress
-class="onekit-progress "
-style="{{style}}"  id="{{id}}"
-max="{{max}}"
+class="onekit-progress {{onekitClass}}"
+style="overflow:hidden;{{onekitStyle}}"  id="{{onekitId}}"
 percent="{{value}}"
 >
 <slot/>

@@ -1,4 +1,11 @@
 /* li/li.wxss */
+/* .onekit-li:before {
+  counter-increment: section;            
+  content: counters(section, ".") ".";   
+} */
+.onekit-li{
+  counter-reset:section 3;
+}
 .onekit-ol{
-  list-style-type:upper-roman;
+  list-style-type: upper-roman;
 }
