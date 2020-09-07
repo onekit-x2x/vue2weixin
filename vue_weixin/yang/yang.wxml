@@ -44,7 +44,7 @@
 <onekit-wbr>wbr</onekit-wbr>
 <onekit-del>del</onekit-del> -->
 
-  <onekit-table  border="20">
+  <onekit-table  border="1" width="200" >
     <onekit-thead>
       <onekit-tr>
         <onekit-th>Month</onekit-th>
