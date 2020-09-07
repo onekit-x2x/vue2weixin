@@ -1,8 +1,7 @@
 <view
 class="onekit-tr {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-align="{{align}}"
-valign="{{valign}}"
+style="text-align:{{align}};vertical-align:{{valign}};background-color:{{bgcolor}};{{onekitStyle}}"  id="{{onekitId}}"
+
 >
 <slot/>
 </view>

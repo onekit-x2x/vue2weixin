@@ -1,9 +1,4 @@
 /* li/li.wxss */
-.onekit-ol {
-  counter-reset: section 2;
-  list-style-type: none;      
-}
-.onekit-li:before {
-  counter-increment: section;            
-  content: counters(section, ".") ".";   
+.onekit-ol{
+  list-style-type:upper-roman;
 }

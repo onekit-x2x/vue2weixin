@@ -1,9 +1,7 @@
 <view
 class="onekit-thead {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-align="{{align}}"
-charoff="{{charoff}}"
-valign="{{valign}}"
+style="text-align:{{align}};vertical-align:{{valign}};{{onekitStyle}}"  id="{{onekitId}}"
+
 >
 <slot/>
 </view>
