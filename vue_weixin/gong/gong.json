@@ -32,6 +32,8 @@
     "onekit-label":"/onekit/ui/label/label",
     "onekit-dialog":"/onekit/ui/dialog/dialog",
     "onekit-embed":"/onekit/ui/embed/embed",
-    "onekit-audio":"/onekit/ui/audio/audio"
+    "onekit-audio":"/onekit/ui/audio/audio",
+    "onekit-map":"/onekit/ui/map/map",
+    "onekit-area":"/onekit/ui/area/area"
   }
 }

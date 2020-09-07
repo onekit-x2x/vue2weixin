@@ -158,7 +158,7 @@ controls autoplay loop  preload>
    
 
    <!-- fieldset legend-->
-  <onekit-fieldset>
+  <!-- <onekit-fieldset>
     <onekit-legend>Choose your favorite monster</onekit-legend>
 
     <onekit-input type="radio" onekit-id="kraken" name="monster"/>
@@ -183,4 +183,114 @@ controls autoplay loop  preload>
 
     <onekit-input type="radio" onekit-id="mothman" name="monster"/>
     <onekit-label>Mothman</onekit-label>
-</onekit-fieldset>
+</onekit-fieldset> -->
+
+<!-- 
+<onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
+<onekit-img
+src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3575533297,479716679&fm=26&gp=0.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />
+<onekit-map name="planetmap" id="planetmap">
+<onekit-area
+shape="circle"
+coords="120,126,10"
+href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=345683711,3744347852&fm=26&gp=0.jpg"
+target ="_blank"
+alt="Venus" />
+<onekit-area
+shape="polygon"
+coords="120,340,100,385,140,385"
+href ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599460681962&di=ce27231cf21cdd1c4d0e24ff7fd6bf5e&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F19%2F05%2F01%2F129c4ab8426ecc90a56a953a8e668325.jpg"
+target ="_blank"
+alt="Mercury" />
+<onekit-area
+shape="rect"
+coords="132,405,150,420"
+href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1706177023,2397564444&fm=26&gp=0.jpg"
+target ="_blank"
+alt="Sun" />
+</onekit-map>
+<onekit-p><onekit-b>注释：
+</onekit-b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），
+所以我们同时向 map 元素添加了 "id" 和 "name" 属性。
+</onekit-p> -->
+
+
+<!-- <p>type=text、password、submit、button:</p>
+<hr />
+<div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+</div>
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+<input type="submit" value="Sign in"> -->
+
+<onekit-p>type=button:</onekit-p>
+<onekit-hr/>
+<onekit-input type="button" value="Click me"/>
+
+<onekit-p>type=checkbox:</onekit-p>
+<onekit-hr />
+<onekit-p>
+  <onekit-input type="checkbox" id="cbox1" value="first_checkbox"/>
+  <onekit-label for="cbox1">This is the first checkbox</onekit-label>
+</onekit-p>
+<onekit-p>
+  <onekit-input type="checkbox" id="cbox2" value="second_checkbox" checked="checked"/>
+  <onekit-label for="cbox2">This is the second checkbox, which is checked</onekit-label>
+</onekit-p>
+
+<onekit-p>type=file:</onekit-p>
+<onekit-hr />
+<onekit-input type="file"
+       onekit-id="avatar" name="avatar"
+       accept="image/png, image/jpeg"/>
+
+<onekit-p>type=hidden:</onekit-p>
+<onekit-hr />
+<onekit-input onekit-id="prodId" name="prodId" type="hidden" value="xm234jq"/>
+
+<onekit-p>type=image:</onekit-p>
+<onekit-hr />
+<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="50"/>
+<!-- 
+<p>type=radio、submit:</p>
+<hr />
+<form>
+  <p>Please select your preferred contact method:</p>
+  <div>
+    <input type="radio" id="contactChoice1"
+     name="contact" value="email">
+    <label for="contactChoice1">Email</label>
+
+    <input type="radio" id="contactChoice2"
+     name="contact" value="phone">
+    <label for="contactChoice2">Phone</label>
+
+    <input type="radio" id="contactChoice3"
+     name="contact" value="mail">
+    <label for="contactChoice3">Mail</label>
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+<p>type=text、submit、reset:</p>
+<hr />
+<form>
+    <div class="controls">
+
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </div>
+</form> -->
