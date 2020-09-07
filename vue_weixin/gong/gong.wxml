@@ -118,12 +118,12 @@ mentioned in music, art, and literature</onekit-p> -->
 <!-- label -->
 <!-- <onekit-div onekit-class="preference">
     <onekit-label for="cheese">Do you like cheese?</onekit-label>
-    <onekit-input type="checkbox" name="cheese" onekit-id="cheese"/>
+    <onekit-input type="checkbox" name="cheese" onekit-onekit-id="cheese"/>
 </onekit-div>
 
 <onekit-div onekit-class="preference">
     <onekit-label for="peas">Do you like peas?</onekit-label>
-    <onekit-input type="checkbox" name="peas" onekit-id="peas"/>
+    <onekit-input type="checkbox" name="peas" onekit-onekit-id="peas"/>
 </onekit-div> -->
 
 <!-- <onekit-p>列表dl、dt、dd：</onekit-p>
@@ -139,10 +139,10 @@ mentioned in music, art, and literature</onekit-p> -->
 <!-- <onekit-fieldset>
     <onekit-legend>健康信息</onekit-legend>
     <onekit-label for="male">Male</onekit-label>
-    <onekit-input type="radio" name="sex" id="male" />
+    <onekit-input type="radio" name="sex" onekit-id="male" />
     <onekit-br />
     <onekit-label for="female">Female</onekit-label>
-    <onekit-input type="radio" name="sex" id="female" />
+    <onekit-input type="radio" name="sex" onekit-id="female" />
 </onekit-fieldset>
 </form> -->
   
@@ -159,10 +159,28 @@ controls autoplay loop  preload>
 
    <!-- fieldset legend-->
   <onekit-fieldset>
-    <onekit-legend>健康信息</onekit-legend>
-    身高：<onekit-input type="text" />
-  </onekit-fieldset>
+    <onekit-legend>Choose your favorite monster</onekit-legend>
+
+    <onekit-input type="radio" onekit-id="kraken" name="monster"/>
+    <onekit-label>Kraken</onekit-label>
+    <onekit-br/>
+
+    <onekit-input type="radio" onekit-id="sasquatch" name="monster"/>
+    <onekit-label>Sasquatch</onekit-label><onekit-br/>
+
+    <onekit-input type="radio" onekit-id="mothman" name="monster"/>
+    <onekit-label>Mothman</onekit-label>
+</onekit-fieldset>
 <onekit-br/>
    <onekit-fieldset>
-    身高：<onekit-input type="text" />
-  </onekit-fieldset>
+
+    <onekit-input type="radio" onekit-id="kraken" name="monster"/>
+    <onekit-label>Kraken</onekit-label>
+    <onekit-br/>
+
+    <onekit-input type="radio" onekit-id="sasquatch" name="monster"/>
+    <onekit-label>Sasquatch</onekit-label><onekit-br/>
+
+    <onekit-input type="radio" onekit-id="mothman" name="monster"/>
+    <onekit-label>Mothman</onekit-label>
+</onekit-fieldset>
