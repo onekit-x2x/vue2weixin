@@ -45,27 +45,27 @@
 <onekit-wbr>wbr</onekit-wbr>
 <onekit-del>del</onekit-del> -->
 
-  <onekit-table  border="1" width="100%"   bgcolor="#00FF00" align="right">
+  <onekit-table  border="1" width="300"   bgcolor="#00FF00" align="center">
     <onekit-thead>
       <onekit-tr>
         <onekit-th>Month</onekit-th>
         <onekit-th>Savings</onekit-th>
       </onekit-tr>
     </onekit-thead>
-    <onekit-tbody>
+    <onekit-tbody align="right">
       <onekit-tr>
         <onekit-td >January</onekit-td>
         <onekit-td>$100</onekit-td>
       </onekit-tr>
       <onekit-tr>
-        <onekit-td>February</onekit-td>
+        <onekit-td height="70">February</onekit-td>
         <onekit-td>$80</onekit-td>
       </onekit-tr>
-    </onekit-tbody>
+    </onekit-tbody >
      <onekit-tfoot>
       <onekit-tr>
-        <onekit-td onekit-style="border-width:10px;">Sum</onekit-td>
-        <onekit-td bgcolor="#f00"  valign="bottom">$180</onekit-td>
+        <onekit-td onekit-style="border-width:10px;" align="center">Sum</onekit-td>
+        <onekit-td bgcolor="#f00"  valign="bottom" align="center">$180</onekit-td>
       </onekit-tr>
     </onekit-tfoot>
   </onekit-table>

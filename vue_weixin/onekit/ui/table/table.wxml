@@ -1,6 +1,6 @@
 <view
 class="onekit-table {{onekitClass}}"
-style="width:{{width}};border-width:{{border}}px;border-style:outset;background-color:{{bgcolor}};{{alignStyle}};{{onekitStyle}}"  id="{{onekitId}}"
+style="width:{{width}}px;border-width:{{border}}px;border-style:outset;background-color:{{bgcolor}};{{alignStyle}};{{onekitStyle}}"  id="{{onekitId}}"
 border="{{border}}"
 cellpadding="{{cellpadding}}"
 cellspacing="{{cellspacing}}"
