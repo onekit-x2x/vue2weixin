@@ -74,7 +74,7 @@ type="{{type}}"
 
 <image wx:if="{{type=='image'}}"  
 class="onekit-image {{onekitClass}}"  
-style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}}"
+style="width:{{weixin_width}};height:{{weixin_height}};appearance: initial;background-color: initial;cursor: pointer;padding: initial;border: initial;{{onekitStyle}}"
 id="{{onekitId}}"
 
 value="{{value}}" 
@@ -134,7 +134,7 @@ checked="{{checked}}"
 
 <checkbox wx:if="{{type=='checkbox'}}"  
 class="onekit-checkbox {{onekitClass}}"  
-style="{{onekitStyle}}"
+style="background-color: initial;cursor: default;appearance: checkbox;box-sizing: border-box;margin: 3px 3px 3px 4px;padding: initial;border: initial;{{onekitStyle}}"
 id="{{onekitId}}"
 value="{{value}}"
 wx:if="{{type=='checkbox'}}" 
