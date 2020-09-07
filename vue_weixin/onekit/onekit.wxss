@@ -95,6 +95,15 @@ body {
     border-color: buttonface;
     border-image: initial;
 }
+onekit-input[type="radio"] {
+    background-color: initial;
+    cursor: default;
+    appearance: radio;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
 .onekit-center {
     display: block;
     text-align: center;
@@ -172,12 +181,12 @@ body {
 }
 .onekit-fieldset {
     display: block;
-    -webkit-margin-start: 2px;
-    -webkit-margin-end: 2px;
-    -webkit-padding-before: 0.35em;
-    -webkit-padding-start: 0.75em;
-    -webkit-padding-end: 0.75em;
-    -webkit-padding-after: 0.625em;
+   margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
     min-width: min-content;
     border-width: 2px;
     border-style: groove;
@@ -311,8 +320,8 @@ body {
 
 .onekit-legend {
     display: block;
-    -webkit-padding-start: 2px;
-    -webkit-padding-end: 2px;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
     border-width: initial;
     border-style: none;
     border-color: initial;
@@ -383,6 +392,10 @@ body {
 .onekit-li {
     display: list-item;
     text-align: match-parent;
+}
+.onekit-li:before {
+    counter-increment: section;            
+    content: counters(section, ".") ".";   
 }
 .onekit-optgroup {
     font-weight: bolder;

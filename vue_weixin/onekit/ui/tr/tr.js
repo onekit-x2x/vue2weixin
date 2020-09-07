@@ -9,7 +9,7 @@ Component({
   },
   properties: {
     align:{type:String,value:""},
-    charoff:{type:String,value:""},
+    bgcolor:{type:String,value:""},
     valign:{type:String,value:""}
   },
 

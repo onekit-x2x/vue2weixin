@@ -14,7 +14,10 @@ Component({
     rowspan:{type:Number,value:""},
     valign:{type:String,value:""},
     scope:{type:String,value:""},
-    bgcolor:{type:String,value:""}
+    bgcolor:{type:String,value:""},
+    height:{type:Number,value:""},
+    width:{type:Number,value:""}
+
   },
 
   /**
