@@ -4,6 +4,9 @@ import web_behavior from "../web_behavior"
 Component({
   behaviors: [onekit_behavior, web_behavior,'wx://form-field'],
  
+  options: {
+    virtualHost: true
+  },
   properties: {
 for:{type:String,value:""},
 from:{type:String,value:""}

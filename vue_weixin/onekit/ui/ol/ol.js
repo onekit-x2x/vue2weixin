@@ -6,6 +6,9 @@ Component({
   options: {
     virtualHost: true,
   },
+  options: {
+    virtualHost: true
+  },
   properties: {
    
     reversed:{type:Boolean,value:false},

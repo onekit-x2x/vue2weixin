@@ -1,5 +1,8 @@
 module.exports = Behavior({
 
+  options: {
+    virtualHost: true
+  },
   properties: {
     accesskey:{type:String},
     contenteditable:{type:Boolean},

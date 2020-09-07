@@ -7,6 +7,9 @@ Component({
    */
   
 
+  options: {
+    virtualHost: true
+  },
   properties: {
 
   },

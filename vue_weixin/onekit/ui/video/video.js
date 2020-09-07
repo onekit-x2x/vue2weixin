@@ -4,6 +4,9 @@ import web_behavior from "../onekit_behavior"
 Component({
   behaviors: [onekit_behavior,web_behavior],
    
+  options: {
+    virtualHost: true
+  },
   properties: {
     width:Number,
     height:Number,

@@ -5,6 +5,9 @@ Component({
   behaviors: [onekit_behavior, web_behavior],
  
 
+  options: {
+    virtualHost: true
+  },
   properties: {
     align:{type:String,value:""},
     charoff:{type:String,value:""},
