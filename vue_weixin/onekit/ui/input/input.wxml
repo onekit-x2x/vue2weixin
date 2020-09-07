@@ -76,7 +76,6 @@ type="{{type}}"
 class="onekit-image {{onekitClass}}"  
 style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}}"
 id="{{onekitId}}"
-
 value="{{value}}" 
 disabled="{{disabled}}"
 src="{{weixin_src}}"

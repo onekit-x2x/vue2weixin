@@ -257,7 +257,9 @@ alt="Sun" />
 
 <onekit-p>type=image:</onekit-p>
 <onekit-hr />
-<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="50"/>
+<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="200" height="150"/>
+
+
 <!-- 
 <p>type=radio、submit:</p>
 <hr />
