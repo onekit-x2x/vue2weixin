@@ -95,6 +95,15 @@ body {
     border-color: buttonface;
     border-image: initial;
 }
+onekit-input[type="radio"] {
+    background-color: initial;
+    cursor: default;
+    appearance: radio;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
 .onekit-center {
     display: block;
     text-align: center;

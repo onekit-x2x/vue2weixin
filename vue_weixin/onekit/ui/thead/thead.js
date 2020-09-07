@@ -8,7 +8,7 @@ Component({
     virtualHost: true
   },
   properties: { align:{type:String,value:""},
-  charoff:{type:String,value:""},
+  
   valign:{type:String,value:""}
 
   },
