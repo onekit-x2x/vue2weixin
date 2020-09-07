@@ -1,7 +1,8 @@
 {
   "pages": [
-    "li/li",
     "gong/gong",
+    "li/li",
+    
     "yang/yang",
     "index"
   ],
