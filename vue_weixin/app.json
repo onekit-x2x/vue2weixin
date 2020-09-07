@@ -1,9 +1,10 @@
 {
   "pages": [
     "gong/gong",
+    "yang/yang",
+   
     "li/li",
     
-    "yang/yang",
     "index"
   ],
   "window": {

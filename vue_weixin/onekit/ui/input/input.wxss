@@ -1,1 +1,16 @@
 /* onekit/ui/input/input.wxss */
+.onekit-button{
+align-items: center!important;
+border-style:solid!important;
+border-width: 1px!important;
+border-color: gray;
+
+
+}
+button:not([size='mini']) {
+width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+  
