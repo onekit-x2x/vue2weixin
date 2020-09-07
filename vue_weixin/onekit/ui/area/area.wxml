@@ -3,7 +3,6 @@
 class="onekit-area {{onekitClass}}"
 style="{{onekitStyle}}"  
 id="{{onekitId}}"
-href="{{href}}"
 >
 <slot/>
 </view>

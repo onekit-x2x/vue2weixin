@@ -1,70 +1,146 @@
-<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='text'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
+<input wx:if="{{type=='text'}}"  
+class="onekit-input {{onekitClass}}"  
+wx:if="{{type=='text'}}" 
+style="{{onekitStyle}}"
+id="{{onekitId}}"
+maxlength="maxlength"
+placeholder="placeholder"
 disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
+value="{{value}}" 
+type="{{type}}"
+auto-focus="{{autofocus}}"
+>
+<slot></slot>
+</input>
 
-<button class="onekit-button {{onekitClass}}"  wx:if="{{type=='button'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
+<button wx:if="{{type=='button'}}"  
+class="onekit-button {{onekitClass}}" 
+style="appearance: push-button;user-select: none;white-space: pre;align-items: flex-start;text-align: center;cursor: default;color: -internal-light-dark(buttontext, rgb(170, 170, 170));background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));box-sizing: border-box;padding: 1px 6px;border-width: 2px;border-style: outset;border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));border-image: initial;{{onekitStyle}}"
+id="{{onekitId}}"
 disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
-
-<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='file'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
-disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
-
-<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='reset'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
-disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
-
-<input class="onekit-input {{onekitClass}}"  wx:if="{{type=='submit'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
-disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
-
-<image class="onekit-input {{onekitClass}}"  wx:if="{{type=='image'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
-disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
+type="{{type}}"
+wx:if="{{type=='button'}}" 
+>
+{{value}}
+<slot></slot>
+</button>
 
 
-<input class="onekit-input {{onekitClass}}" style="display:none;"  wx:if="{{type=='hidden'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
+<input wx:if="{{type=='file'}}"  
+class="onekit-input {{onekitClass}}"  
+wx:if="{{type=='file'}}" 
+style="appearance: initial;background-color: initial;cursor: default;align-items: baseline;color: inherit;text-align: start !important;padding: initial;border: initial;{{onekitStyle}}"
+id="{{onekitId}}"
+value="{{value}}" 
+type="{{type}}"
 disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
+auto-focus="{{autofocus}}"
+accept="{{accept}}"
+name="{{name}}"
 
-<input password class="onekit-input {{onekitClass}}"  wx:if="{{type=='password'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
-disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
+>
+<slot></slot>
+</input>
 
-<radio class="onekit-input {{onekitClass}}"  wx:if="{{type=='radio'}}" value="{{value}}" bindinput="text_input"
-accept="{{accept}}"
-disabled="{{disabled}}"
-placeholder="{{placeholder}}"
-maxlength="{{maxlength}}"
-/>
 
-<checkbox class="onekit-input {{onekitClass}}"  wx:if="{{type=='checkbox'}}" value="{{value}}" bindinput="text_input"
+<input wx:if="{{type=='reset'}}"  
+class="onekit-input {{onekitClass}}"  
+style="{{onekitStyle}}"
+id="{{onekitId}}"
+wx:if="{{type=='reset'}}" 
+auto-focus="{{autofocus}}"
+disabled="{{disabled}}"
+value="{{value}}" 
+type="{{type}}"
+
+>
+<slot></slot>
+</input>
+
+
+<input wx:if="{{type=='submit'}}"  
+class="onekit-input {{onekitClass}}"  
+style="{{onekitStyle}}"
+id="{{onekitId}}"
+auto-focus="{{autofocus}}"
+disabled="{{disabled}}"
+value="{{value}}" 
+type="{{type}}"
+
+>
+<slot></slot>
+</input>
+
+
+<image wx:if="{{type=='image'}}"  
+class="onekit-image {{onekitClass}}"  
+style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}}"
+id="{{onekitId}}"
+
+value="{{value}}" 
+disabled="{{disabled}}"
+src="{{weixin_src}}"
+bindload="image_load"
+>
+<slot></slot>
+</image>
+
+
+
+<input wx:if="{{type=='hidden'}}"  
+class="onekit-input {{onekitClass}}" 
+style="display:none;{{onekitStyle}}" 
+id="{{onekitId}}"
+wx:if="{{type=='hidden'}}" 
+auto-focus="{{autofocus}}"
+value="{{value}}"
+type="{{type}}"
+disabled="{{disabled}}"
+
+>
+<slot></slot>
+</input>
+
+
+<input password wx:if="{{type=='password'}}"  
+class="onekit-input {{onekitClass}}"  
+style="{{onekitStyle}}"
+id="{{onekitId}}"
+wx:if="{{type=='password'}}" 
+auto-focus="{{autofocus}}"
+type="{{type}}"
+value="{{value}}" 
 accept="{{accept}}"
 disabled="{{disabled}}"
-placeholder="{{placeholder}}"
 maxlength="{{maxlength}}"
-/>
+>
+<slot></slot>
+</input>
+
+
+<radio wx:if="{{type=='radio'}}"  
+class="onekit-radio {{onekitClass}}" 
+style=" background-color: initial;cursor: default;appearance: radio;box-sizing: border-box;margin: 3px 3px 0px 5px;padding: initial;border: initial;border-style: none;{{onekitStyle}}" 
+id="{{onekitId}}"
+wx:if="{{type=='radio'}}" 
+value="{{value}}"
+disabled="{{disabled}}"
+checked="{{checked}}"
+
+>
+<slot></slot>
+</radio>
+
+
+<checkbox wx:if="{{type=='checkbox'}}"  
+class="onekit-checkbox {{onekitClass}}"  
+style="{{onekitStyle}}"
+id="{{onekitId}}"
+value="{{value}}"
+wx:if="{{type=='checkbox'}}" 
+disabled="{{disabled}}"
+checked="{{checked}}"
+
+>
+<slot></slot>
+</checkbox>
