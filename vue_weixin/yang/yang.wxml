@@ -45,7 +45,7 @@
 <onekit-wbr>wbr</onekit-wbr>
 <onekit-del>del</onekit-del> -->
 
-  <onekit-table  border="1" width="300"   bgcolor="#00FF00" align="center">
+  <onekit-table  border="1" width="50%"   bgcolor="#00FF00" align="center">
     <onekit-thead align="right">
       <onekit-tr>
         <onekit-th bgcolor="#f1f1f1">Month</onekit-th>
@@ -76,7 +76,7 @@
   <onekit-span>span</onekit-span>
   </onekit-details>
    <onekit-textarea >
-    在w3school，你可以找到你所需要的所有的网站建设教程。
+   你可以找到你所需要的所有的网站建设教程。
     </onekit-textarea>
     <onekit-video  src="https://www.w3school.com.cn/i/movie.ogg" ></onekit-video>
   </onekit-body>
