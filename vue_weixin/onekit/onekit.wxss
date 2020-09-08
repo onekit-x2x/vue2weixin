@@ -1,15 +1,15 @@
 
-html {
+.onekit-html {
     -webkit-locale: "en";
 }
-html {
+.onekit-html {
     display: block;
 }
-body {
+.onekit-body {
     display: block;
     margin: 8px;
     height:100%;
-    
+
 }
 .onekit-div {
     display: block;
