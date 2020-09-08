@@ -21,6 +21,27 @@ Component({
   /**
    * 组件的初始数据
    */
+  lifetimes:{
+  attached: function () {
+    var widthStyle;
+    console.log(this.data.width)
+    if(this.data.width.indexOf("%")>=0){
+      widthStyle=this.data.width
+    }
+    else{
+      widthStyle=this.data.width+"px"
+    }
+    this.setData({widthStyle});
+    var heightStyle;
+    console.log(this.data.width)
+    if(this.data.width.indexOf("%")>=0){
+      heightStyle=this.data.width
+    }
+    else{
+      heightStyle=this.data.width+"px"
+    }
+    this.setData({heightStyle});
+}},
   data: {
 
   },

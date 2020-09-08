@@ -45,7 +45,7 @@
 <onekit-wbr>wbr</onekit-wbr>
 <onekit-del>del</onekit-del> -->
 
-  <onekit-table  border="1" width="60%"   bgcolor="#00FF00" align="center">
+  <onekit-table  border="1" width="50%"   bgcolor="#00FF00" align="center">
     <onekit-thead align="right">
       <onekit-tr>
         <onekit-th bgcolor="#f1f1f1">Month</onekit-th>
@@ -58,16 +58,27 @@
         <onekit-td>$100</onekit-td>
       </onekit-tr>
       <onekit-tr>
-        <onekit-td height="70%" width="200" >February</onekit-td>
+        <onekit-td height="70%" width="70%" >February</onekit-td>
         <onekit-td>$80</onekit-td>
       </onekit-tr>
     </onekit-tbody >
      <onekit-tfoot align="right">
       <onekit-tr>
-        <onekit-td onekit-style="border-width:10px;" >Sum</onekit-td>
+        <onekit-td onekit-style="" >Sum</onekit-td>
         <onekit-td bgcolor="#f00"  valign="bottom" >$180</onekit-td>
       </onekit-tr>
     </onekit-tfoot>
   </onekit-table>
+  <onekit-summary>Copyright 2011.</onekit-summary>
+  <onekit-details> 
+  
+  <onekit-p>All pages and graphics on this web site are the property of W3School.</onekit-p>
+  <onekit-span>span</onekit-span>
+  </onekit-details>
+   <onekit-textarea >
+   你可以找到你所需要的所有的网站建设教程。
+    </onekit-textarea>
+    <onekit-video  src="https://www.w3school.com.cn/i/movie.ogg" ></onekit-video>
   </onekit-body>
+
 
