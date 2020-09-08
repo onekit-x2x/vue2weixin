@@ -1,6 +1,6 @@
-<text
+<view
 class="onekit-ruby "
 style="{{style}}"  id="{{id}}"
 >
 <slot/>
-</text>
+</view>
