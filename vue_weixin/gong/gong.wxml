@@ -186,7 +186,7 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-label>Mothman</onekit-label>
 </onekit-fieldset> -->
 
-<!-- 
+
 <onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
 <onekit-img
 src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3575533297,479716679&fm=26&gp=0.jpg"
@@ -215,7 +215,7 @@ alt="Sun" />
 <onekit-p><onekit-b>注释：
 </onekit-b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），
 所以我们同时向 map 元素添加了 "id" 和 "name" 属性。
-</onekit-p> -->
+</onekit-p> 
 
 <!-- 
  <onekit-p>type=text、password、submit、button:</onekit-p>
@@ -302,7 +302,7 @@ alt="Sun" />
 <onekit-img src="/pages/img/1.jpg" onekit-id="2" height="150" />
 <onekit-img src="/pages/img/1.jpg" onekit-id="3" width="20%" height="150" />
 <onekit-img src="/pages/img/1.jpg" onekit-id="4" width="200" height="150" /> -->
-<onekit-body>
+<!-- <onekit-body>
 <onekit-img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" onekit-id="5" width="20%" height="50%" />
-</onekit-body>
+</onekit-body> -->
 
