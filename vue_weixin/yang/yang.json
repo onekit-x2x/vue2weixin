@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    
+    "onekit-body": "/onekit/ui/body/body",
     "onekit-video": "/onekit/ui/video/video",
     "onekit-a": "/onekit/ui/a/a",
     "onekit-tt": "/onekit/ui/tt/tt",
@@ -92,6 +92,7 @@
     "onekit-sup": "/onekit/ui/sup/sup",
     "onekit-table": "/onekit/ui/table/table",
     "onekit-tbody": "/onekit/ui/tbody/tbody",
+   
     "onekit-td": "/onekit/ui/td/td",
     "onekit-textarea": "/onekit/ui/textarea/textarea",
     "onekit-tfoot": "/onekit/ui/tfoot/tfoot",
