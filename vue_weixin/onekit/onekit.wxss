@@ -534,6 +534,10 @@ onekit-input[type="radio"] {
     border-spacing: 2px;
     border-color: grey;
 }
+.onekit-caption {
+    display: table-caption;
+    text-align: -webkit-center;
+}
 .onekit-colgroup {
     display: table-column-group;
 }

@@ -44,7 +44,7 @@
 <onekit-var>var</onekit-var>
 <onekit-wbr>wbr</onekit-wbr>
 <onekit-del>del</onekit-del> -->
-
+<!-- 
   <onekit-table  border="1" width="50%"   bgcolor="#00FF00" align="center">
     <onekit-thead align="right">
       <onekit-tr>
@@ -78,7 +78,65 @@
    <onekit-textarea >
    你可以找到你所需要的所有的网站建设教程。
     </onekit-textarea>
-    <onekit-video  src="https://www.w3school.com.cn/i/movie.ogg" ></onekit-video>
+    <onekit-video  src="https://www.w3school.com.cn/i/movie.ogg" ></onekit-video> -->
+    <onekit-table border="1" width="60%" bgcolor="#e9faff" cellpadding="2"  align="center">
+        <onekit-caption>课程表</onekit-caption>
+        <onekit-tr align="center">
+            <onekit-td colspan="2">时间\日期</onekit-td>
+            <onekit-td>一</onekit-td>
+            <onekit-td>二</onekit-td>
+            <onekit-td>三</onekit-td>
+            <onekit-td>四</onekit-td>
+            <onekit-td>五</onekit-td>
+        </onekit-tr>
+
+        <onekit-tr align="center">
+            <onekit-td rowspan="2">上午</onekit-td>
+            <onekit-td>9:30-10:15</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+        </onekit-tr>
+
+        <onekit-tr align="center">
+            <onekit-td>10:25-11:10</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+        </onekit-tr>
+
+        <onekit-tr>
+            <onekit-td >&nbsp;</onekit-td>
+             <onekit-td >&nbsp;</onekit-td>
+              <onekit-td >&nbsp;</onekit-td>
+               <onekit-td >&nbsp;</onekit-td>
+                <onekit-td >&nbsp;</onekit-td>
+                 <onekit-td >&nbsp;</onekit-td>
+        </onekit-tr>
+
+        <onekit-tr align="center">
+            <onekit-td rowspan="2">下午</onekit-td>
+            <onekit-td>14:30-15:15</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+        </onekit-tr>
+
+        <onekit-tr align="center">
+            <onekit-td>15:25-16:10</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+            <onekit-td>语文</onekit-td>
+        </onekit-tr>
+    </onekit-table>
   </onekit-body>
 
 

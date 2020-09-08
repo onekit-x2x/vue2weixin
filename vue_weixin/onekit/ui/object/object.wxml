@@ -1,7 +1,8 @@
 <view
 class="onekit-object {{onekitClass}}"
-style="width:{{weixin_width}};height:{{weixin_height}};type:{{type}};data:{{weixin_data}};{{onekitStyle}}"  id="{{onekitId}}"
-
+style="width:{{width}};height:{{height}};type:{{type}};data:{{data}};{{onekitStyle}}"  
+id="{{onekitId}}"
+ 
 bindload="object_load"
 >
 <slot/>

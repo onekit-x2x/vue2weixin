@@ -38,12 +38,10 @@
     "onekit-button":"/onekit/ui/button/button"
   },
   "pages": [ 
-    "gong/gong",
-    "yang/yang",
-   
-   
     "li/li",
-    
+    "yang/yang",    
+    "gong/gong",
+   
     "index"
   ],
   "window": {

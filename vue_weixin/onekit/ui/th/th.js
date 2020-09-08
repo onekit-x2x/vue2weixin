@@ -14,8 +14,8 @@ Component({
   valign:{type:String,value:""},
   scope:{type:String,value:""},
   bgcolor:{type:String,value:""},
-  height:{type:Number,value:""},
-  width:{type:Number,value:""}
+  height:{type:String,value:""},
+  width:{type:String,value:""}
   },
 
   /**
