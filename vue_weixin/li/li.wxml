@@ -19,10 +19,20 @@
 </onekit-body> -->
 
 <!-- <object> -->
-<!-- <onekit-p>type=image/jpeg:</onekit-p>
-<onekit-object height="100%" width="100%"
-type="image/jpeg" data="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2229213961,1402242691&fm=26&gp=0.jpg">
-</onekit-object> -->
+<onekit-p>type=image:</onekit-p>
+<onekit-object height="100%" width="100%" type="image" 
+src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2229213961,1402242691&fm=26&gp=0.jpg">
+</onekit-object>
+
+<onekit-p>type=audio:</onekit-p>
+<onekit-object type="audio"
+src="http://music.163.com/song/media/outer/url?id=28493605.mp3">
+</onekit-object>
+
+<onekit-p>type=video:</onekit-p>
+<onekit-object type="video"
+src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400">
+</onekit-object>
 
 <!-- <map> -->
 <!-- <onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
@@ -53,5 +63,6 @@ type="image/jpeg" data="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/
 漢 <onekit-rt><onekit-rp>(</onekit-rp>ㄏㄢˋ<onekit-rp>)</onekit-rp></onekit-rt>
 </onekit-ruby> -->
 
-<onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
-</onekit-ruby>
+<!-- <onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
+</onekit-ruby> -->
+

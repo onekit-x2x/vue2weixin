@@ -1,9 +1,45 @@
-<view
+<image  wx:if="{{type=='image'}}"
 class="onekit-object {{onekitClass}}"
-style="width:{{width}};height:{{height}};type:{{type}};data:{{data}};{{onekitStyle}}"  
+style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}}"  
 id="{{onekitId}}"
- 
-bindload="object_load"
+src="{{weixin_src}}"
+
+bindload="image_load"
 >
 <slot/>
-</view>
+</image>
+
+<audio wx:if="{{type=='audio'}}"
+class="onekit-object {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+src="{{src}}"
+controls="{{controls}}"
+loop="{{loop}}"
+autoplay="{{autoplay}}"
+muted="{{muted}}"
+preload="{{preload}}"
+
+bindplay="audio_play"
+bindpause="audio_pause"
+bindtimeupdate="audio_timeupdate"
+bindended="audio_ended"
+>
+<slot/>
+</audio>
+
+<video wx:if="{{type=='video'}}"
+class="onekit-object {{onekitClass}}"
+style="width:{{weixin_width}};height:{{weixin_height}};{{onekitStyle}};"
+src="{{src}}"
+autoplay="{{autoplay}}"
+controls="{{controls}}"
+duration="{{duration}}"
+loop="{{loop}}"
+muted="{{muted}}"
+poster="{{poster}}"
+
+bindloadedmetadata="video_loadedmetadata"
+bindplay="video_play"
+bindended="video_ended"
+>
+</video>

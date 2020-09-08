@@ -120,12 +120,10 @@
       "onekit-var": "/onekit/ui/var/var",
       "onekit-video": "/onekit/ui/video/video",
       "onekit-wbr": "/onekit/ui/wbr/wbr"
-    
   },
   "pages": [
-    "yang/yang", 
     "li/li",
-   
+    "yang/yang", 
     "gong/gong",
    
     "index"
