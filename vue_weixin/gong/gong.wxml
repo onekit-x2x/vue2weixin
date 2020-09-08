@@ -217,18 +217,18 @@ alt="Sun" />
 </onekit-p> -->
 
 
-<!-- <p>type=text、password、submit、button:</p>
-<hr />
-<div>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username">
-</div>
-<div>
-    <label for="pass">Password (8 characters minimum):</label>
-    <input type="password" id="pass" name="password"
-           minlength="8" required>
-</div>
-<input type="submit" value="Sign in"> -->
+ <onekit-p>type=text、password、submit、button:</onekit-p>
+<onekit-hr />
+<onekit-div>
+    <onekit-label for="username">Username:</onekit-label>
+    <onekit-input type="text" id="username" name="username"/>
+</onekit-div>
+<onekit-div>
+    <onekit-label for="pass">Password (8 characters minimum):</onekit-label>
+    <onekit-input type="password" id="pass" name="password"
+           minlength="8" required/>
+</onekit-div>
+<onekit-input type="submit" value="Sign in"/> 
 
 <onekit-p>type=button:</onekit-p>
 <onekit-hr/>
@@ -257,40 +257,42 @@ alt="Sun" />
 
 <onekit-p>type=image:</onekit-p>
 <onekit-hr />
-<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="50"/>
-<!-- 
-<p>type=radio、submit:</p>
-<hr />
+<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="200"/>
+
+
+
+<onekit-p>type=radio、submit:</onekit-p>
+<onekit-hr />
 <form>
-  <p>Please select your preferred contact method:</p>
-  <div>
-    <input type="radio" id="contactChoice1"
-     name="contact" value="email">
-    <label for="contactChoice1">Email</label>
+  <onekit-p>Please select your preferred contact method:</onekit-p>
+  <onekit-div>
+    <onekit-input type="radio" onekit-id="contactChoice1" onekit-class="aaa" onekit-style="bbb"
+     name="contact" value="email"/>
+    <onekit-label for="contactChoice1">Email</onekit-label>
 
-    <input type="radio" id="contactChoice2"
-     name="contact" value="phone">
-    <label for="contactChoice2">Phone</label>
+    <onekit-input type="radio" onekit-id="contactChoice2"
+     name="contact" value="phone"/>
+    <onekit-label for="contactChoice2">Phone</onekit-label>
 
-    <input type="radio" id="contactChoice3"
-     name="contact" value="mail">
-    <label for="contactChoice3">Mail</label>
-  </div>
-  <div>
-    <button type="submit">Submit</button>
-  </div>
+    <onekit-input type="radio" onekit-id="contactChoice3"
+     name="contact" value="mail"/>
+    <onekit-label for="contactChoice3">Mail</onekit-label>
+  </onekit-div>
+  <onekit-div>
+    <onekit-button type="submit">Submit</onekit-button>
+  </onekit-div>
 </form>
 
-<p>type=text、submit、reset:</p>
-<hr />
+<onekit-p>type=text、submit、reset:</onekit-p>
+<onekit-hr />
 <form>
-    <div class="controls">
+    <onekit-div class="controls">
 
-        <label for="id">User ID:</label>
-        <input type="text" id="id" name="id" />
+        <onekit-label for="id">User ID:</onekit-label>
+        <onekit-input type="text" onekit-id="id" name="id" />
 
-        <input type="reset" value="Reset">
-        <input type="submit" value="Submit">
+        <onekit-input type="reset" value="Reset"/>
+        <onekit-input type="submit" value="Submit"/>
 
-    </div>
-</form> -->
+    </onekit-div>
+</form>
