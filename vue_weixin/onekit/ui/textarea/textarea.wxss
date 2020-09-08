@@ -1,1 +1,6 @@
 /* onekit/ui/textarea/textarea.wxss */
+.onekit-textarea{
+  width: 163px;
+  height: 34px;
+  overflow-y: scroll;
+}

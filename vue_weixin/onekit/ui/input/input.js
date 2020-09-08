@@ -14,11 +14,12 @@ Component({
     accept:{type:String,value:""},
     disabled:{type:Boolean,value:false},
     placeholder:{type:String,value:""},
-    maxlength:{type:Number,value:140},
+    maxlength:{type:Number,value:10},
     width:{type:Number,value:""},
     height:{type:Number,value:""},
     src:{type:String,value:''},
     checked:{type:Boolean,value:false},
+    autofocus:{type:Boolean,value:false},
   },
   lifetimes:{
     attached(){
@@ -35,9 +36,7 @@ Component({
         this.setData({value});
       }
     },
-    detached: function() {
-     
-    },
+  
   },
   methods:{
     text_input(e){
@@ -47,20 +46,27 @@ Component({
         data[this.properties.vModel] = detail.value;
         TheKit.current().UC.setData(data);
       }
-    }
+    },
+    image_load(e){
+      const size = e.detail;
+      var data2 = {};
+      if(!this.properties.width && !this.properties.height){
+        data2.weixin_width = size.width+"px";
+        data2.weixin_height = size.height+"px";
+      }else      if(!this.properties.width && this.properties.height){
+        data2.weixin_width = size.width*this.properties.height/size.height+"px";
+      }else   if(this.properties.width && !this.properties.height){
+        data2.weixin_height = size.height*this.properties.width/size.width+"px";
+        }
+      this.setData(data2);
+    },
+    radio_tap(e){
+      if(this.properties.checked){
+
+
+      }
+    },
   },
 
-  image_load(e){
-    const size = e.detail;
-    var data2 = {};
-    if(!this.properties.width && !this.properties.height){
-      data2.weixin_width = size.width+"px";
-      data2.weixin_height = size.height+"px";
-    }else      if(!this.properties.width && this.properties.height){
-      data2.weixin_width = size.width*this.properties.height/size.height+"px";
-    }else   if(this.properties.width && !this.properties.height){
-      data2.weixin_height = size.height*this.properties.width/size.width+"px";
-      }
-    this.setData(data2);
-  }
+  
 })
