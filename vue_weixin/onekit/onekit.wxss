@@ -570,8 +570,9 @@ onekit-input[type="radio"] {
 }
 .onekit-th {
      font-weight: bold;
-     text-align: center;
+     text-align:center;
  }
+
 .onekit-tr {
     display: table-row;
     vertical-align: inherit;
