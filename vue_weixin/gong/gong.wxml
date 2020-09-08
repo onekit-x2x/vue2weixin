@@ -78,7 +78,7 @@ USA
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure> -->
 
-<onekit-img src="/pages/img/1.jpg" width="200" height="150" />
+
 
 <!-- font -->
 <!-- <onekit-footer>
@@ -146,10 +146,10 @@ mentioned in music, art, and literature</onekit-p> -->
 </onekit-fieldset>
 </form> -->
   
-<onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
+<!-- <onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
      Your browser does not support the
      <code>audio</code> element.
-</onekit-audio>
+</onekit-audio> -->
 
 
 <!-- dialog -->
@@ -297,3 +297,17 @@ alt="Sun" />
 
     </onekit-div>
 </form> -->
+<onekit-body>
+<onekit-img  onekit-style="display:block"  onekit-id="0" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" />
+<onekit-img onekit-style="display:block" onekit-id="1" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" />
+<onekit-img onekit-style="display:block" onekit-id="2" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="50%" />
+
+ <onekit-img onekit-style="display:block" onekit-id="3" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" />
+<onekit-img onekit-style="display:block" onekit-id="4" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="100" />
+<onekit-img onekit-style="display:block" onekit-id="5" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="100" /> 
+
+<onekit-img onekit-style="display:block" onekit-id="6" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="50%" />
+<onekit-img onekit-style="display:block" onekit-id="7" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="100" />
+<onekit-img onekit-style="display:block" onekit-id="8" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="50%" />
+
+</onekit-body>
