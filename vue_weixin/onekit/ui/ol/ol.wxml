@@ -1,15 +1,7 @@
-<view  wx:if="{{mode=='start'}}"
+<view
 class="onekit-ol {{onekitClass}}"
 style="counter-reset:section {{start}};list-style-type: none;{{onekitStyle}}"
 id="{{onekitId}}"
 >
 <slot/>
 </view>
-
-<view  wx:if="{{mode=='type'}}"
-class="onekit-ol {{onekitClass}}"
-style="{{onekitStyle}}"
-id="{{onekitId}}"
->
-<slot/>
-</view> 

@@ -1,10 +1,3 @@
-<!-- <ol> -->
-<!-- <onekit-ol start="2">
-  <onekit-li>vdfvf</onekit-li>
-  <onekit-li>cvc</onekit-li>
-  <onekit-li>bfgbf</onekit-li>
-</onekit-ol> -->
-
 <!-- <progress> -->
 <!-- <onekit-label for="file">File onekit-progress:</onekit-label>
 <onekit-progress id="file" max="100" value="70"></onekit-progress> -->
@@ -19,7 +12,7 @@
 </onekit-body> -->
 
 <!-- <object> -->
-<onekit-p>type=image:</onekit-p>
+<!-- <onekit-p>type=image:</onekit-p>
 <onekit-object height="100%" width="100%" type="image" 
 src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2229213961,1402242691&fm=26&gp=0.jpg">
 </onekit-object>
@@ -32,7 +25,7 @@ src="http://music.163.com/song/media/outer/url?id=28493605.mp3">
 <onekit-p>type=video:</onekit-p>
 <onekit-object type="video"
 src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400">
-</onekit-object>
+</onekit-object> -->
 
 <!-- <map> -->
 <!-- <onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
@@ -58,11 +51,69 @@ src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=3028020101042
   <onekit-rb>漢</onekit-rb>字
   <onekit-rp>(</onekit-rp><onekit-rt>han</onekit-rt>zi<onekit-rp>)</onekit-rp>
 </onekit-ruby>
-
 <onekit-ruby>
 漢 <onekit-rt><onekit-rp>(</onekit-rp>ㄏㄢˋ<onekit-rp>)</onekit-rp></onekit-rt>
 </onekit-ruby> -->
-
 <!-- <onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
 </onekit-ruby> -->
 
+<!-- <bdi> -->
+<!-- <onekit-h1>World wrestling championships</onekit-h1>
+<onekit-ul>
+   <onekit-li><onekit-bdi class="name">Evil Steven</onekit-bdi>: 1st place</onekit-li>
+   <onekit-li><onekit-bdi class="name">François fatale</onekit-bdi>: 2nd place</onekit-li>
+   <onekit-li><onekit-span class="name">تیز سمی</onekit-span>: 3rd place</onekit-li>
+   <onekit-li><onekit-bdi class="name">الرجل القوي إيان</onekit-bdi>: 4th place</onekit-li>
+   <onekit-li><onekit-span class="name" dir="auto">تیز سمی</onekit-span>: 5th place</onekit-li>
+</onekit-ul> -->
+
+<!-- <bdo> -->
+<!-- <onekit-h1>Famous seaside songs</onekit-h1>
+<onekit-p>The English song "Oh I do like to be beside the seaside"</onekit-p>
+<onekit-p>Looks like this in Hebrew: <onekit-span dir="rtl">אה, אני אוהב להיות ליד חוף הים</onekit-span></onekit-p>
+<onekit-p>In the computer's memory, this is stored as <onekit-bdo dir="ltr">אה, אני אוהב להיות ליד חוף הים</onekit-bdo></onekit-p> -->
+
+<!-- <body> -->
+<!-- <onekit-body>
+  <onekit-p>This is a paragraph</onekit-p>
+</onekit-body> -->
+
+<!-- <br> -->
+<!-- Mozilla Foundation<onekit-br/>
+1981 Landings Drive<onekit-br/>
+Building K<onekit-br/>
+Mountain View, CA 94043-0801<onekit-br/>
+USA -->
+
+<!-- <button> -->
+<!-- <onekit-button name="button">Click me</onekit-button> -->
+
+<!-- <caption> -->
+<!-- <onekit-h4>这个表格有一个标题，以及粗边框：</onekit-h4>
+<onekit-table border="6">
+<onekit-caption>我的标题</onekit-caption>
+<onekit-tr>
+  <onekit-td>100</onekit-td>
+  <onekit-td>200</onekit-td>
+  <onekit-td>300</onekit-td>
+</onekit-tr>
+<onekit-tr>
+  <onekit-td>400</onekit-td>
+  <onekit-td>500</onekit-td>
+  <onekit-td>600</onekit-td>
+</onekit-tr>
+</onekit-table> -->
+
+<!-- <ol> -->
+<!-- <onekit-ol start="2">
+  <onekit-li>vdfvf</onekit-li>
+  <onekit-li>cvc</onekit-li>
+  <onekit-li>bfgbf</onekit-li>
+</onekit-ol> -->
+
+<!-- <meter> -->
+<onekit-p>Heat the oven to <onekit-meter min="200" max="500"
+  value="350"></onekit-meter>.</onekit-p>
+
+<onekit-p>He got a <onekit-meter low="69" high="80" max="100"
+  value="84"></onekit-meter> on the exam.</onekit-p>

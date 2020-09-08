@@ -5,10 +5,10 @@
 } */
 /* .onekit-li{
   counter-reset:section 3;
-}
-.onekit-ol{
+}*/
+/* .onekit-ol{
   list-style-type: upper-roman;
-} */
+}  */
 
 /* .onekit-progress{
   display: -webkit-box;
