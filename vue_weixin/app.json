@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "onekit-body":"/onekit/ui/body/body",
     "onekit-a":"/onekit/ui/a/a",
     "onekit-address":"/onekit/ui/address/address",
     "onekit-br":"/onekit/ui/br/br",
@@ -38,9 +39,9 @@
     "onekit-button":"/onekit/ui/button/button"
   },
   "pages": [ 
+    "gong/gong",
     "li/li",
     "yang/yang",    
-    "gong/gong",
    
     "index"
   ],

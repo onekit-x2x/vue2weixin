@@ -9,8 +9,8 @@ Component({
     virtualHost: true
   },
   properties: {
-    width:{type:Number,value:""},
-    height:{type:Number,value:""},
+    width:{type:Number|String,value:""},
+    height:{type:Number|String,value:""},
     src:{
       type:String,
       value:''
@@ -41,10 +41,9 @@ Component({
   },
   lifetimes: {
     attached: function() {
-      const weixin_width =this.properties.width?this.properties.width+"px":"auto";
-      const weixin_height =this.properties.height?this.properties.height+"px":"auto";
+      const weixin_width =this.properties.width?(this.properties.width.indexOf("%")>=0?this.properties.width:(this.properties.width+"px")):"auto";
+      const weixin_height =this.properties.height?(this.properties.height.indexOf("%")>=0?this.properties.height:(this.properties.height+"px")):"auto";
       var weixin_src = this.properties.src;
-      
      
       if(!weixin_src.indexOf("://")){
         const currentUrl = TheKit.currentUrl();
@@ -52,8 +51,6 @@ Component({
     }
       this.setData({weixin_width,weixin_height,weixin_src});
     },
-    detached: function() {
-     
-    },
+    
   },
 })

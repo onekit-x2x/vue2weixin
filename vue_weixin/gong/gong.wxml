@@ -78,7 +78,6 @@ USA
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure> -->
 
-<onekit-img src="/pages/img/1.jpg" width="200" height="150" />
 
 <!-- font -->
 <!-- <onekit-footer>
@@ -145,11 +144,12 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-input type="radio" name="sex" onekit-id="female" />
 </onekit-fieldset>
 </form> -->
-  
+
+<!--   
 <onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
      Your browser does not support the
      <code>audio</code> element.
-</onekit-audio>
+</onekit-audio> -->
 
 
 <!-- dialog -->
@@ -297,3 +297,12 @@ alt="Sun" />
 
     </onekit-div>
 </form> -->
+
+<!-- <onekit-img src="/pages/img/1.jpg" onekit-id="1" width="20%"/>
+<onekit-img src="/pages/img/1.jpg" onekit-id="2" height="150" />
+<onekit-img src="/pages/img/1.jpg" onekit-id="3" width="20%" height="150" />
+<onekit-img src="/pages/img/1.jpg" onekit-id="4" width="200" height="150" /> -->
+<onekit-body>
+<onekit-img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" onekit-id="5" width="20%" height="50%" />
+</onekit-body>
+
