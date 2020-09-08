@@ -139,12 +139,23 @@
     </onekit-table> -->
         <onekit-cite>cite</onekit-cite>
         <onekit-code>code</onekit-code>
-      <dl>
-   <dt>计算机</dt>
-   <dd>用来计算的仪器 ... ...</dd>
-   <dt>显示器</dt>
-   <dd>以视觉方式显示信息的装置 ... ...</dd>
-</dl>
+      <onekit-dl>
+   <onekit-dt>计算机</onekit-dt>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+    <onekit-dd><onekit-img src="https://www.runoob.com/try/demo_source/img_the_scream.jpg"/></onekit-dd>
+   <onekit-dt>显示器</onekit-dt>
+   <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
+</onekit-dl>
+<onekit-del>删除文本</onekit-del>
+<onekit-dfn>定义项目</onekit-dfn>
+ <onekit-input list="browsers"/>
+<onekit-datalist id="browsers">
+  <onekit-option value="Internet Explorer"/>
+  <onekit-option value="Firefox"/>
+  <onekit-option value="Chrome"/>
+  <onekit-option value="Opera"/>
+  <onekit-option value="Safari"/>
+</onekit-datalist>
   </onekit-body>
 
 
