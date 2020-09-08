@@ -79,7 +79,7 @@
    你可以找到你所需要的所有的网站建设教程。
     </onekit-textarea>
     <onekit-video  src="https://www.w3school.com.cn/i/movie.ogg" ></onekit-video> -->
-    <!-- <onekit-table border="1" width="60%" bgcolor="#e9faff" cellpadding="2"  align="center">
+    <onekit-table border="1" width="60%" bgcolor="#e9faff" cellpadding="2"  align="center">
         <onekit-caption>课程表</onekit-caption>
         <onekit-tr align="center">
             <onekit-td colspan="2">时间\日期</onekit-td>
@@ -136,40 +136,7 @@
             <onekit-td>语文</onekit-td>
             <onekit-td>语文</onekit-td>
         </onekit-tr>
-    </onekit-table> -->
-    <onekit-table border="1">
-  
-    <onekit-tr >
-      <onekit-th>1</onekit-th>
-      <onekit-th>2</onekit-th>
-      <onekit-th>3</onekit-th>
-      <onekit-th>4</onekit-th>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td height="20%" width="20%">Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-</onekit-table>
+    </onekit-table>
   </onekit-body>
 
 
