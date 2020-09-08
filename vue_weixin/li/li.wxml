@@ -44,7 +44,14 @@ type="image/jpeg" data="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/
 </onekit-picture> -->
 
 
-<onekit-ruby>
+<!-- <onekit-ruby>
   <onekit-rb>漢</onekit-rb>字
   <onekit-rp>(</onekit-rp><onekit-rt>han</onekit-rt>zi<onekit-rp>)</onekit-rp>
+</onekit-ruby>
+
+<onekit-ruby>
+漢 <onekit-rt><onekit-rp>(</onekit-rp>ㄏㄢˋ<onekit-rp>)</onekit-rp></onekit-rt>
+</onekit-ruby> -->
+
+<onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
 </onekit-ruby>
