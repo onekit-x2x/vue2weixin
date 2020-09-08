@@ -1,4 +1,6 @@
-
+.onekit-page{
+    height:100%;
+}
 .onekit-html {
     -webkit-locale: "en";
 }
