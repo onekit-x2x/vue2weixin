@@ -3,9 +3,19 @@
   counter-increment: section;            
   content: counters(section, ".") ".";   
 } */
-.onekit-li{
+/* .onekit-li{
   counter-reset:section 3;
 }
 .onekit-ol{
   list-style-type: upper-roman;
-}
+} */
+
+/* .onekit-progress{
+  display: -webkit-box;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-orient: vertical;
+  line-clamp: 1; 
+} */
