@@ -58,7 +58,7 @@
         <onekit-td>$100</onekit-td>
       </onekit-tr>
       <onekit-tr>
-        <onekit-td height="70%" width="20" >February</onekit-td>
+        <onekit-td height="70%" width="70%" >February</onekit-td>
         <onekit-td>$80</onekit-td>
       </onekit-tr>
     </onekit-tbody >
