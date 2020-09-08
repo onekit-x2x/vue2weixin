@@ -31,9 +31,15 @@ Component({
       }
       this.setData({alignStyle});
      
-      var width;
+     var width;
       console.log(this.data.width)
-      if(this.data.width){}
+      if(!this.data.width.indexOf("%")){
+        width=this.data.width+"px"
+      }
+      else{
+        width=this.data.width
+      }
+      this.setData({width});
      }
   },
 })
