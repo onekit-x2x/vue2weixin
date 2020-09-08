@@ -69,9 +69,16 @@
       </onekit-tr>
     </onekit-tfoot>
   </onekit-table>
+  <onekit-summary>Copyright 2011.</onekit-summary>
+  <onekit-details> 
+  
+  <onekit-p>All pages and graphics on this web site are the property of W3School.</onekit-p>
+  <onekit-span>span</onekit-span>
+  </onekit-details>
    <onekit-textarea >
     在w3school，你可以找到你所需要的所有的网站建设教程。
     </onekit-textarea>
+    <onekit-video  src="https://www.w3school.com.cn/i/movie.ogg" ></onekit-video>
   </onekit-body>
 
 
