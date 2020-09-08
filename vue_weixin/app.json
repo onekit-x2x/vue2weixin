@@ -122,11 +122,11 @@
     
   },
   "pages": [
-    "yang/yang", 
+   
     "li/li",
    
     "gong/gong",
-   
+    "yang/yang", 
     "index"
   ],
   "window": {
