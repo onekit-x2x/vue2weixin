@@ -26,20 +26,16 @@ Component({
   },
    methods: {
         audio_play(e){
-          console.log("audio_play", e);
-          this.triggerEvent('play',e.details)
+          this.triggerEvent('play',e.detail)
         },
         audio_pause(e){
-          console.log("audio_pause", e);
-          this.triggerEvent('pause',e.details)
+          this.triggerEvent('pause',e.detail)
         },
         audio_ended(e){
-          console.log("audio_ended", e);
-          this.triggerEvent('ended',e.details)
+          this.triggerEvent('ended',e.detail)
         },
         audio_timeupdate(e){
-          console.log("audio_timeupdate", e);
-          this.triggerEvent('timeupdate',e.details)
+          this.triggerEvent('timeupdate',e.detail)
         },
         
 }

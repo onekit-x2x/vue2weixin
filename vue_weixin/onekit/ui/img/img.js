@@ -44,6 +44,8 @@ Component({
       const weixin_width =this.properties.width?this.properties.width+"px":"auto";
       const weixin_height =this.properties.height?this.properties.height+"px":"auto";
       var weixin_src = this.properties.src;
+      
+     
       if(!weixin_src.indexOf("://")){
         const currentUrl = TheKit.currentUrl();
         weixin_src =  "/"+fixurl(currentUrl,weixin_src);

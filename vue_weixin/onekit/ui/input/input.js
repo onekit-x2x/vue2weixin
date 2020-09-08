@@ -26,6 +26,15 @@ Component({
       const weixin_width =this.properties.width?this.properties.width+"px":"auto";
       const weixin_height =this.properties.height?this.properties.height+"px":"auto";
       var weixin_src = this.properties.src;
+      if(this.data.width.indexOf("%")>=0){
+        widthStyle=this.data.width
+      }
+      else{
+        widthStyle=this.data.width+"px"
+      }
+      this.setData({widthStyle});
+      var heightStyle;
+      console.log(this.data.width)
       if(!weixin_src.indexOf("://")){
         const currentUrl = TheKit.currentUrl();
         weixin_src =  "/"+fixurl(currentUrl,weixin_src);

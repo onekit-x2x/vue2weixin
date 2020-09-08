@@ -1,6 +1,6 @@
 <text
-class="onekit-rp "
-style="{{style}}"  id="{{id}}"
+class="onekit-rp {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 >
 <slot/>
 </text>
