@@ -78,7 +78,7 @@ USA
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure> -->
 
-<!-- <onekit-img src="/pages/img/1.jpg" width="200" height="150" /> -->
+<onekit-img src="/pages/img/1.jpg" width="200" height="150" />
 
 <!-- font -->
 <!-- <onekit-footer>
@@ -146,9 +146,10 @@ mentioned in music, art, and literature</onekit-p> -->
 </onekit-fieldset>
 </form> -->
   
-<!-- <onekit-audio src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/audio/music.mp3" 
-controls autoplay loop  preload>
-</onekit-audio> -->
+<onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
+     Your browser does not support the
+     <code>audio</code> element.
+</onekit-audio>
 
 
 <!-- dialog -->
@@ -216,7 +217,7 @@ alt="Sun" />
 所以我们同时向 map 元素添加了 "id" 和 "name" 属性。
 </onekit-p> -->
 
-
+<!-- 
  <onekit-p>type=text、password、submit、button:</onekit-p>
 <onekit-hr />
 <onekit-div>
@@ -295,4 +296,4 @@ alt="Sun" />
         <onekit-input type="submit" value="Submit"/>
 
     </onekit-div>
-</form>
+</form> -->
