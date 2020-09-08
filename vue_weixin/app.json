@@ -20,7 +20,6 @@
     "onekit-figure":"/onekit/ui/figure/figure",
     "onekit-figcaption":"/onekit/ui/figcaption/figcaption",
     "onekit-font":"/onekit/ui/font/font",
-
     "onekit-footer":"/onekit/ui/footer/footer",
     "onekit-head":"/onekit/ui/head/head",
     "onekit-header":"/onekit/ui/header/header",
@@ -125,7 +124,6 @@
     "li/li",
     "yang/yang", 
     "gong/gong",
-   
     "index"
   ],
   "window": {

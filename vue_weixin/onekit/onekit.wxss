@@ -8,7 +8,8 @@ html {
 body {
     display: block;
     margin: 8px;
-    height: 100%;
+    height:100%;
+    
 }
 .onekit-div {
     display: block;
@@ -571,9 +572,8 @@ onekit-input[type="radio"] {
 }
 .onekit-th {
      font-weight: bold;
-     text-align:center;
+     text-align: center;
  }
-
 .onekit-tr {
     display: table-row;
     vertical-align: inherit;

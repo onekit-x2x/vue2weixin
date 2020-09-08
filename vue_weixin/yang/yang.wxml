@@ -137,39 +137,9 @@
             <onekit-td>语文</onekit-td>
         </onekit-tr>
     </onekit-table> -->
-    <onekit-table border="1">
-  
-    <onekit-tr >
-      <onekit-th>1</onekit-th>
-      <onekit-th>2</onekit-th>
-      <onekit-th>3</onekit-th>
-      <onekit-th>4</onekit-th>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td height="20%" width="20%">Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-    <onekit-tr >
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-      <onekit-td>Month</onekit-td>
-      <onekit-td>Savings</onekit-td>
-    </onekit-tr>
-</onekit-table>
+        <onekit-cite>cite</onekit-cite>
+        <onekit-code>code</onekit-code>
+      
   </onekit-body>
 
 
