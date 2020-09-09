@@ -12,7 +12,10 @@ Component({
     virtualHost: true
   },
   properties: {
-
+    value:{
+      type:Number,
+      value:""
+    }
   },
 
   /**
@@ -26,6 +29,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    li_tap(){
+      const value = this.properties.value;
+      const text = this.properties.text || value;
+      this.triggerEvent('onekit_option_change', {value,text}, { bubbles: true, composed: true }) 
+    }
   }
 })

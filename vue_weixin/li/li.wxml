@@ -104,13 +104,6 @@ USA -->
 </onekit-tr>
 </onekit-table> -->
 
-<!-- <ol> -->
-<!-- <onekit-ol start="2">
-  <onekit-li>vdfvf</onekit-li>
-  <onekit-li>cvc</onekit-li>
-  <onekit-li>bfgbf</onekit-li>
-</onekit-ol> -->
-
 <!-- <meter> -->
 <!-- <onekit-p>Heat the oven to <onekit-meter min="200" max="500"
   value="350"></onekit-meter>.</onekit-p>
@@ -139,9 +132,41 @@ USA -->
 		</onekit-select> -->
 
 		<!-- <param> -->
-		<onekit-object data="https://img.tukuppt.com/newpreview_music/08/98/43/5c8892ad2134226422.mp3" type="audio">
+		<!-- <onekit-object data="https://img.tukuppt.com/newpreview_music/08/98/43/5c8892ad2134226422.mp3" type="audio">
 			<onekit-param name="autoplay" value="true"/>
-		</onekit-object>
+		</onekit-object> -->
 
+		<!-- <ol> -->
+		<onekit-ol start="2">
+			<onekit-li>vdfvf</onekit-li>
+			<onekit-li>cvc</onekit-li>
+			<onekit-li>bfgbf</onekit-li>
+		</onekit-ol>
+
+		<onekit-ol type="i">
+			<onekit-li>Introduction</onekit-li>
+			<onekit-li>List of Greivances</onekit-li>
+			<onekit-li>Conclusion</onekit-li>
+		</onekit-ol>
+
+		<onekit-ol type="a">
+			<onekit-li>Introduction</onekit-li>
+			<onekit-li>List of Greivances</onekit-li>
+			<onekit-li>Conclusion</onekit-li>
+		</onekit-ol>
+
+		<onekit-ol type="A">
+			<onekit-li>Introduction</onekit-li>
+			<onekit-li>List of Greivances</onekit-li>
+			<onekit-li>Conclusion</onekit-li>
+		</onekit-ol>
+
+		<onekit-ol type="I">
+			<onekit-li>Introduction</onekit-li>
+			<onekit-li>List of Greivances</onekit-li>
+			<onekit-li>Conclusion</onekit-li>
+		</onekit-ol>
 	</onekit-body>
 </onekit-html>
+
+

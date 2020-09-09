@@ -19,11 +19,15 @@ Component({
   lifetimes: {
     attached: function() {
       // 在组件实例进入页面节点树时执行
-      this.properties.start==this.properties.start--;
+      if (this.properties.type=="") {
+        this.properties.start==this.properties.start--;
       console.log(this.properties.start)
       this.setData({
         start: this.properties.start--
       })
+      }else{
+
+      }
     },
     detached: function() {
       // 在组件实例被从页面节点树移除时执行
@@ -36,6 +40,11 @@ Component({
   },
 
   methods: {
-
+    ol_tap(){
+      const newValue = e.detail.value;
+      const text = e.detail.text;
+      this.triggerEvent('change', {newValue}) 
+      this.setData({show:false,text});
+    }
   }
 })

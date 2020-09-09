@@ -2,6 +2,9 @@
 class="onekit-li {{onekitClass}}"
 style="{{onekitStyle}}"  
 id="{{onekitId}}"
+value="{{value}}"
+
+bindtap="li_tap"
 >
 <slot/>
 </view>
