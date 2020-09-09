@@ -212,6 +212,7 @@ onekit-input[type="radio"] {
     display: block;
     margin-top: 0;
 }
+
 .onekit-h1 {
      display: block;
      font-size: 2em;
@@ -221,6 +222,27 @@ onekit-input[type="radio"] {
     -webkit-margin-end: 0;
      font-weight: bold;
  }
+ .onekit-section .onekit-h1{
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+ }
+.onekit-article .onekit-h1{
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.onekit-nav .onekit-h1{
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.onekit-aside .onekit-h1{
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
  .onekit-h2 {
     display: block;
     font-size: 1.5em;
