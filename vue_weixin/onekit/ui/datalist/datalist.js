@@ -8,20 +8,23 @@ Component({
     virtualHost: true
   },
   properties: {
-
+    text:{type:String,value:""
+    }
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
+  data:{
+    show:false
   },
-
-  /**
-   * 组件的方法列表
-   */
   methods: {
-
+    select_click(){
+     this.setData({show:true});
+    },
+    option_change(e){
+      //console.log("B",e);
+   
+      const newValue = e.detail.value;
+      const text = e.detail.text;
+      this.triggerEvent('change', {newValue}) 
+      this.setData({show:false,text});
+    }
   }
 })

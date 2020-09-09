@@ -137,3 +137,18 @@ checked="{{checked}}"
 >
 <slot></slot>
 </checkbox>
+
+<input password wx:if="{{type=='list'}}"  
+class="onekit-input {{onekitClass}}"  
+style="{{onekitStyle}}"
+id="{{onekitId}}"
+auto-focus="{{autofocus}}"
+type="{{type}}"
+value="{{value}}" 
+accept="{{accept}}"
+disabled="{{disabled}}"
+maxlength="{{maxlength}}"
+>
+ {{text}}<text style="float:right">▾</text>
+<slot></slot>
+</input>

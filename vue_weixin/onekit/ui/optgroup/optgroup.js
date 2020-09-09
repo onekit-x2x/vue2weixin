@@ -7,7 +7,8 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {label:{type:String,value:"text"}
+  properties: {label:{type:String,value:"text"},
+  disabled:{type:Boolean,value:false}
 
   },
 
@@ -22,6 +23,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    optgroup_click(){
+      this.setData({disabled:true});
+     },
   }
 })

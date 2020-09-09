@@ -22,6 +22,7 @@ Component({
     autofocus:{type:Boolean,value:false},
   },
   lifetimes:{
+
     // attached(){
     //   const weixin_width =this.properties.width?this.properties.width+"px":"auto";
     //   const weixin_height =this.properties.height?this.properties.height+"px":"auto";
@@ -45,6 +46,8 @@ Component({
     //     this.setData({value});
     //   }
     // },
+
+   
   
   },
   methods:{
