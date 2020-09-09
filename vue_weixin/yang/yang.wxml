@@ -1,21 +1,16 @@
 <onekit-body>
-<!-- <onekit-select>
-    <onekit-option text ="volvo">Volvo</onekit-option>
-    <onekit-option text ="Saab">Saab</onekit-option>
-    <onekit-option text="Opel">Opel</onekit-option>
-    <onekit-option text="audi">Audi</onekit-option>
-  </onekit-select>
+<!-- 
   <onekit-p>zhesssssss</onekit-p>
   <onekit-span> span</onekit-span>
-  <onekit-strike>strike</onekit-strike>
- <onekit-strong>ste</onekit-strong>
- <onekit-sub>下标</onekit-sub>
- <onekit-sup>shangb</onekit-sup>
+  <onekit-strike>strike给文本加删除线</onekit-strike>
+ <onekit-strong>strong加粗文本</onekit-strong>
+ <onekit-sub>sub下标</onekit-sub>
+ <onekit-sup>sup上标</onekit-sup>
   <onekit-textarea rows="3" cols="20">
    
     </onekit-textarea>
     <onekit-p>我在 <onekit-time datetime="2008-02-14">情人节</onekit-time> 有个约会。</onekit-p>
-    <onekit-title>XHTML Tag Reference</onekit-title>
+
     <onekit-video width="320" height="240" controls="controls">
         <onekit-source src="forrest_gump.mp4" type="video/mp4" />
         <onekit-track kind="subtitles" src="subs_eng.srt" srclang="en" label="English"/>
@@ -39,11 +34,11 @@
            
           </onekit-summary>
           </onekit-details> -->
-          <!-- <onekit-tt>tt</onekit-tt>
+          <!-- <onekit-tt>tt打字机文本</onekit-tt>
 <onekit-u>对其使用下划线</onekit-u>
-<onekit-var>var</onekit-var>
-<onekit-wbr>wbr</onekit-wbr>
-<onekit-del>del</onekit-del> -->
+<onekit-var>变量</onekit-var>
+<onekit-wbr>wbr在文本中的何处适合添加换行符,换行提醒</onekit-wbr>
+<onekit-del>del删除文本</onekit-del> -->
 <!-- 
   <onekit-table  border="1" width="50%"   bgcolor="#00FF00" align="center">
     <onekit-thead align="right">
@@ -137,7 +132,7 @@
             <onekit-td>语文</onekit-td>
         </onekit-tr>
     </onekit-table> -->
-        <onekit-cite>cite</onekit-cite>
+        <!-- <onekit-cite>cite</onekit-cite>
         <onekit-code>code</onekit-code>
       <onekit-dl>
    <onekit-dt>计算机</onekit-dt>
@@ -147,21 +142,35 @@
    <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
 </onekit-dl>
 <onekit-del>删除文本</onekit-del>
-<onekit-dfn>定义项目</onekit-dfn>
+<onekit-dfn>定义项目</onekit-dfn> -->
  <onekit-input list="browsers"/>
-<onekit-datalist id="browsers">
-  <onekit-option value="Internet Explorer"/>
-  <onekit-option value="Firefox"/>
-  <onekit-option value="Chrome"/>
-  <onekit-option value="Opera"/>
-  <onekit-option value="Safari"/>
+
+<onekit-datalist id="browsers" onekit-style="background-color:green;">
+<onekit-option text="Internet Explorer"/>
+  <onekit-option text="Firefox"/>
+  <onekit-option text="Chrome"/>
+  <onekit-option text="Opera"/>
+  <onekit-option text="Safari"/>
 </onekit-datalist>
-<onekit-section>
+<!-- <onekit-section>
   <onekit-h1>WWF</onekit-h1>
   <onekit-p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</onekit-p>
 </onekit-section>
   <onekit-h1>WWF's Panda symbol</onekit-h1>
   <onekit-p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</onekit-p>
+  -->
+  <onekit-select>
+    <onekit-option text ="volvo">Volvo</onekit-option>
+    <onekit-option text ="Saab"  onekit-style="background-color:green;">Saab</onekit-option>
+    <onekit-option text="Opel">Opel</onekit-option>
+    <onekit-option text="audi">Audi</onekit-option>
+  </onekit-select> 
+   <onekit-details>
+          <onekit-summary>
+         HTML 5
+          </onekit-summary>
+          This document teaches you everything you have to learn about HTML 5.
+          </onekit-details>
 
   </onekit-body>
 

@@ -1,7 +1,8 @@
 <!--onekit/ui/datalist/datalist.wxml-->
 <view
 class="onekit-datalist {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>
+style="{{onekitStyle}}"  id="{{onekitId}}" bindtap="select_click"
+>{{text}}</view>
+<view class="onekit-datalist-box" wx:if="{{show}}" bindonekit_option_change="option_change">
+    <slot/>
+  </view>

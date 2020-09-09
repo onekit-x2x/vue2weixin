@@ -19,6 +19,7 @@ Component({
     },
     option_change(e){
       //console.log("B",e);
+   
       const newValue = e.detail.value;
       const text = e.detail.text;
       this.triggerEvent('change', {newValue}) 

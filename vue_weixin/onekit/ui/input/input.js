@@ -25,7 +25,8 @@ Component({
     attached(){
       const weixin_width =this.properties.width?this.properties.width+"px":"auto";
       const weixin_height =this.properties.height?this.properties.height+"px":"auto";
-      var weixin_src = this.properties.src;
+      var weixin_src = this.properties.src; 
+      var widthStyle;
       if(this.data.width.indexOf("%")>=0){
         widthStyle=this.data.width
       }
