@@ -14,17 +14,17 @@
 <!-- <object> -->
 <!-- <onekit-p>type=image:</onekit-p>
 <onekit-object height="100%" width="100%" type="image" 
-src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2229213961,1402242691&fm=26&gp=0.jpg">
+data="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2229213961,1402242691&fm=26&gp=0.jpg">
 </onekit-object>
 
 <onekit-p>type=audio:</onekit-p>
 <onekit-object type="audio"
-src="http://music.163.com/song/media/outer/url?id=28493605.mp3">
+data="http://music.163.com/song/media/outer/url?id=28493605.mp3">
 </onekit-object>
 
 <onekit-p>type=video:</onekit-p>
 <onekit-object type="video"
-src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400">
+data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400">
 </onekit-object> -->
 
 <!-- <map> -->
@@ -119,24 +119,29 @@ USA -->
   value="84"></onekit-meter> on the exam.</onekit-p> -->
 
 <onekit-html>
-<onekit-head>
-<onekit-meta charset="utf-8"/>
-<onekit-meta name="viewport" content="width=device-width, initial-scale=1.0"/>
- 
-</onekit-head>
-<onekit-body>
+	<onekit-head>
+		<onekit-meta charset="utf-8" />
+		<onekit-meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- <optgroup>-->
-  <onekit-select>
-	<onekit-optgroup label="Swedish Cars">
-		<onekit-option value="volvo">Volvo</onekit-option>
-		<onekit-option value="saab">Saab</onekit-option>
-	</onekit-optgroup>
-	<onekit-optgroup label="German Cars">
-		<onekit-option value="mercedes">Mercedes</onekit-option>
-		<onekit-option value="audi">Audi</onekit-option>
-	</onekit-optgroup>
-</onekit-select>
+	</onekit-head>
+	<onekit-body>
 
-</onekit-body>
+		<!-- <optgroup>-->
+		<!-- <onekit-select>
+			<onekit-optgroup label="Swedish Cars">
+				<onekit-option value="volvo">Volvo</onekit-option>
+				<onekit-option value="saab">Saab</onekit-option>
+			</onekit-optgroup>
+			<onekit-optgroup label="German Cars">
+				<onekit-option value="mercedes">Mercedes</onekit-option>
+				<onekit-option value="audi">Audi</onekit-option>
+			</onekit-optgroup>
+		</onekit-select> -->
+
+		<!-- <param> -->
+		<onekit-object data="https://img.tukuppt.com/newpreview_music/08/98/43/5c8892ad2134226422.mp3" type="audio">
+			<onekit-param name="autoplay" value="true"/>
+		</onekit-object>
+
+	</onekit-body>
 </onekit-html>

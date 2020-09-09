@@ -38,7 +38,7 @@ Component({
       type: Boolean,
       value: false,
     },
-    src: {
+    data: {
       type: String,
       value: "",
     },
@@ -76,7 +76,7 @@ Component({
       // 在组件实例进入页面节点树时执行
       const weixin_width = this.properties.width ? this.properties.width + "px" : "auto";
       const weixin_height = this.properties.height ? this.properties.height + "px" : "auto";
-      var weixin_src = this.properties.src;
+      var weixin_src = this.properties.data;
 
 
       if (!weixin_src.indexOf("://")) {

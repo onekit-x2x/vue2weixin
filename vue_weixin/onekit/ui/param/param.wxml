@@ -2,6 +2,9 @@
 class="onekit-param {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 name="{{name}}"
+value="{{value}}"
+
+bindtap="param_tap"
 >
 <slot/>
 </view>
