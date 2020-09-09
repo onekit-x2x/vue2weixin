@@ -42,9 +42,7 @@ Component({
   methods: {
     ol_tap(){
       const newValue = e.detail.value;
-      const text = e.detail.text;
-      this.triggerEvent('change', {newValue}) 
-      this.setData({show:false,text});
+      this.triggerEvent('tap', {newValue}) 
     }
   }
 })

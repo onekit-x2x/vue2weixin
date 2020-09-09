@@ -31,8 +31,7 @@ Component({
   methods: {
     li_tap(){
       const value = this.properties.value;
-      const text = this.properties.text || value;
-      this.triggerEvent('onekit_option_change', {value,text}, { bubbles: true, composed: true }) 
+      this.triggerEvent('onekit_ol_tap', {value}, { bubbles: true, composed: true }) 
     }
   }
 })
