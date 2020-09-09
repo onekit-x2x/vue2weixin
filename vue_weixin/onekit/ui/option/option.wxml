@@ -1,1 +1,8 @@
-<text  class="onekit-option {{onekitClass}}" style="{{onekitStyle}}" id="{{onekitId}}" bindtap="option_tap">{{text}}</text>
+<view 
+  class="onekit-option {{onekitClass}}" 
+  style="{{onekitStyle}}" 
+  id="{{onekitId}}" 
+
+  bindtap="option_tap"
+>{{value}}
+</view> 

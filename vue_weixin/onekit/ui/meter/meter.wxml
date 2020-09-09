@@ -8,6 +8,7 @@ min="{{min}}"
 high="{{high}}"
 low="{{low}}"
 form="{{form}}"
+color="{{color}}"
 >
 <slot/>
 </progress>

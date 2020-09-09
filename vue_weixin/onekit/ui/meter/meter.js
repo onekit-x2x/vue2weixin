@@ -14,7 +14,8 @@ Component({
     high:{type:Number,value:""},
     low:{type:Number,value:""},
     form:{type:String,value:""},
-    percent:{type:Number,value:""}
+    percent:{type:Number,value:""},
+    color:{type:String,value:"#09BB07"}
 
   },
 
