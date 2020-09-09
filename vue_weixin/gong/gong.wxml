@@ -1,12 +1,12 @@
 
 
-<!-- a -->
+<!------------------------------------------------------------ a --------------------------------------->
 <!-- <onekit-a href="https://baidu.com">Website</onekit-a>
 <onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
 <onekit-a href="tel:+123456789">Phone</onekit-a> -->
 
 
-<!-- address -->
+<!------------------------------------------------------- address ---------------------------------------->
 <!-- <onekit-address>
 Written by <onekit-a href="mailto:webmaster@example.com">Donald Duck</onekit-a>.<onekit-br/> 
 Visit us at:<onekit-br/>
@@ -16,7 +16,7 @@ USA
 </onekit-address> -->
 
 
-<!-- b -->
+<!----------------------------------------------------------- b --------------------------------------------->
 <!-- <p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</p> -->
 
 
@@ -25,7 +25,7 @@ USA
 
 
 
-<!-- div -->
+<!------------------------------------------------------ div --------------------------------------------->
 <!-- <onekit-h3>This is a header</onekit-h3>
 <onekit-p>This is a paragraph.</onekit-p>
 <onekit-div onekit-style="color:red">
@@ -35,7 +35,7 @@ USA
 
 
 
-<!-- dl、dt、dd -->
+<!------------------------------------------------ dl、dt、dd -------------------------------------------->
 <!-- <onekit-dl>
    <onekit-dt>计算机</onekit-dt>
    <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
@@ -46,13 +46,13 @@ USA
 </onekit-dl> -->
 
 
-<!-- em -->
+<!------------------------------------------------------ em ----------------------------------------------------------->
 <!-- <onekit-p>
   In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
 </onekit-p> -->
 
 
-<!-- h -->
+<!------------------------------------------------------ h --------------------------------------------------------------->
 <!-- <onekit-h1>这是标题 1</onekit-h1>
 <onekit-h2>这是标题 2</onekit-h2>
 <onekit-h3>这是标题 3</onekit-h3>
@@ -62,14 +62,14 @@ USA
 
 
 
-<!-- p -->
+<!------------------------------------------------------- p ----------------------------------------------------------------->
 <!-- <onekit-p>这是段落。</onekit-p>
 <onekit-p>这是段落。</onekit-p>
 <onekit-p>这是段落。</onekit-p>
 <onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
 
 
-<!-- figure   figcaption -->
+<!---------------------------------------------------- figure   figcaption ------------------------------------------------------>
 <!-- <onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
 <onekit-figure>
   <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
@@ -80,14 +80,14 @@ USA
 
 
 
-<!-- font -->
+<!----------------------------------------------------- font ------------------------------------------>
 <!-- <onekit-footer>
   <onekit-p>Posted by: W3School</onekit-p>
   <onekit-p>Contact information: <onekit-a href="mailto:someone@example.com">someone@example.com</onekit-a>.</onekit-p>
 </onekit-footer> -->
 
 
-<!-- hr -->
+<!-------------------------------------------------------- hr ----------------------------------------->
 <!-- <onekit-p>hr 标签定义水平线：</onekit-p>
 <onekit-hr/>
 <onekit-p>这是段落。</onekit-p>
@@ -96,26 +96,26 @@ USA
 <onekit-hr/>
 <onekit-p>这是段落。</onekit-p> -->
 
-<!-- i -->
+<!-------------------------------------------------------- i ----------------------------------------------->
 <!-- <onekit-p>The Latin phrase <onekit-i class="latin">Veni, vidi, vici</onekit-i> is often
 mentioned in music, art, and literature</onekit-p> -->
 
-<!-- iframe -->
+<!------------------------------------------------------- iframe ---------------------------------------------->
 <!-- <onekit-iframe src ="/pages/img/1.jpg" width="400" height="300" frameborder="0">
   <onekit-p>Your browser does not support iframes.</onekit-p>
 </onekit-iframe> -->
 
-<!-- ins -->
+<!------------------------------------------------------- ins --------------------------------------------------->
 <!-- <onekit-p>一打有 <onekit-del>二十</onekit-del> <onekit-ins>十二</onekit-ins> 件。</onekit-p>
 <onekit-p>大多数浏览器会改写为删除文本和下划线文本。</onekit-p>
 <onekit-p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</onekit-p> -->
 
-<!-- kbd -->
+<!------------------------------------------------------- kbd ------------------------------------------------------>
 <!-- <onekit-p>Type the following in the Run dialog: <onekit-kbd>cmd</onekit-kbd><onekit-br/>Then click the OK button.</onekit-p>
 <onekit-p>Save the document by pressing <onekit-kbd>Ctrl</onekit-kbd> + <onekit-kbd>S</onekit-kbd></onekit-p> -->
 
 
-<!-- label -->
+<!------------------------------------------------------ label ------------------------------------------------------>
 <!-- <onekit-div onekit-class="preference">
     <onekit-label for="cheese">Do you like cheese?</onekit-label>
     <onekit-input type="checkbox" name="cheese" onekit-onekit-id="cheese"/>
@@ -126,6 +126,7 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-input type="checkbox" name="peas" onekit-onekit-id="peas"/>
 </onekit-div> -->
 
+<!-- ----------------------------------------------  列表dl、dt、dd：  ------------------------------------------------------- -->
 <!-- <onekit-p>列表dl、dt、dd：</onekit-p>
 <onekit-dl>
    <onekit-dt>列表1<onekit-dialog open>这是打开的对话窗口</onekit-dialog></onekit-dt>
@@ -136,29 +137,21 @@ mentioned in music, art, and literature</onekit-p> -->
      <onekit-dd>4</onekit-dd>
 </onekit-dl> -->
 
-<!-- <onekit-fieldset>
-    <onekit-legend>健康信息</onekit-legend>
-    <onekit-label for="male">Male</onekit-label>
-    <onekit-input type="radio" name="sex" onekit-id="male" />
-    <onekit-br />
-    <onekit-label for="female">Female</onekit-label>
-    <onekit-input type="radio" name="sex" onekit-id="female" />
-</onekit-fieldset>
-</form> -->
   
+<!-- ---------------------------------------------  audio  -------------------------------------------------- -->
 <!-- <onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
      Your browser does not support the
      <code>audio</code> element.
 </onekit-audio> -->
 
 
-<!-- dialog -->
+<!-----------------------------------------------------------------  dialog  ------------------------------------>
 <!--  
  <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
   <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog> -->
    
 
-   <!-- fieldset legend-->
+<!---------------------------------------------------  fieldset legend  ------------------------------------------->
   <!-- <onekit-fieldset>
     <onekit-legend>Choose your favorite monster</onekit-legend>
 
@@ -186,38 +179,27 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-label>Mothman</onekit-label>
 </onekit-fieldset> -->
 
-<!-- 
-<onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
-<onekit-img
-src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3575533297,479716679&fm=26&gp=0.jpg"
-border="0" usemap="#planetmap"
-alt="Planets" />
-<onekit-map name="planetmap" id="planetmap">
-<onekit-area
-shape="circle"
-coords="120,126,10"
-href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=345683711,3744347852&fm=26&gp=0.jpg"
-target ="_blank"
-alt="Venus" />
-<onekit-area
-shape="polygon"
-coords="120,340,100,385,140,385"
-href ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599460681962&di=ce27231cf21cdd1c4d0e24ff7fd6bf5e&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F19%2F05%2F01%2F129c4ab8426ecc90a56a953a8e668325.jpg"
-target ="_blank"
-alt="Mercury" />
-<onekit-area
-shape="rect"
-coords="132,405,150,420"
-href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1706177023,2397564444&fm=26&gp=0.jpg"
-target ="_blank"
-alt="Sun" />
-</onekit-map>
-<onekit-p><onekit-b>注释：
-</onekit-b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），
-所以我们同时向 map 元素添加了 "id" 和 "name" 属性。
-</onekit-p> -->
 
-<!-- 
+<!-- ----------------------------------------------  area  ------------------------------------------------------------ -->
+<!-- <onekit-body>
+<onekit-p>请点击图像，把它们放大。</onekit-p>
+<onekit-img src="/gong/chineseMap2.jpg" border="0" usemap="#chinesemap" alt="chinesemap"></onekit-img>
+<onekit-map name="chinesemap" onekit-id="chinesemap">
+
+
+<onekit-area shape="polygon" 
+coords=
+"101,52,94,55,91,60,84,57,79,66,71,66,71,75,66,80,39,84,41,90,40,98,42,102,42,107,48,111,50,118,94,119,100,120,102,114,100,109,108,106,111,100,126,89,117,76,109,73,109,62"
+href ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599646438911&di=d393ac0fa026524a3b20c9f2309a23da&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F-fo3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F29381f30e924b899cf0cfcc268061d950a7bf61c.jpg"
+target ="_blank"
+alt="Venus">
+
+</onekit-area>
+</onekit-map>
+</onekit-body> -->
+
+<!-- ----------------------------------------------  input  ------------------------------------------------------------ -->
+
  <onekit-p>type=text、password、submit、button:</onekit-p>
 <onekit-hr />
 <onekit-div>
@@ -296,8 +278,11 @@ alt="Sun" />
         <onekit-input type="submit" value="Submit"/>
 
     </onekit-div>
-</form> -->
-<onekit-body>
+</form> 
+
+
+<!-- ----------------------------------------------  img  ------------------------------------------------------------ -->
+<!-- <onekit-body>
 <onekit-img  onekit-style="display:block"  onekit-id="0" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" />
 <onekit-img onekit-style="display:block" onekit-id="1" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" />
 <onekit-img onekit-style="display:block" onekit-id="2" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="50%" />
@@ -310,4 +295,4 @@ alt="Sun" />
 <onekit-img onekit-style="display:block" onekit-id="7" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="100" />
 <onekit-img onekit-style="display:block" onekit-id="8" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="50%" />
 
-</onekit-body>
+</onekit-body> -->

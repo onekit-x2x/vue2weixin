@@ -50,6 +50,7 @@ var HEIGHT = res[0].height;
     that.setData(data2);
 });
      
+
     }
   },
   lifetimes: {

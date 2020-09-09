@@ -1,8 +1,0 @@
-<!--onekit/ui/area/area.wxml-->
-<view
-class="onekit-area {{onekitClass}}"
-style="{{onekitStyle}}"  
-id="{{onekitId}}"
->
-<slot/>
-</view>
