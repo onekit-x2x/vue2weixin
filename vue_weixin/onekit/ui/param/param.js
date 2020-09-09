@@ -25,7 +25,8 @@ Component({
       console.log(this.properties.value)
 
       this.setData({
-
+        name: this.properties.name,
+        value:this.properties.value,
       })
     },
     detached: function() {
@@ -36,7 +37,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    
   },
 
   /**
@@ -44,7 +45,9 @@ Component({
    */
   methods: {
     param_tap(){
-
+      const name = this.properties.name;
+      const value = this.properties.value;
+      this.triggerEvent('onekit_audio_play', {name,value}, { bubbles: true, composed: true }) 
     }
   }
 })
