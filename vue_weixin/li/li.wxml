@@ -30,11 +30,11 @@ data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=302802010104
 
 	<!-- <map> -->
 	<!-- <onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
-<onekit-img src="https://www.w3school.com.cn/i/eg_planets.jpg" border="0" usemap="#planetmap" alt="Planets" />
+<onekit-img src="https://www.w3school.com.cn/i/eg_planets.jpg"usemap="#planetmap" alt="Planets" />
 <onekit-map name="planetmap" id="planetmap">
-	<onekit-area shape="circle" coords="180,139,14" href="https://www.w3school.com.cn/example/html/venus.html" target="_blank" alt="Venus" />
-	<onekit-area shape="circle" coords="129,161,10" href="https://www.w3school.com.cn/example/html/mercur.html" target="_blank" alt="Mercury" />
-	<onekit-area shape="rect" coords="0,0,110,260" href="https://www.w3school.com.cn/example/html/sun.html" target="_blank" alt="Sun" />
+	<onekit-area shape="circle" coords="180,139,14" href="https://www.w3school.com.cn/example/html/venus.html"  alt="Venus" />
+	<onekit-area shape="circle" coords="129,161,10" href="https://www.w3school.com.cn/example/html/mercur.html" alt="Mercury" />
+	<onekit-area shape="rect" coords="0,0,110,260" href="https://www.w3school.com.cn/example/html/sun.html" alt="Sun" />
 </onekit-map>
 <onekit-p><onekit-b>注释：</onekit-b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</onekit-p> -->
 
@@ -138,7 +138,7 @@ USA -->
 			<onekit-li>vdfvf</onekit-li>
 			<onekit-li>cvc</onekit-li>
 			<onekit-li>bfgbf</onekit-li>
-		</onekit-ol>
+		</onekit-ol> -->
 
 		<onekit-ol type="i">
 			<onekit-li>Introduction</onekit-li>
@@ -146,7 +146,7 @@ USA -->
 			<onekit-li>Conclusion</onekit-li>
 		</onekit-ol>
 
-		<onekit-ol type="a">
+		<!-- <onekit-ol type="a">
 			<onekit-li>Introduction</onekit-li>
 			<onekit-li>List of Greivances</onekit-li>
 			<onekit-li>Conclusion</onekit-li>
@@ -165,9 +165,12 @@ USA -->
 		</onekit-ol> -->
 
 
-	<onekit-noscript>
-		<!-- anchor linking to external file -->
-		<onekit-a href="http://www.baidu.com/">External Link</onekit-a>
+	<!-- <onekit-noscript> -->
+	<!-- anchor linking to external file -->
+	<!-- <onekit-a href="http://www.baidu.com/">External Link</onekit-a>
 	</onekit-noscript>
-	<onekit-p>Rocks!</onekit-p>
+	<onekit-p>Rocks!</onekit-p> -->
+
+	<!-- <onekit-canvas canvas-id="canvas" width="300" height="300">
+	</onekit-canvas> -->
 </onekit-body>

@@ -118,11 +118,7 @@ Component({
       this.setData(data2);
     },
     audio_play(e) {
-      // this.triggerEvent('play', e.detail)
-      const name = e.detail.name;
-      const newValue = e.detail.value;
-      this.triggerEvent('change', {newValue}) 
-      this.setData({autoplay:false,name});
+      this.triggerEvent('play', e.detail)
     },
     audio_pause(e) {
       this.triggerEvent('pause', e.detail)
