@@ -145,12 +145,12 @@
 <onekit-dfn>定义项目</onekit-dfn> -->
  <onekit-input list="browsers"/>
 
-<onekit-datalist id="browsers" onekit-style="background-color:green;">
-<onekit-option text="Internet Explorer"/>
-  <onekit-option text="Firefox"/>
-  <onekit-option text="Chrome"/>
-  <onekit-option text="Opera"/>
-  <onekit-option text="Safari"/>
+<onekit-datalist id="browsers" >
+<onekit-option value="Internet Explorer"/>
+  <onekit-option value="Firefox"/>
+  <onekit-option value="Chrome"/>
+  <onekit-option value="Opera"/>
+  <onekit-option value="Safari"/>
 </onekit-datalist>
 <!-- <onekit-section>
   <onekit-h1>WWF</onekit-h1>
@@ -160,10 +160,10 @@
   <onekit-p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</onekit-p>
   -->
   <onekit-select>
-    <onekit-option text ="volvo">Volvo</onekit-option>
-    <onekit-option text ="Saab"  onekit-style="background-color:green;">Saab</onekit-option>
-    <onekit-option text="Opel">Opel</onekit-option>
-    <onekit-option text="audi">Audi</onekit-option>
+    <onekit-option value ="volvo">Volvo</onekit-option>
+    <onekit-option value ="Saab">Saab</onekit-option>
+    <onekit-option value="Opel">Opel</onekit-option>
+    <onekit-option value="audi">Audi</onekit-option>
   </onekit-select> 
    <onekit-details>
           <onekit-summary>
@@ -171,7 +171,22 @@
           </onekit-summary>
           This document teaches you everything you have to learn about HTML 5.
           </onekit-details>
+<onekit-ul type="square">
+  <onekit-li>Coffee</onekit-li>
+  <onekit-li>Tea</onekit-li>
+  <onekit-li>Milk</onekit-li>
+</onekit-ul>
 
+<onekit-ul type="circle">
+  <onekit-li>Coffee</onekit-li>
+  <onekit-li>Tea</onekit-li>
+  <onekit-li>Milk</onekit-li>
+</onekit-ul>
+<onekit-ul type="disc">
+  <onekit-li>Coffee</onekit-li>
+  <onekit-li>Tea</onekit-li>
+  <onekit-li>Milk</onekit-li>
+</onekit-ul>
   </onekit-body>
 
 
