@@ -11,7 +11,7 @@ Component({
     virtualHost: true
   },
   properties: {
-   
+    type:{type:String,value:"disc"}
 
   },
 
@@ -20,6 +20,14 @@ Component({
    */
   data: {
 
+  },
+  lifetimes:{
+    attached: function () {
+      var typeStyle;
+      console.log(this.properties.type)
+      typeStyle=this.properties.type
+      this.setData({typeStyle});
+    }
   },
 
   /**
