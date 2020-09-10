@@ -44,10 +44,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    param_tap(){
-      const name = this.properties.name;
-      const value = this.properties.value;
-      this.triggerEvent('onekit_audio_play', {name,value}, { bubbles: true, composed: true }) 
-    }
+    
   }
 })

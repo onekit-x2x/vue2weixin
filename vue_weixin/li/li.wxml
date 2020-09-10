@@ -1,11 +1,10 @@
-
-	<onekit-body>
-<!-- <progress> -->
-<!-- <onekit-label for="file">File onekit-progress:</onekit-label>
+<onekit-body>
+	<!-- <progress> -->
+	<!-- <onekit-label for="file">File onekit-progress:</onekit-label>
 <onekit-progress id="file" max="100" value="70"></onekit-progress> -->
 
-<!-- <blockquote> -->
-<!-- <onekit-body>
+	<!-- <blockquote> -->
+	<!-- <onekit-body>
 	Here comes a long quotation:
 	<onekit-blockquote>
 		This is a long quotation. This is a long quotation. This is a long quotation. This is a long quotation. This is a long quotation.
@@ -13,8 +12,8 @@
 	请注意，浏览器在 blockquote 元素前后添加了换行，并增加了外边距。
 </onekit-body> -->
 
-<!-- <object> -->
-<!-- <onekit-p>type=image:</onekit-p>
+	<!-- <object> -->
+	<!-- <onekit-p>type=image:</onekit-p>
 <onekit-object height="100%" width="100%" type="image" 
 data="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2229213961,1402242691&fm=26&gp=0.jpg">
 </onekit-object>
@@ -29,19 +28,19 @@ data="http://music.163.com/song/media/outer/url?id=28493605.mp3">
 data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400">
 </onekit-object> -->
 
-<!-- <map> -->
-<!-- <onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
-<onekit-img src="https://www.w3school.com.cn/i/eg_planets.jpg" border="0" usemap="#planetmap" alt="Planets" />
+	<!-- <map> -->
+	<!-- <onekit-p>请点击图像上的星球，把它们放大。</onekit-p>
+<onekit-img src="https://www.w3school.com.cn/i/eg_planets.jpg"usemap="#planetmap" alt="Planets" />
 <onekit-map name="planetmap" id="planetmap">
-	<onekit-area shape="circle" coords="180,139,14" href="https://www.w3school.com.cn/example/html/venus.html" target="_blank" alt="Venus" />
-	<onekit-area shape="circle" coords="129,161,10" href="https://www.w3school.com.cn/example/html/mercur.html" target="_blank" alt="Mercury" />
-	<onekit-area shape="rect" coords="0,0,110,260" href="https://www.w3school.com.cn/example/html/sun.html" target="_blank" alt="Sun" />
+	<onekit-area shape="circle" coords="180,139,14" href="https://www.w3school.com.cn/example/html/venus.html"  alt="Venus" />
+	<onekit-area shape="circle" coords="129,161,10" href="https://www.w3school.com.cn/example/html/mercur.html" alt="Mercury" />
+	<onekit-area shape="rect" coords="0,0,110,260" href="https://www.w3school.com.cn/example/html/sun.html" alt="Sun" />
 </onekit-map>
 <onekit-p><onekit-b>注释：</onekit-b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</onekit-p> -->
 
 
-<!-- <picture> -->
-<!-- <onekit-h2>picture 元素</onekit-h2>
+	<!-- <picture> -->
+	<!-- <onekit-h2>picture 元素</onekit-h2>
 <onekit-picture>
   <onekit-source media="(min-width: 650px)" srcset="https://static.runoob.com/images/mix/html-css-js.png"/>
   <onekit-source media="(min-width: 465px)" srcset="https://static.runoob.com/images/mix/htmlbig.png"/>
@@ -49,7 +48,7 @@ data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=302802010104
 </onekit-picture> -->
 
 
- <!-- <onekit-ruby>
+	<!-- <onekit-ruby>
   <onekit-rb>漢</onekit-rb>字
   <onekit-rp>(</onekit-rp><onekit-rt>han</onekit-rt>zi<onekit-rp>)</onekit-rp>
 </onekit-ruby>
@@ -58,8 +57,8 @@ data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=302802010104
 </onekit-ruby>  -->
 
 
-<!-- <bdi> -->
-<!-- <onekit-h1>World wrestling championships</onekit-h1>
+	<!-- <bdi> -->
+	<!-- <onekit-h1>World wrestling championships</onekit-h1>
 <onekit-ul>
    <onekit-li><onekit-bdi class="name">Evil Steven</onekit-bdi>: 1st place</onekit-li>
    <onekit-li><onekit-bdi class="name">François fatale</onekit-bdi>: 2nd place</onekit-li>
@@ -68,29 +67,29 @@ data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=302802010104
    <onekit-li><onekit-span class="name" dir="auto">تیز سمی</onekit-span>: 5th place</onekit-li>
 </onekit-ul> -->
 
-<!-- <bdo> -->
-<!-- <onekit-h1>Famous seaside songs</onekit-h1>
+	<!-- <bdo> -->
+	<!-- <onekit-h1>Famous seaside songs</onekit-h1>
 <onekit-p>The English song "Oh I do like to be beside the seaside"</onekit-p>
 <onekit-p>Looks like this in Hebrew: <onekit-span dir="rtl">אה, אני אוהב להיות ליד חוף הים</onekit-span></onekit-p>
 <onekit-p>In the computer's memory, this is stored as <onekit-bdo dir="ltr">אה, אני אוהב להיות ליד חוף הים</onekit-bdo></onekit-p> -->
 
-<!-- <body> -->
-<!-- <onekit-body>
+	<!-- <body> -->
+	<!-- <onekit-body>
   <onekit-p>This is a paragraph</onekit-p>
 </onekit-body> -->
 
-<!-- <br> -->
-<!-- Mozilla Foundation<onekit-br/>
+	<!-- <br> -->
+	<!-- Mozilla Foundation<onekit-br/>
 1981 Landings Drive<onekit-br/>
 Building K<onekit-br/>
 Mountain View, CA 94043-0801<onekit-br/>
 USA -->
 
-<!-- <button> -->
-<!-- <onekit-button name="button">Click me</onekit-button> -->
+	<!-- <button> -->
+	<!-- <onekit-button name="button">Click me</onekit-button> -->
 
-<!-- <caption> -->
-<!-- <onekit-h4>这个表格有一个标题，以及粗边框：</onekit-h4>
+	<!-- <caption> -->
+	<!-- <onekit-h4>这个表格有一个标题，以及粗边框：</onekit-h4>
 <onekit-table border="6">
 <onekit-caption>我的标题</onekit-caption>
 <onekit-tr>
@@ -105,20 +104,20 @@ USA -->
 </onekit-tr>
 </onekit-table> -->
 
-<!-- <meter> -->
-<!-- <onekit-p>Heat the oven to <onekit-meter min="200" max="500"
+	<!-- <meter> -->
+	<!-- <onekit-p>Heat the oven to <onekit-meter min="200" max="500"
   value="350"></onekit-meter>.</onekit-p>
 
 <onekit-p>He got a <onekit-meter low="69" high="80" max="100"
   value="84"></onekit-meter> on the exam.</onekit-p> -->
 
 
-<onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
-</onekit-ruby>
+	<!-- <onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
+</onekit-ruby> -->
 
 
-		<!-- <optgroup>-->
-		<!-- <onekit-select>
+	<!-- <optgroup>-->
+	<!-- <onekit-select>
 			<onekit-optgroup label="Swedish Cars">
 				<onekit-option value="volvo">Volvo</onekit-option>
 				<onekit-option value="saab">Saab</onekit-option>
@@ -129,18 +128,17 @@ USA -->
 			</onekit-optgroup>
 		</onekit-select> -->
 
-		<!-- <param> -->
-		<!-- <onekit-object data="https://img.tukuppt.com/newpreview_music/08/98/43/5c8892ad2134226422.mp3" type="audio">
+	<!-- <param> -->
+	<!-- <onekit-object data="https://img.tukuppt.com/newpreview_music/08/98/43/5c8892ad2134226422.mp3" type="audio">
 			<onekit-param name="autoplay" value="true"/>
 		</onekit-object> -->
 
-		<!-- <ol> -->
-		<!--
-		<onekit-ol start="2">
+	<!-- <ol> -->
+	<!-- <onekit-ol start="2">
 			<onekit-li>vdfvf</onekit-li>
 			<onekit-li>cvc</onekit-li>
 			<onekit-li>bfgbf</onekit-li>
-		</onekit-ol>
+		</onekit-ol> -->
 
 		<onekit-ol type="i">
 			<onekit-li>Introduction</onekit-li>
@@ -148,7 +146,7 @@ USA -->
 			<onekit-li>Conclusion</onekit-li>
 		</onekit-ol>
 
-		<onekit-ol type="a">
+		<!-- <onekit-ol type="a">
 			<onekit-li>Introduction</onekit-li>
 			<onekit-li>List of Greivances</onekit-li>
 			<onekit-li>Conclusion</onekit-li>
@@ -164,7 +162,15 @@ USA -->
 			<onekit-li>Introduction</onekit-li>
 			<onekit-li>List of Greivances</onekit-li>
 			<onekit-li>Conclusion</onekit-li>
-		</onekit-ol>
-		-->
-	</onekit-body>
+		</onekit-ol> -->
 
+
+	<!-- <onekit-noscript> -->
+	<!-- anchor linking to external file -->
+	<!-- <onekit-a href="http://www.baidu.com/">External Link</onekit-a>
+	</onekit-noscript>
+	<onekit-p>Rocks!</onekit-p> -->
+
+	<!-- <onekit-canvas canvas-id="canvas" width="300" height="300">
+	</onekit-canvas> -->
+</onekit-body>

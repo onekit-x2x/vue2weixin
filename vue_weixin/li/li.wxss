@@ -1,14 +1,11 @@
 /* li/li.wxss */
-/* .onekit-li:before {
+.onekit-li:before {
   counter-increment: section;            
   content: counters(section, ".") ".";   
-} */
+}
 /* .onekit-li{
   counter-reset:section 3;
 }*/
-/* .onekit-ol{
-  list-style-type: upper-roman;
-}  */
 
 /* .onekit-progress{
   display: -webkit-box;
