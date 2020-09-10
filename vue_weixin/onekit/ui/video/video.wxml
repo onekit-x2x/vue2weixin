@@ -11,10 +11,12 @@ poster="{{poster}}"
 
  
 bindloadedmetadata="video_loadedmetadata"
+bindtimeupdate="videoChange"
 bindplay="video_play"
 bindended="video_ended"
-
+bindvtt="video_vtt"
 >
-
-
+<track id="track" />
+<slot/>
 </video>
+

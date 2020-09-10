@@ -40,6 +40,14 @@ Component({
       },
   },
    methods: {
+    video_vtt(e){
+        const vtt = e.detail.vtt;
+      this.selectComponent("#track").vtt(vtt);
+    },
+    videoChange: function (e) {
+        // 视频触发事件
+        this.selectComponent("#track").videoChangeEvent(e.detail.currentTime * 1000);
+    },
         video_loadedmetadata(e){
             const size = e.detail;
             var data2 = {};
