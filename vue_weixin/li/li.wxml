@@ -1,3 +1,5 @@
+
+	<onekit-body>
 <!-- <progress> -->
 <!-- <onekit-label for="file">File onekit-progress:</onekit-label>
 <onekit-progress id="file" max="100" value="70"></onekit-progress> -->
@@ -47,15 +49,14 @@ data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=302802010104
 </onekit-picture> -->
 
 
-<!-- <onekit-ruby>
+ <!-- <onekit-ruby>
   <onekit-rb>漢</onekit-rb>字
   <onekit-rp>(</onekit-rp><onekit-rt>han</onekit-rt>zi<onekit-rp>)</onekit-rp>
 </onekit-ruby>
 <onekit-ruby>
 漢 <onekit-rt><onekit-rp>(</onekit-rp>ㄏㄢˋ<onekit-rp>)</onekit-rp></onekit-rt>
-</onekit-ruby> -->
-<!-- <onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
-</onekit-ruby> -->
+</onekit-ruby>  -->
+
 
 <!-- <bdi> -->
 <!-- <onekit-h1>World wrestling championships</onekit-h1>
@@ -111,13 +112,10 @@ USA -->
 <onekit-p>He got a <onekit-meter low="69" high="80" max="100"
   value="84"></onekit-meter> on the exam.</onekit-p> -->
 
-<onekit-html>
-	<onekit-head>
-		<onekit-meta charset="utf-8" />
-		<onekit-meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	</onekit-head>
-	<onekit-body>
+<onekit-ruby>汉<onekit-rt>Hàn</onekit-rt>字<onekit-rt>Zì</onekit-rt>
+</onekit-ruby>
+
 
 		<!-- <optgroup>-->
 		<!-- <onekit-select>
@@ -137,6 +135,7 @@ USA -->
 		</onekit-object> -->
 
 		<!-- <ol> -->
+		<!--
 		<onekit-ol start="2">
 			<onekit-li>vdfvf</onekit-li>
 			<onekit-li>cvc</onekit-li>
@@ -166,7 +165,6 @@ USA -->
 			<onekit-li>List of Greivances</onekit-li>
 			<onekit-li>Conclusion</onekit-li>
 		</onekit-ol>
+		-->
 	</onekit-body>
-</onekit-html>
-
 
