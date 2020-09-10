@@ -1,1 +1,4 @@
 /* onekit/ui/noscript/noscript.wxss */
+.onekit-noscript{
+  display:none;
+}

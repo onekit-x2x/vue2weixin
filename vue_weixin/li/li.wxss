@@ -16,7 +16,3 @@
   box-orient: vertical;
   line-clamp: 1; 
 } */
-
-.onekit-noscript{
-  display:none;
-}
