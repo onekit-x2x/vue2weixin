@@ -199,7 +199,7 @@ alt="Venus">
 </onekit-body> -->
 
 <!-- ----------------------------------------------  input  ------------------------------------------------------------ -->
-
+<!-- 
  <onekit-p>type=text、password、submit、button:</onekit-p>
 <onekit-hr />
 <onekit-div>
@@ -227,23 +227,29 @@ alt="Venus">
   <onekit-input type="checkbox" id="cbox2" value="second_checkbox" checked="checked"/>
   <onekit-label for="cbox2">This is the second checkbox, which is checked</onekit-label>
 </onekit-p>
+ -->
 
 <onekit-p>type=file:</onekit-p>
 <onekit-hr />
-<onekit-input type="file"
-       onekit-id="avatar" name="avatar"
-       accept="image/png, image/jpeg"/>
+<onekit-body>
+<form>
+<onekit-input type="file" name="pic" accept="image/gif"></onekit-input>
+</form>
 
+</onekit-body>
+<!-- 
 <onekit-p>type=hidden:</onekit-p>
 <onekit-hr />
 <onekit-input onekit-id="prodId" name="prodId" type="hidden" value="xm234jq"/>
+ -->
 
-<onekit-p>type=image:</onekit-p>
+ <!-- **********issue******* -->
+<!-- <onekit-p>type=image:</onekit-p>
 <onekit-hr />
-<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="200"/>
+<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="200"/> -->
 
 
-
+<!-- 
 <onekit-p>type=radio、submit:</onekit-p>
 <onekit-hr />
 <form>
@@ -278,7 +284,7 @@ alt="Venus">
         <onekit-input type="submit" value="Submit"/>
 
     </onekit-div>
-</form> 
+</form>  -->
 
 
 <!-- ----------------------------------------------  img  ------------------------------------------------------------ -->
