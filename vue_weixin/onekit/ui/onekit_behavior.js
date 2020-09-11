@@ -1,8 +1,5 @@
 module.exports = Behavior({
 
-  options: {
-    virtualHost: true
-  },
   properties: {
     onekitId: {
       type: String,value:""
