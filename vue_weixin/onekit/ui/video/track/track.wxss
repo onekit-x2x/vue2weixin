@@ -1,0 +1,22 @@
+/* components/track/track.wxss */
+:host{
+  font-size: 22rpx;
+  position:absolute;
+  color:#fff;
+  bottom: 0;
+  width:80%;
+  padding:0 10%;
+  height:100px;
+  pointer-events:none;
+  text-align: center;
+z-index:10000;
+}
+
+:host view{
+  pointer-events:none;
+  white-space: pre-wrap;
+}
+#track{
+  position: absolute;
+  bottom: 0;
+}

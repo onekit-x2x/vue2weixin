@@ -1,0 +1,3 @@
+
+    <cover-view>{{enableEn ? en : ''}}</cover-view>
+    <cover-view>{{enableZh ? zh : ''}}</cover-view>

@@ -25,7 +25,8 @@ Component({
       console.log(this.properties.value)
 
       this.setData({
-
+        name: this.properties.name,
+        value:this.properties.value,
       })
     },
     detached: function() {
@@ -36,15 +37,13 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    param_tap(){
-
-    }
+    
   }
 })

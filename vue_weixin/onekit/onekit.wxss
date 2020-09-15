@@ -374,15 +374,30 @@
 }
 
 .onekit-input {
-    -webkit-appearance: initial;
-    background-color: white;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
     -webkit-rtl-ordering: logical;
-    user-select: text;
-    cursor: auto;
-    padding: 1px;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
     border-width: 2px;
     border-style: inset;
-    border-color: initial;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
     border-image: initial;
 }
 
@@ -494,10 +509,6 @@
     text-align: match-parent;
 }
 
-.onekit-li:before {
-    counter-increment: section;
-    content: counters(section, ".") ".";
-}
 
 .onekit-optgroup {
     font-weight: bolder;

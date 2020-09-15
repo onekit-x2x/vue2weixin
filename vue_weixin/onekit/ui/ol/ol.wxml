@@ -1,7 +1,9 @@
 <view
 class="onekit-ol {{onekitClass}}"
-style="counter-reset:section {{start}};list-style-type: none;{{onekitStyle}}"
+style="counter-reset:section {{start}};list-style-type:{{styleType}};{{onekitStyle}}"
 id="{{onekitId}}"
+type="{{type}}"
+bindtap="ol_tap"
 >
 <slot/>
 </view>

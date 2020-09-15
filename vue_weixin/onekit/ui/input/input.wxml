@@ -37,7 +37,11 @@ accept="{{accept}}"
 name="{{name}}"
 
 >
+<form>
+
 <slot></slot>
+</form>
+
 </input>
 
 

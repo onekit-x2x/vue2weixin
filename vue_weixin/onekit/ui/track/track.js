@@ -1,32 +1,51 @@
-// onekit/ui/track/track.js
-import onekit_behavior from "../onekit_behavior"
-import web_behavior from "../web_behavior"
+const vttToJson = require("./vtt-to-json")
+var fileSystemManager = wx.getFileSystemManager();
+
 Component({
-  behaviors: [onekit_behavior, web_behavior],
+    options: {
+        virtualHost: true
+      },
+    /**
+     * 组件的属性列表
+     */
+    properties: {
+src:{type:String,value:""}
+    },
 
-  options: {
-    virtualHost: true
-  },
-  properties: {
-    default:{type:String,value:""},
-    label:{type:String,value:""},
-    src:{type:String,value:""},
-    kind:{type:String,value:""},
-    srclang:{type:String,value:""}
 
-  },
+lifetimes:{
+    attached(){
+        this.loadZimu(this.properties.src)
+    }
+},
+    /**
+     * 组件的方法列表
+     */
+    methods: {
 
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
-  }
+        loadZimu: function (path) {
+            this.downloadZimu(path);
+        },
+        readZimu: function (tempFilePath) {
+            var that = this;
+            let fileStr = fileSystemManager.readFileSync(tempFilePath, 'utf-8')
+            vttToJson(fileStr)
+            .then((result) => { 
+                const vtt = [];
+                for(const item of result){
+                    vtt.push([item,item.start, item.end,item.part, item.works]);
+                }
+                 that.triggerEvent("vtt",{vtt},{ bubbles: true, composed: true });
+            });
+        },
+        downloadZimu: function (path) {
+            var that = this;
+            wx.downloadFile({
+                "url": path ,
+                success: function (e) {
+                    that.readZimu(e.tempFilePath);
+                }
+            })
+        }
+    }
 })

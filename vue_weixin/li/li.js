@@ -19,7 +19,10 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    const ctx = wx.createCanvasContext('canvas') //创建Canvas
+    ctx.setFillStyle('green'); //选择填充颜色
+    ctx.fillRect(10, 10, 100, 100);//形状描述
+    ctx.draw() //绘制图像
   },
 
   /**
