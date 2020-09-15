@@ -1,7 +1,6 @@
 <view
-class="onekit-blockquote "
-style="{{style}}"  id="{{id}}"
-cite="{{cite}}"
+class="onekit-blockquote {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
 >
 <slot/>
 </view>

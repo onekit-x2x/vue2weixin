@@ -1,8 +1,0 @@
-<!--onekit/ui/big/big.wxml-->
-<text
-class="onekit-abig {{onekitClass}}"
-style="{{onekitStyle}}"  
-id="{{onekitId}}"
->
-<slot/>
-</text>

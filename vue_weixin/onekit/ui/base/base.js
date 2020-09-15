@@ -8,7 +8,7 @@ Component({
     virtualHost: true
   },
   properties: {
-    href:{type:String,value:""},
+
   },
 
   /**
