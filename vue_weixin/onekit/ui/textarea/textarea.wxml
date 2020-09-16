@@ -1,4 +1,4 @@
-<textarea
+<viewarea
 class="onekit-textarea {{onekitClass}}"
 style="{{onekitStyle}}"
 id="{{onekitId}}"
@@ -7,4 +7,4 @@ maxlength="{{maxlength}}"
 
 auto-focus="true"
 
-><slot/></textarea>
+><slot/></viewarea>

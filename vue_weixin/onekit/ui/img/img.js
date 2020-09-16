@@ -9,7 +9,7 @@ Component({
     virtualHost: true
   },
   properties: {
-    width:{type:Number|String,valxue:""},
+    width:{type:Number|String,value:""},
     height:{type:Number|String,value:""},
     src:{
       type:String,

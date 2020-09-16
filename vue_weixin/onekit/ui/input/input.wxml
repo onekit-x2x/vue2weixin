@@ -19,6 +19,7 @@ style="appearance: push-button;user-select: none;white-space: pre;align-items: f
 id="{{onekitId}}"
 disabled="{{disabled}}"
 type="{{type}}"
+bindtap="button_tap"
 >
 {{value}}
 <slot></slot>
@@ -45,32 +46,31 @@ name="{{name}}"
 </input>
 
 
-<input wx:if="{{type=='reset'}}"  
+<button wx:if="{{type=='reset'}}"  
 class="onekit-input {{onekitClass}}"  
 style="{{onekitStyle}}"
 id="{{onekitId}}"
-auto-focus="{{autofocus}}"
+formType="reset"
 disabled="{{disabled}}"
-value="{{value}}" 
 type="{{type}}"
-
->
+bindtap="reset_tap"
+>reset
 <slot></slot>
-</input>
+</button>
 
 
-<input wx:if="{{type=='submit'}}"  
+<button wx:if="{{type=='submit'}}"  
 class="onekit-input {{onekitClass}}"  
 style="{{onekitStyle}}"
 id="{{onekitId}}"
-auto-focus="{{autofocus}}"
+formType="submit"
 disabled="{{disabled}}"
-value="{{value}}" 
 type="{{type}}"
-
+bindtap="submit_tap"
 >
+submit
 <slot></slot>
-</input>
+</button>
 
 
 <image wx:if="{{type=='image'}}"  
@@ -153,6 +153,6 @@ accept="{{accept}}"
 disabled="{{disabled}}"
 maxlength="{{maxlength}}"
 >
- {{text}}<text style="float:right">▾</text>
+ {{text}}<view style="float:right">▾</view>
 <slot></slot>
 </input>

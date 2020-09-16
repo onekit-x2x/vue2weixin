@@ -1,7 +1,7 @@
 <!--onekit/ui/center/center.wxml-->
-<text
+<view
 class="onekit-center {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 >
 <slot/>
-</text>
+</view>

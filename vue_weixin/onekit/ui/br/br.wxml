@@ -1,4 +1,4 @@
-<text class="onekit-br {{onekitClass}}"
+<view class="onekit-br {{onekitClass}}"
 id="{{onekitId}}"
 style="{{onekitStyle}}"
->\n</text>
+>\n</view>

@@ -8,90 +8,17 @@ Component({
     virtualHost: true
   },
   properties: {
-    onekitClass: {
-      type: String,
-      default: ''
-    },
-    onekitStyle: {
-      type: String,
-      defaul: ''
-    },
-    onekitId: {
-      type: String,
-      defaul: ''
-    },
-    size: {
-      type: String,
-      default: "default"
-    },
-    type: {
-      type: String,
-      default: "default"
-    },
-    plain: {
-      type: Boolean,
-      default: false
-    },
-    disabled: {
-      type: Boolean,
-      default: false
-    },
-    loading: {
-      type: Boolean,
-      default: false
-    },
-    formType: {
-      type: String,
-      default: ""
-    },
-    openType: {
-      type: String,
-      default: ""
-    },
-    hoverClass: {
-      type: String,
-      default: "button-hover"
-    },
-    hoverStopPropagation: {
-      type: Boolean,
-      default: false
-    },
-    hoverStartTime: {
-      type: Number,
-      default: 20
-    },
-    hoverStayTime: {
-      type: Number,
-      default: 70
-    },
-    lang: {
-      type: String,
-      default: "en"
-    },
-    sessionFrom: {
-      type: String,
-      default: ""
-    },
-    sendMessageTitle: {
-      type: String,
-      default: "当前标题"
-    },
-    sendMessagePath: {
-      type: String,
-      default: "当前分享路径"
-    },
-    sendMessageImg: {
-      type: String,
-      default: "截图"
-    },
-    appParameter: {
-      type: String,
-      default: ""
-    },
-    showMessageCard: {
-      type: Boolean,
-      default: false
-    },
+      autofocus:{type:Boolean,},
+      disabled:{type:Boolean,},
+      form:{type:String,value:"",},
+      formaction:{type:String,value:"",},
+      formenctype:{type:String, value:"",},
+      formmethod:{type:String,value:"",},
+      formnovalidate:{type:String,value:"",},
+      formtarget:{type:String,value:"",},
+      name:{type:String,value:"",},
+      type:{type:String,value:"",},
+      value:{type:String,value:"",},
   },
 
   /**
@@ -104,22 +31,5 @@ Component({
   /**
    * 组件的方法列表
    */
-  methods: {
-    button_getphonenumber(e) {
-      console.log("button_getphonenumber", e);
-      this.triggerEvent('getphonenumber',e.details)
-    },
-    button_getuserinfo(e) {
-      console.log("button_getuserinfo", e);
-      this.triggerEvent('getuserinfo',e.details)
-    },
-    button_opensetting(e) {
-      console.log("button_opensetting", e);
-      this.triggerEvent('opensetting',e.details)
-    },
-    button_launchapp(e) {
-      console.log("button_launchapp", e);
-      this.triggerEvent('launchapp',e.details)
-    },
-  }
+  methods: {}
 })

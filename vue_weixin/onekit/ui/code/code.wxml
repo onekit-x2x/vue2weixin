@@ -1,4 +1,4 @@
-<text
+<view
 class="onekit-code {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 bindtap="onclick" 
@@ -8,4 +8,4 @@ touchend="onmouseup"
 
 >
 <slot/>
-</text>
+</view>

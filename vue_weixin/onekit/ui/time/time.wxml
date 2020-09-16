@@ -1,8 +1,8 @@
-<text
+<view
 class="onekit-time {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 datetime="{{datetime}}"
 pubdate="{{pubdate}}"
 >
 <slot/>
-</text>
+</view>

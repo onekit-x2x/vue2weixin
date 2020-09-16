@@ -2,8 +2,7 @@
 class="onekit-link {{onekitClass}}"
 style="{{onekitStyle}}"  
 id="{{onekitId}}"
-href="{{href}}"
-type="{{type}}"
+
 >
 <slot/>
 </view>

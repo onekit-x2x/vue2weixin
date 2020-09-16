@@ -1,5 +1,5 @@
 <!--onekit/ui/col/col.wxml-->
-<text
+<view
 class="onekit-col {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 span="{{span}}"
@@ -9,4 +9,4 @@ width="{{width}}"
 charoff="{{charoff}}"
 >
 <slot/>
-</text>
+</view>

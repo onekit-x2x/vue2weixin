@@ -120,9 +120,9 @@
       "onekit-wbr": "/onekit/ui/wbr/wbr"
   },
   "pages": [
+    "gong/gong",
     "li/li",
     "yang/yang", 
-    "gong/gong",
     "index"
   ],
   "window": {

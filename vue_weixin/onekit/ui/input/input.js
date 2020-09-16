@@ -51,6 +51,12 @@ Component({
   
   },
   methods:{
+    reset_tap(e){
+      console.log(e)
+    },
+    submit_tap(e){
+      
+    },
     text_input(e){
       const detail = e.detail;
       if(this.properties.vModel){
@@ -73,10 +79,6 @@ Component({
       this.setData(data2);
     },
     radio_tap(e){
-      if(this.properties.checked){
-
-
-      }
     },
   },
 

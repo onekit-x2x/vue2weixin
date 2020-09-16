@@ -8,7 +8,7 @@ Component({
     virtualHost: true
   },
   properties: {
-
+    name:{type:String,value:""},
   },
 
   /**

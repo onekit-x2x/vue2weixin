@@ -1,8 +1,8 @@
-<text
+<view
 class="onekit-del {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 cite="{{cite}}"
 datetime="{{datetime}}"
 >
 <slot/>
-</text>
+</view>

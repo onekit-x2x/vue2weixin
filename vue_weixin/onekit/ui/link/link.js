@@ -10,7 +10,6 @@ Component({
   properties: {
     href:{type:String,value:""},
     type:{type:String,value:""}
-
   },
 
   /**

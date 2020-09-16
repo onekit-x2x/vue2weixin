@@ -1,6 +1,6 @@
-<text
+<view
 class="onekit-s {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 >
 <slot/>
-</text>
+</view>

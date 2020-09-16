@@ -1,9 +1,37 @@
 
+
 <onekit-body>
-<!------------------------------------------------------------ a --------------------------------------->
-<!-- <onekit-a href="https://baidu.com">Website</onekit-a>
-<onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
-<onekit-a href="tel:+123456789">Phone</onekit-a> -->
+
+
+
+
+
+
+<!------------------------------------------------------ em ----------------------------------------------------------->
+<!-- <onekit-p>
+  In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
+</onekit-p> -->
+
+
+
+
+<!------------------------------------------------------- p ----------------------------------------------------------------->
+<!-- <onekit-p>这是段落。</onekit-p>
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
+
+
+<!----------------------------------------------------- font ------------------------------------------>
+<!-- <onekit-footer>
+  <onekit-p>Posted by: W3School</onekit-p>
+  <onekit-p>Contact information: <onekit-a href="mailto:someone@example.com">someone@example.com</onekit-a>.</onekit-p>
+</onekit-footer> -->
+
+<!------------------------------------------------------- kbd ------------------------------------------------------>
+<!-- <onekit-p>Type the following in the Run dialog: <onekit-kbd>cmd</onekit-kbd><onekit-br/>Then click the OK button.</onekit-p>
+<onekit-p>Save the document by pressing <onekit-kbd>Ctrl</onekit-kbd> + <onekit-kbd>S</onekit-kbd></onekit-p> -->
+
 
 
 <!------------------------------------------------------- address ---------------------------------------->
@@ -16,16 +44,22 @@ USA
 </onekit-address> -->
 
 
-<!----------------------------------------------------------- b --------------------------------------------->
-<!-- <p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</p> -->
+<!----------------------------------------------------------- b ---------OK------------------------------------>
+<!-- <onekit-p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</onekit-p> -->
 
 
-<!-- br -->
-<!-- <p>To break,<onekit-br/>lines,<onekit-br/>in a,onekit-<br/>paragraph,<onekit-br/>use the br tag.</p> -->
+<!----------------------------------------------------------- br ---------OK----------------------------------->
+<!-- To break,<onekit-br/>lines,<onekit-br/>in a,<onekit-br/>paragraph,<onekit-br/>use the br tag. -->
 
 
 
-<!------------------------------------------------------ div --------------------------------------------->
+<!-- ---------------------------------------------  audio  -------------------------------------------------- -->
+<!-- <onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
+     Your browser does not support the
+     <code>audio</code> element.
+</onekit-audio> -->
+
+<!------------------------------------------------------ div ---------ok------------------------------------>
 <!-- <onekit-h3>This is a header</onekit-h3>
 <onekit-p>This is a paragraph.</onekit-p>
 <onekit-div onekit-style="color:red">
@@ -33,155 +67,14 @@ USA
   <onekit-p>This is a paragraph.</onekit-p>
 </onekit-div> -->
 
+<!------------------------------------------------------------ a -------code-------------------------------->
+<!-- <onekit-a href="https://baidu.com">Website</onekit-a>
+<onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
+<onekit-a href="tel:+123456789">Phone</onekit-a> -->
 
 
-<!------------------------------------------------ dl、dt、dd -------------------------------------------->
-<!-- <onekit-dl>
-   <onekit-dt>计算机</onekit-dt>
-   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
-   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
-   <onekit-dt>显示器</onekit-dt>
-   <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
-   <onekit-dd>以视觉方式显示信息的装置2... ...</onekit-dd>
-</onekit-dl> -->
-
-
-<!------------------------------------------------------ em ----------------------------------------------------------->
-<!-- <onekit-p>
-  In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
-</onekit-p> -->
-
-
-<!------------------------------------------------------ h --------------------------------------------------------------->
-<!-- <onekit-h1>这是标题 1</onekit-h1>
-<onekit-h2>这是标题 2</onekit-h2>
-<onekit-h3>这是标题 3</onekit-h3>
-<onekit-h4>这是标题 4</onekit-h4>
-<onekit-h5>这是标题 5</onekit-h5>
-<onekit-h6>这是标题 6</onekit-h6> -->
-
-
-
-<!------------------------------------------------------- p ----------------------------------------------------------------->
-<!-- <onekit-p>这是段落。</onekit-p>
-<onekit-p>这是段落。</onekit-p>
-<onekit-p>这是段落。</onekit-p>
-<onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
-
-
-<!---------------------------------------------------- figure   figcaption ------------------------------------------------------>
-<!-- <onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
-<onekit-figure>
-  <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
-  <onekit-p>拍摄者：W3School 项目组，拍摄时间：2010 年 10 月</onekit-p>
-  <onekit-img src="/pages/img/1.jpg" width="200" height="150" />
-  <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
-</onekit-figure> -->
-
-
-
-<!----------------------------------------------------- font ------------------------------------------>
-<!-- <onekit-footer>
-  <onekit-p>Posted by: W3School</onekit-p>
-  <onekit-p>Contact information: <onekit-a href="mailto:someone@example.com">someone@example.com</onekit-a>.</onekit-p>
-</onekit-footer> -->
-
-
-<!-------------------------------------------------------- hr ----------------------------------------->
-<!-- <onekit-p>hr 标签定义水平线：</onekit-p>
-<onekit-hr/>
-<onekit-p>这是段落。</onekit-p>
-<onekit-hr/>
-<onekit-p>这是段落。</onekit-p>
-<onekit-hr/>
-<onekit-p>这是段落。</onekit-p> -->
-
-<!-------------------------------------------------------- i ----------------------------------------------->
-<!-- <onekit-p>The Latin phrase <onekit-i class="latin">Veni, vidi, vici</onekit-i> is often
-mentioned in music, art, and literature</onekit-p> -->
-
-<!------------------------------------------------------- iframe ---------------------------------------------->
-<!-- <onekit-iframe src ="/pages/img/1.jpg" width="400" height="300" frameborder="0">
-  <onekit-p>Your browser does not support iframes.</onekit-p>
-</onekit-iframe> -->
-
-<!------------------------------------------------------- ins --------------------------------------------------->
-<!-- <onekit-p>一打有 <onekit-del>二十</onekit-del> <onekit-ins>十二</onekit-ins> 件。</onekit-p>
-<onekit-p>大多数浏览器会改写为删除文本和下划线文本。</onekit-p>
-<onekit-p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</onekit-p> -->
-
-<!------------------------------------------------------- kbd ------------------------------------------------------>
-<!-- <onekit-p>Type the following in the Run dialog: <onekit-kbd>cmd</onekit-kbd><onekit-br/>Then click the OK button.</onekit-p>
-<onekit-p>Save the document by pressing <onekit-kbd>Ctrl</onekit-kbd> + <onekit-kbd>S</onekit-kbd></onekit-p> -->
-
-
-<!------------------------------------------------------ label ------------------------------------------------------>
-<!-- <onekit-div onekit-class="preference">
-    <onekit-label for="cheese">Do you like cheese?</onekit-label>
-    <onekit-input type="checkbox" name="cheese" onekit-onekit-id="cheese"/>
-</onekit-div>
-
-<onekit-div onekit-class="preference">
-    <onekit-label for="peas">Do you like peas?</onekit-label>
-    <onekit-input type="checkbox" name="peas" onekit-onekit-id="peas"/>
-</onekit-div> -->
-
-<!-- ----------------------------------------------  列表dl、dt、dd：  ------------------------------------------------------- -->
-<!-- <onekit-p>列表dl、dt、dd：</onekit-p>
-<onekit-dl>
-   <onekit-dt>列表1<onekit-dialog open>这是打开的对话窗口</onekit-dialog></onekit-dt>
-     <onekit-dd>1</onekit-dd>
-     <onekit-dd>2</onekit-dd>
-   <onekit-dt>列表2</onekit-dt>
-     <onekit-dd>3</onekit-dd>
-     <onekit-dd>4</onekit-dd>
-</onekit-dl> -->
-
-  
-<!-- ---------------------------------------------  audio  -------------------------------------------------- -->
-<!-- <onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
-     Your browser does not support the
-     <code>audio</code> element.
-</onekit-audio> -->
-
-
-<!-----------------------------------------------------------------  dialog  ------------------------------------>
-<!--  
- <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
-  <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog> -->
-   
-
-<!---------------------------------------------------  fieldset legend  ------------------------------------------->
-  <!-- <onekit-fieldset>
-    <onekit-legend>Choose your favorite monster</onekit-legend>
-
-    <onekit-input type="radio" onekit-id="kraken" name="monster"/>
-    <onekit-label>Kraken</onekit-label>
-    <onekit-br/>
-
-    <onekit-input type="radio" onekit-id="sasquatch" name="monster"/>
-    <onekit-label>Sasquatch</onekit-label><onekit-br/>
-
-    <onekit-input type="radio" onekit-id="mothman" name="monster"/>
-    <onekit-label>Mothman</onekit-label>
-</onekit-fieldset>
-<onekit-br/>
-   <onekit-fieldset>
-
-    <onekit-input type="radio" onekit-id="kraken" name="monster"/>
-    <onekit-label>Kraken</onekit-label>
-    <onekit-br/>
-
-    <onekit-input type="radio" onekit-id="sasquatch" name="monster"/>
-    <onekit-label>Sasquatch</onekit-label><onekit-br/>
-
-    <onekit-input type="radio" onekit-id="mothman" name="monster"/>
-    <onekit-label>Mothman</onekit-label>
-</onekit-fieldset> -->
-
-
-<!-- ----------------------------------------------  area  ------------------------------------------------------------ -->
-<!-- <onekit-body>
+<!-- ----------------------------------------------  area  map--------code---------------------------------------------------- -->
+<!-- 
 <onekit-p>请点击图像，把它们放大。</onekit-p>
 <onekit-img src="/gong/chineseMap2.jpg" border="0" usemap="#chinesemap" alt="chinesemap"></onekit-img>
 <onekit-map name="chinesemap" onekit-id="chinesemap">
@@ -196,27 +89,268 @@ alt="Venus">
 
 </onekit-area>
 </onekit-map>
-</onekit-body> -->
+-->
+
+<!-----------------------------------------------------  dialog  -----OK------------------------------->
+ 
+ <!-- <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
+ <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog> -->
+   
+<!-----------------------------------------------------  bdi  -----code------------------------------->
+<!-- User <onekit-bdi dir="rtl">my home </onekit-bdi> 60  
+User <onekit-bdi dir="ltr">my home </onekit-bdi> 60 
+User <onekit-bdi dir="auto">my home </onekit-bdi> 60  -->
+
+<!-----------------------------------------------------  bdo  -----code------------------------------->
+<!-- User <onekit-bdo dir="rtl">my home </onekit-bdo> 60  
+User <onekit-bdo dir="ltr">my home </onekit-bdo> 60 
+User <onekit-bdo dir="auto">my home </onekit-bdo> 60  -->
+
+
+<!-----------------------------------------------------  blockquote  ----OK-------------------------------->
+<!-- Here comes a long quotation:
+
+<onekit-blockquote>
+This is a long quotation. This is a long quotation. This is a long quotation. This is a long quotation. This is a long quotation.
+</onekit-blockquote>
+
+xxxxxxxxxxxxxxxxxxx -->
+
+<!-----------------------------------------------------  button  ---code--------------------------------->
+<!-- <onekit-button type="button">button</onekit-button>
+<onekit-button type="button" autofocus="autofocus">autofocus</onekit-button>
+<onekit-button type="button" disabled>disabled</onekit-button>
+<onekit-button type="menu">menu</onekit-button>
+<onekit-button type="reset">reset</onekit-button> -->
+<!-- 有关于form的属性 -->
+<!-- form -->
+<!-- <form action="#" method="get" onekit-id="testform"></form>
+<onekit-button type="submit" form="testform" value="xxx">submit</onekit-button> -->
+
+<!-- formaction -->
+<!-- <form action="#" method="get">
+    First name: <onekit-input type="text" name="fname" /><onekit-br />
+    Last name: <onekit-input type="text" name="lname" /><onekit-br />
+  <onekit-button type="submit">提交</onekit-button><onekit-br />
+  <onekit-button type="submit" formaction="">以管理员身份提交</onekit-button>
+  </form> -->
+
+<!-- formenctype  -->
+<!-- <form action="#" method="post">
+    <onekit-div>First name: <onekit-input type="text" name="fname" /></onekit-div>   
+    <onekit-button type="submit" >提交</onekit-button>
+    <onekit-button type="submit" formenctype="multipart/form-data"> 以 Multipart/form-data 类型提交</onekit-button>   
+</form> -->
+
+<!-- formmethod  -->
+<!-- <form action="demo_form.asp" method="get">
+    First name: <onekit-input type="text" name="fname" />
+    <onekit-div><onekit-button type="submit" >提交</onekit-button>
+  <onekit-button type="submit" formmethod="post" formaction="demo_post.asp">使用 POST 来提交</onekit-button>
+  </onekit-div>
+</form> -->
+
+<!-- formnovalidate  -->
+<!-- <form action="demo_form.asp" method="get">
+    E-mail: <onekit-input type="email" name="userid" />
+    <onekit-div>
+    <onekit-button type="submit" >提交</onekit-button>
+    <onekit-button type="submit" formnovalidate="formnovalidate">进行没有验证的提交</onekit-button>
+    </onekit-div>
+</form> -->
+
+<!-- formtarget  -->
+<!-- <form action="/example/html5/demo_form.asp" method="get">
+        First name: <onekit-input type="text" name="fname" />
+        
+        <onekit-button type="submit" >提交</onekit-button>
+        <onekit-button type="submit" formtarget="_blank">提交到新窗口</onekit-button>
+ </form> -->
+ 
+ <!-- name  -->
+ <!-- <form action="#" method="get">
+    <onekit-button name="subject" type="submit" value="HTML">HTML</onekit-button> 
+    <onekit-button name="subject" type="submit" value="CSS">CSS</onekit-button> 
+  </form> -->
+
+<!-------------------------------------  canvas  ------code------------------------------------>
+<!-- <onekit-canvas onekit-id="canvas" width="300" height="300"> 
+    抱歉，您的浏览器不支持canvas元素
+    （这些内容将会在不支持<onekit-canvas>元素的浏览器或是禁用了JavaScript的浏览器内渲染并展现）
+  </onekit-canvas> -->
+
+
+<!-------------------------------------  center  ------OK------------------------------------>
+<!-- <onekit-center>This text will be centered.
+<onekit-p>So will this paragraph.</onekit-p></onekit-center> -->
+
+
+<!-------------------------------------  cite  ------OK------------------------------------>
+<!-- More information can be found in <onekit-cite>[ISO-0000]</onekit-cite>. -->
+
+
+<!-------------------------------------  code  -----字体样式不同------------------------------------->
+<!-- Regular text. <onekit-code>This is code.</onekit-code> Regular text. -->
+
+<!-------------------------------------  col  colgroup-----做好table再做------------------------------------->
+<!-- <table  width="100%" border="1">
+    <caption>col test</caption>
+    <colgroup>
+        <col>
+        <col span="2" >
+        <col span="2" >
+    </colgroup>
+    <tr>
+        <td> </td>
+        <th scope="col">Batman</th>
+        <th scope="col">Robin</th>
+        <th scope="col">The Flash</th>
+        <th scope="col">Kid Flash</th>
+    </tr>
+    <tr>
+        <th scope="row">Skill</th>
+        <td>Smarts</td>
+        <td>Dex, acrobat</td>
+        <td>Super speed</td>
+        <td>Super speed</td>
+    </tr>
+</table> -->
+
+<!-------------------------------------  data  -------code value----------------------------------->
+<!-- <onekit-p>New Products:</onekit-p>
+<onekit-ul>
+    <onekit-li><onekit-data value="398">Mini Ketchup</onekit-data></onekit-li>
+    <onekit-li><onekit-data value="399">Jumbo Ketchup</onekit-data></onekit-li>
+    <onekit-li><onekit-data value="400">Mega Jumbo Ketchup</onekit-data></onekit-li>
+</onekit-ul> -->
+
+
+<!-------------------------------------  datalist  -------code----------------------------------->
+<!-- <onekit-label>Choose a browser from this list:
+  <onekit-input list="browsers" name="myBrowser" /></onekit-label>
+  <onekit-datalist onekit-id="browsers">
+    <onekit-option value="Chrome">
+    <onekit-option value="Firefox">
+    <onekit-option value="Internet Explorer">
+    <onekit-option value="Opera">
+    <onekit-option value="Safari">
+  </onekit-datalist> -->
+
+<!------------------------------------------------ dl、dt、dd -------OK------------------------------------->
+<!-- <onekit-dl>
+   <onekit-dt>计算机</onekit-dt>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+   <onekit-dt>显示器</onekit-dt>
+   <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
+   <onekit-dd>以视觉方式显示信息的装置2... ...</onekit-dd>
+</onekit-dl> -->
+
+
+<!----------------------------------------------  fieldset legend  -------legendNeedsCode------------------------------------>
+   <!-- <onekit-fieldset>
+
+    <onekit-input type="radio" onekit-id="kraken" name="monster"/>
+    <onekit-label>Kraken</onekit-label>
+    <onekit-br/>
+
+    <onekit-input type="radio" onekit-id="sasquatch" name="monster"/>
+    <onekit-label>Sasquatch</onekit-label><onekit-br/>
+
+    <onekit-input type="radio" onekit-id="mothman" name="monster"/>
+    <onekit-label>Mothman</onekit-label>
+</onekit-fieldset>
+<onekit-br/>
+  <onekit-fieldset>
+    <onekit-legend>Choose your favorite monster</onekit-legend>
+
+    <onekit-input type="radio" onekit-id="kraken" name="monster"/>
+    <onekit-label>Kraken</onekit-label>
+    <onekit-br/>
+
+    <onekit-input type="radio" onekit-id="sasquatch" name="monster"/>
+    <onekit-label>Sasquatch</onekit-label><onekit-br/>
+
+    <onekit-input type="radio" onekit-id="mothman" name="monster"/>
+    <onekit-label>Mothman</onekit-label>
+</onekit-fieldset> -->
+
+
+
+<!--------------------------------------- figure   figcaption ----------OK--------------------------------------->
+<!-- <onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
+<onekit-figure>
+  <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
+  <onekit-p>拍摄者：W3School 项目组，拍摄时间：2010 年 10 月</onekit-p>
+  <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
+</onekit-figure> -->
+
+<!------------------------------------------------------ h ----------OK----------------------------------------------------->
+<!-- <onekit-h1>这是标题 1</onekit-h1>
+<onekit-h2>这是标题 2</onekit-h2>
+<onekit-h3>这是标题 3</onekit-h3>
+<onekit-h4>这是标题 4</onekit-h4>
+<onekit-h5>这是标题 5</onekit-h5>
+<onekit-h6>这是标题 6</onekit-h6> -->
+
+
+
+<!-------------------------------------------------------- hr --------OK--------------------------------->
+<!-- <onekit-p>hr 标签定义水平线：</onekit-p>
+<onekit-hr/>
+<onekit-p>这是段落。</onekit-p>
+<onekit-hr/>
+<onekit-p>这是段落。</onekit-p>
+<onekit-hr/>
+<onekit-p>这是段落。</onekit-p> -->
+
+
+<!-------------------------------------------------------- i -----OK------------------------------------------>
+<!-- <onekit-p>The Latin phrase <onekit-i class="latin">Veni, vidi, vici</onekit-i> is often
+mentioned in music, art, and literature</onekit-p> -->
+
+
+<!------------------------------------------------------- ins -----OK---------------------------------------------->
+<!-- <onekit-p>一打有 <onekit-del>二十</onekit-del> <onekit-ins>十二</onekit-ins> 件。</onekit-p>
+<onekit-p>大多数浏览器会改写为删除文本和下划线文本。</onekit-p>
+<onekit-p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</onekit-p>
+ -->
+
+<!-- ----------------------------------------------  img  ------code------------------------------------------------------ -->
+
+<!-- <onekit-img  onekit-style="display:block"  onekit-id="0" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" />
+<onekit-img onekit-style="display:block" onekit-id="1" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" />
+<onekit-img onekit-style="display:block" onekit-id="2" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="50%" />
+
+ <onekit-img onekit-style="display:block" onekit-id="3" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" />
+<onekit-img onekit-style="display:block" onekit-id="4" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="100" />
+<onekit-img onekit-style="display:block" onekit-id="5" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="100" /> 
+
+<onekit-img onekit-style="display:block" onekit-id="6" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="50%" />
+<onekit-img onekit-style="display:block" onekit-id="7" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="100" />
+<onekit-img onekit-style="display:block" onekit-id="8" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="50%" /> -->
+
+
 
 <!-- ----------------------------------------------  input  ------------------------------------------------------------ -->
-<!-- 
- <onekit-p>type=text、password、submit、button:</onekit-p>
+
+ <!-- <onekit-p>type=text、password、submit、button:</onekit-p>
 <onekit-hr />
 <onekit-div>
     <onekit-label for="username">Username:</onekit-label>
     <onekit-input type="text" id="username" name="username"/>
 </onekit-div>
 <onekit-div>
-    <onekit-label for="pass">Password (8 characters minimum):</onekit-label>
+    <onekit-label for="pass">Password:</onekit-label>
     <onekit-input type="password" id="pass" name="password"
            minlength="8" required/>
-</onekit-div>
-<onekit-input type="submit" value="Sign in"/> 
-
+</onekit-div> 
+<onekit-input type="submit" value="Sign in"/>  -->
+<!-- 
 <onekit-p>type=button:</onekit-p>
 <onekit-hr/>
-<onekit-input type="button" value="Click me"/>
-
+<onekit-input type="button" value="Click me"/> -->
+<!-- 
 <onekit-p>type=checkbox:</onekit-p>
 <onekit-hr />
 <onekit-p>
@@ -226,24 +360,30 @@ alt="Venus">
 <onekit-p>
   <onekit-input type="checkbox" id="cbox2" value="second_checkbox" checked="checked"/>
   <onekit-label for="cbox2">This is the second checkbox, which is checked</onekit-label>
-</onekit-p>
+</onekit-p> -->
 
-<onekit-p>type=file:</onekit-p>
+
+<!-- <onekit-p>type=file:</onekit-p>
 <onekit-hr />
-<onekit-input type="file"
-       onekit-id="avatar" name="avatar"
-       accept="image/png, image/jpeg"/>
+<onekit-body>
+<form>
+<onekit-input type="file" name="pic" accept="image/gif"></onekit-input>
+</form> -->
 
-<onekit-p>type=hidden:</onekit-p>
+
+
+<!-- <onekit-p>type=hidden:</onekit-p>
 <onekit-hr />
-<onekit-input onekit-id="prodId" name="prodId" type="hidden" value="xm234jq"/>
+<onekit-input onekit-id="prodId" name="prodId" type="hidden" value="xm234jq"/> -->
 
-<onekit-p>type=image:</onekit-p>
+
+ <!-- **********issue******* -->
+<!-- <onekit-p>type=image:</onekit-p>
 <onekit-hr />
-<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="200"/>
+<onekit-input type="image" name="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599479802285&di=ca55bdc853b5f1dd47cf8391f7685507&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F22%2F59%2F19300001325156131228593878903.jpg" width="200"/> -->
 
 
-
+<!-- 
 <onekit-p>type=radio、submit:</onekit-p>
 <onekit-hr />
 <form>
@@ -264,8 +404,8 @@ alt="Venus">
   <onekit-div>
     <onekit-button type="submit">Submit</onekit-button>
   </onekit-div>
-</form>
-
+</form> -->
+<!-- 
 <onekit-p>type=text、submit、reset:</onekit-p>
 <onekit-hr />
 <form>
@@ -281,18 +421,36 @@ alt="Venus">
 </form> 
  -->
 
-<!-- ----------------------------------------------  img  ------------------------------------------------------------ -->
+<!------------------------------------------------------ label ----OK-------------------------------------------------->
+<!-- <onekit-div onekit-class="preference">
+    <onekit-label for="cheese">Do you like cheese?</onekit-label>
+    <onekit-input type="checkbox" name="cheese" onekit-onekit-id="cheese"/>
+</onekit-div>
 
-<onekit-img  onekit-style="display:block"  onekit-id="0" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" />
-<onekit-img onekit-style="display:block" onekit-id="1" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" />
-<onekit-img onekit-style="display:block" onekit-id="2" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="50%" />
+<onekit-div onekit-class="preference">
+    <onekit-label for="peas">Do you like peas?</onekit-label>
+    <onekit-input type="checkbox" name="peas" onekit-onekit-id="peas"/>
+</onekit-div> -->
 
- <onekit-img onekit-style="display:block" onekit-id="3" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" />
-<onekit-img onekit-style="display:block" onekit-id="4" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" height="100" />
-<onekit-img onekit-style="display:block" onekit-id="5" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="100" /> 
+<!----------------------------------------------ol ul li -------code----------------------------------------------->
+<!-- <onekit-ol reversed  start="4" type="A">
+  <onekit-li>first item</onekit-li>
+  <onekit-li value="1">second item</onekit-li>
+  <onekit-li>third item</onekit-li>
+</onekit-ol>
 
-<onekit-img onekit-style="display:block" onekit-id="6" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="50%" />
-<onekit-img onekit-style="display:block" onekit-id="7" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" height="100" />
-<onekit-img onekit-style="display:block" onekit-id="8" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="100" height="50%" />
+<onekit-ul>
+  <onekit-li>first item</onekit-li>
+  <onekit-li>second item</onekit-li>
+  <onekit-li>third item</onekit-li>
+</onekit-ul> -->
+
+<!------------------------------------------------------ mark ---OK--------------------------------------------------->
+<onekit-p>元素用于 <onekit-mark>高亮</onekit-mark> 文本</onekit-p> 
+
+
+
+
+
 
 </onekit-body>
