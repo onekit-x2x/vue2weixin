@@ -12,9 +12,6 @@ Component({
     virtualHost: true
   },
   properties: {
-    onekitClass:{type:String,value:""},
-    onekitStyle:{type:String,value:""},
-    onekitId:{type:String,value:""},
     placeholder:{type:String,value:""},
     maxlength :{type:Number,value:"140"},
     

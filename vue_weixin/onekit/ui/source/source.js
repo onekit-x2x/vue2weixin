@@ -8,9 +8,8 @@ Component({
     virtualHost: true
   },
   properties: {
-    media:{type:String,value:""},
     src:{type:String,value:""},
-type:{type:String,value:""},
+    type:{type:String,value:""},
   },
 
   /**

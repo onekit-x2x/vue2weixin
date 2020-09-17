@@ -45,10 +45,10 @@ USA
 
 
 
-<!-- ---------------------------------------------  audio  -------------------------------------------------- -->
-<!-- <onekit-audio controls src="https://www.onekitwx.com/quick/demo.mp3">
+<!-- ---------------------------------------------  audio  -------code------------------------------------------- -->
+<!-- <onekit-audio controls loop src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3">
      Your browser does not support the
-     <code>audio</code> element.
+     <onekit-code>audio</onekit-code> element.
 </onekit-audio> -->
 
 <!------------------------------------------------------ div ---------ok------------------------------------>
@@ -456,7 +456,7 @@ mentioned in music, art, and literature</onekit-p> -->
 </onekit-select> -->
 
 <!---------------------------------------------------- select、option----code---------------------------------------------->
-<onekit-select name="pets" onekit-id="pet-select">
+<!-- <onekit-select name="pets" onekit-id="pet-select">
   <onekit-option value="">--Please choose an option--</onekit-option>
   <onekit-option value="dog">Dog</onekit-option>
   <onekit-option value="cat">Cat</onekit-option>
@@ -464,7 +464,7 @@ mentioned in music, art, and literature</onekit-p> -->
   <onekit-option value="parrot">Parrot</onekit-option>
   <onekit-option value="spider">Spider</onekit-option>
   <onekit-option value="goldfish">Goldfish</onekit-option>
-</onekit-select>
+</onekit-select> -->
 
 <!---------------------------------------------------- output ------input未做完---------------------------------------------->
 <!-- <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
@@ -558,6 +558,18 @@ mentioned in music, art, and literature</onekit-p> -->
   <onekit-h1>Heading</onekit-h1>
   <onekit-p>Bunch of awesome content</onekit-p>
 </onekit-section> -->
+
+<!-------------------------------------------------- small ------OK---------------------------------->
+<!-- <onekit-p>This is the first sentence.  
+<onekit-small>This whole sentence is in small letters.</onekit-small>
+</onekit-p> -->
+
+<!-------------------------------------------------- source ---------------------------------------->
+<!-- <onekit-picture>
+  <onekit-source src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" media="(min-width: 800px)"/>
+</onekit-picture> -->
+
+
 
 
 

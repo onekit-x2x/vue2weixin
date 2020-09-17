@@ -7,21 +7,15 @@ Component({
     virtualHost: true
   },
   properties: {
-    autoplay:{type: Boolean,value: false,},
-    muted:{type: Boolean,value: false,},
-    preload:{type: Boolean,value: false,},
-      src:{
-          type: String,
-          value: "",
-      },
-      controls:{
-          type: Boolean,
-          value: true,
-      },
-      loop:{
-        type: Boolean,
-        value: false,
-      },
+      autoplay:{type: Boolean,value: false,},
+      muted:{type: Boolean,value: false,},
+      preload:{type: Boolean,value: false,},
+      src:{type: String,value: "",},
+      controls:{type: Boolean,value: true,},
+      loop:{type: Boolean, value: false, },
+      crossorigin:{type: Boolean,value: false,},
+      currentTime:{type: Number, },
+      duration:{type: Boolean,value: true,},
       
   },
    methods: {
