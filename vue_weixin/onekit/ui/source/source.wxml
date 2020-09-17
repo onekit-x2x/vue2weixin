@@ -1,10 +1,6 @@
 <view
 class="onekit-source {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
-media="{{media}}"
-src="{{src}}"
-type="{{type}}"
-
 >
 <slot/>
 </view>

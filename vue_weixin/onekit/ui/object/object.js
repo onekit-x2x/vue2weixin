@@ -10,6 +10,8 @@ Component({
     virtualHost: true
   },
   properties: {
+    form:{type:String,value:""},
+    usemap:{type:String,value:""},
     width: {
       type: Number,
       value: ""

@@ -14,14 +14,6 @@
 
 
 
-
-<!------------------------------------------------------- p ----------------------------------------------------------------->
-<!-- <onekit-p>这是段落。</onekit-p>
-<onekit-p>这是段落。</onekit-p>
-<onekit-p>这是段落。</onekit-p>
-<onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
-
-
 <!----------------------------------------------------- font ------------------------------------------>
 <!-- <onekit-footer>
   <onekit-p>Posted by: W3School</onekit-p>
@@ -189,7 +181,7 @@ xxxxxxxxxxxxxxxxxxx -->
 <!-- More information can be found in <onekit-cite>[ISO-0000]</onekit-cite>. -->
 
 
-<!-------------------------------------  code  -----字体样式不同------------------------------------->
+<!-------------------------------------  code  ------------------------------------------>
 <!-- Regular text. <onekit-code>This is code.</onekit-code> Regular text. -->
 
 <!-------------------------------------  col  colgroup-----做好table再做------------------------------------->
@@ -446,9 +438,126 @@ mentioned in music, art, and literature</onekit-p> -->
 </onekit-ul> -->
 
 <!------------------------------------------------------ mark ---OK--------------------------------------------------->
-<onekit-p>元素用于 <onekit-mark>高亮</onekit-mark> 文本</onekit-p> 
+<!-- <onekit-p>元素用于 <onekit-mark>高亮</onekit-mark> 文本</onekit-p>  -->
 
 
+<!---------------------------------------------------- optgroup -------------------------------------------------------->
+<!-- <onekit-select id="dino-select">
+  <onekit-optgroup label="Theropods">
+      <onekit-option>Tyrannosaurus</onekit-option>
+      <onekit-option>Velociraptor</onekit-option>
+      <onekit-option>Deinonychus</onekit-option>
+  </onekit-optgroup>
+  <onekit-optgroup label="Sauropods">
+      <onekit-option>Diplodocus</onekit-option>
+      <onekit-option>Saltasaurus</onekit-option>
+      <onekit-option>Apatosaurus</onekit-option>
+  </onekit-optgroup>
+</onekit-select> -->
+
+<!---------------------------------------------------- select、option----code---------------------------------------------->
+<onekit-select name="pets" onekit-id="pet-select">
+  <onekit-option value="">--Please choose an option--</onekit-option>
+  <onekit-option value="dog">Dog</onekit-option>
+  <onekit-option value="cat">Cat</onekit-option>
+  <onekit-option value="hamster">Hamster</onekit-option>
+  <onekit-option value="parrot">Parrot</onekit-option>
+  <onekit-option value="spider">Spider</onekit-option>
+  <onekit-option value="goldfish">Goldfish</onekit-option>
+</onekit-select>
+
+<!---------------------------------------------------- output ------input未做完---------------------------------------------->
+<!-- <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" name="b" value="50" /> +
+  <input type="number" name="a" value="10" /> =
+  <output name="result"></output>
+</form> -->
+
+
+<!---------------------------------------------------- object param ---------------------------------------------------->
+<!-- <object data="move.swf" type="application/x-shockwave-flash"></object>
+<object data="move.swf" type="application/x-shockwave-flash">
+  <param name="foo" value="bar">
+</object>  -->
+
+
+<!------------------------------------------------ p ------OK--------------------------------------------------->
+<!-- <onekit-p>这是段落。</onekit-p>
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>这是段落。</onekit-p>
+<onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
+
+<!------------------------------------------------ picture ------code--------------------------------------------------->
+<!-- <onekit-picture>
+  <onekit-source srcset="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+          media="(min-width: 800px)"/>
+  <onekit-img src="https://b.bdstatic.com/searchbox/icms/searchbox/images/demo.webp" alt="" />
+</onekit-picture> -->
+
+<!------------------------------------------------ pre -----OK---------------------------------------------------->
+<!-- <onekit-pre>
+  L          TE
+    A       A
+      C    V
+       R A
+       DOU
+       LOU
+      REUSE
+      QUE TU
+      PORTES
+    ET QUI T'
+    ORNE O CI
+     VILISÉ
+    OTE-  TU VEUX
+     LA    BIEN
+    SI      RESPI
+            RER       - Apollinaire
+</onekit-pre> -->
+
+<!------------------------------------------------ progress ----OK----------------------------------------------------->
+<!-- <onekit-p>this is progress</onekit-p>
+<onekit-progress onekit-id="file" max="100" value="70" > 70% </onekit-progress>
+<onekit-progress></onekit-progress> -->
+
+<!------------------------------------------------ q ----OK---------------------------------------------------->
+<!-- <onekit-p>Everytime Kenny is killed, Stan will announce 
+  <onekit-q cite="http://www.baidu.com">
+    Oh my God, you/they killed Kenny!
+  </onekit-q>.
+</onekit-p> -->
+
+<!------------------------------------------------ rp rt ------OK-------------------------------------------------->
+<!-- <onekit-ruby>
+  漢 <onekit-rp>(</onekit-rp><onekit-rt>han</onekit-rt><onekit-rp>)</onekit-rp>
+  字 <onekit-rp>(</onekit-rp><onekit-rt>zi</onekit-rt><onekit-rp>)</onekit-rp>
+</onekit-ruby> -->
+
+<!----------------------------------------------- ruby rb rp rt-------uncertainty----------------------->
+<!-- <onekit-ruby>
+  <onekit-rb>内容
+      <onekit-rp>(</onekit-rp>
+        <onekit-rt>neirong</onekit-rt>
+        <onekit-rtc>This is what its means.</onekit-rtc>
+      <onekit-rp>)</onekit-rp>
+    </onekit-rb>
+</onekit-ruby> -->
+
+<!------------------------------------------------ s ----OK---------------------------------------------------->
+<!-- <onekit-s>Today's Special: Salmon</onekit-s> SOLD OUT -->
+
+<!------------------------------------------------ samp ----OK---------------------------------------------------->
+<!-- <onekit-p>Regular text. <onekit-samp>This is sample text.</onekit-samp> Regular text.</onekit-p> -->
+
+<!------------------------------------------------ section ---OK----------------------------------------------------->
+<!-- <onekit-div>
+  <onekit-h1>Heading</onekit-h1>
+  <onekit-p>Bunch of awesome content</onekit-p>
+</onekit-div>
+
+<onekit-section>
+  <onekit-h1>Heading</onekit-h1>
+  <onekit-p>Bunch of awesome content</onekit-p>
+</onekit-section> -->
 
 
 

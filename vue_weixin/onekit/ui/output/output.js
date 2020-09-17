@@ -7,7 +7,8 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {for:{type:String,value:""},
+  properties: {
+  for:{type:String,value:""},
   form:{type:String,value:""},
   name:{type:String,value:""}
 

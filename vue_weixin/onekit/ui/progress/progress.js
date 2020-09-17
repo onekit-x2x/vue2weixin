@@ -9,8 +9,13 @@ Component({
   properties: {
     value: {
       type: Number,
-      Number: 0
-    }
+      value: 100,
+    },
+    max: {
+      type: Number,
+      value: 100,
+    },
+    
   },
 
   /**

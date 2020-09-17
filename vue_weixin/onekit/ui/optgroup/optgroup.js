@@ -7,7 +7,8 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {label:{type:String,value:"text"},
+  properties: {
+    label:{type:String,value:"text"},
   disabled:{type:Boolean,value:false}
 
   },

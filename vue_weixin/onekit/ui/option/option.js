@@ -7,11 +7,11 @@ Component({
     virtualHost: true
   },
   properties:{
-    onekitClass:{type:String,value:""},
-    onekitStyle:{type:String,value:""},
-    onekitId:{type:String,value:""},
     text:{type:String,value:""},
-    value:{type:String,value:""}
+    value:{type:String,value:""},
+    disabled:{type:Boolean},
+    label:{type:String,value:""},
+    selected:{type:Boolean},
   },
   methods:{
   option_tap(e){
