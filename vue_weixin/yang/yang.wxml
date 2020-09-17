@@ -196,9 +196,24 @@
            src="https://interactive-examples.mdn.mozilla.net/media/examples/friday.vtt" />
 </onekit-video> -->
 <!-----------------------------------a----------------------------------------------------------------------------------------->
-    <onekit-a href="http://www.w3school.com.cn">a</onekit-a>
-    <onekit-abbr title="People's Republic of China">abbr</onekit-abbr>
+  <onekit-a href="http://www.w3school.com.cn">a</onekit-a>
+    <onekit-abbr >abbr</onekit-abbr>
+    <onekit-b>这是粗体文本</onekit-b><onekit-big>ddddd</onekit-big>
+    <onekit-base>base</onekit-base><onekit-bdi>bdi</onekit-bdi>
+    <onekit-bdo dir="rtl">bdo</onekit-bdo>
+    <onekit-cite>cite</onekit-cite><onekit-code>code</onekit-code><onekit-em>em</onekit-em><onekit-embed>embed</onekit-embed>
 
+    <onekit-font size="3" color="green">This is some text!</onekit-font>
+
+<onekit-i>i</onekit-i>
+    <onekit-ins>ins</onekit-ins><onekit-kbd>kbd</onekit-kbd> <onekit-mark>mark</onekit-mark> <onekit-samp>samp</onekit-samp><onekit-var>var</onekit-var><onekit-small>small</onekit-small><onekit-strong>strong</onekit-strong><onekit-sub>下标</onekit-sub><onekit-sup>sup</onekit-sup>
+    <onekit-q>q</onekit-q><onekit-ruby>ruby</onekit-ruby><onekit-rt>tr</onekit-rt><onekit-rp>rp</onekit-rp><onekit-span>span</onekit-span><onekit-time>time</onekit-time><onekit-tt>tt</onekit-tt><onekit-u>u</onekit-u><onekit-wbr>wbr</onekit-wbr>
+    <onekit-strike>strike</onekit-strike>
+<onekit-br/>
+    <onekit-ruby>
+        哈哈<onekit-rt>haha</onekit-rt>
+        </onekit-ruby>
+        <onekit-q>q</onekit-q>
 
 <!-----------------------------------a------------------------------------------------------------->
 

@@ -8,7 +8,7 @@ Component({
     virtualHost: true
   },
   properties: {
-
+color:{type:String,value:""}
   },
 
   /**
