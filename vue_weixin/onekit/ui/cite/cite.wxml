@@ -1,6 +1,6 @@
 <view
 class="onekit-cite {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+style="display:inline;{{onekitStyle}}"  id="{{onekitId}}"
 >
 <slot/>
 </view>

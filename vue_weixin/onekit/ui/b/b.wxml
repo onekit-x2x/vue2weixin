@@ -1,7 +1,7 @@
 <!--onekit/ui/b/b.wxml-->
 <view
 class="onekit-b {{onekitClass}}"
-style="{{onekitStyle}}"  
+style="display:inline;{{onekitStyle}}"  
 id="{{onekitId}}"
 >
 <slot/>
