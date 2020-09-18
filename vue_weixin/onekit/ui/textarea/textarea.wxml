@@ -2,9 +2,13 @@
 class="onekit-textarea {{onekitClass}}"
 style="{{onekitStyle}}"
 id="{{onekitId}}"
+
+disabled="{{disabled}}"
+
+
 placeholder="{{placeholder}}"
 maxlength="{{maxlength}}"
 
-auto-focus="true"
+autofocus="{{autoFocus}}"
 
 ><slot/></viewarea>

@@ -3,30 +3,16 @@
 <onekit-body>
 
 
+<!------------------------------------------------------------ a -------OK-------------------------------->
+<!-- <onekit-a href="https://baidu.com">Website</onekit-a>
+<onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
+<onekit-a href="tel:+123456789">Phone</onekit-a> -->
+
+<!------------------------------------------------------ abbr ------code----------------------------------------------------->
+<!-- <onekit-p>Using <onekit-abbr title="这是描述">CSS</onekit-abbr>, you can style your abbreviations!</onekit-p> -->
 
 
-
-
-<!------------------------------------------------------ em ----------------------------------------------------------->
-<!-- <onekit-p>
-  In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
-</onekit-p> -->
-
-
-
-<!----------------------------------------------------- font ------------------------------------------>
-<!-- <onekit-footer>
-  <onekit-p>Posted by: W3School</onekit-p>
-  <onekit-p>Contact information: <onekit-a href="mailto:someone@example.com">someone@example.com</onekit-a>.</onekit-p>
-</onekit-footer> -->
-
-<!------------------------------------------------------- kbd ------------------------------------------------------>
-<!-- <onekit-p>Type the following in the Run dialog: <onekit-kbd>cmd</onekit-kbd><onekit-br/>Then click the OK button.</onekit-p>
-<onekit-p>Save the document by pressing <onekit-kbd>Ctrl</onekit-kbd> + <onekit-kbd>S</onekit-kbd></onekit-p> -->
-
-
-
-<!------------------------------------------------------- address ---------------------------------------->
+<!------------------------------------------------------- address ---OK------------------------------------->
 <!-- <onekit-address>
 Written by <onekit-a href="mailto:webmaster@example.com">Donald Duck</onekit-a>.<onekit-br/> 
 Visit us at:<onekit-br/>
@@ -34,35 +20,6 @@ Example.com<onekit-br/>
 Box 564, Disneyland<onekit-br/>
 USA
 </onekit-address> -->
-
-
-<!----------------------------------------------------------- b ---------OK------------------------------------>
-<!-- <onekit-p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</onekit-p> -->
-
-
-<!----------------------------------------------------------- br ---------OK----------------------------------->
-<!-- To break,<onekit-br/>lines,<onekit-br/>in a,<onekit-br/>paragraph,<onekit-br/>use the br tag. -->
-
-
-
-<!-- ---------------------------------------------  audio  -------code------------------------------------------- -->
-<!-- <onekit-audio controls loop src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3">
-     Your browser does not support the
-     <onekit-code>audio</onekit-code> element.
-</onekit-audio> -->
-
-<!------------------------------------------------------ div ---------ok------------------------------------>
-<!-- <onekit-h3>This is a header</onekit-h3>
-<onekit-p>This is a paragraph.</onekit-p>
-<onekit-div onekit-style="color:red">
-  <onekit-h3>This is a header</onekit-h3>
-  <onekit-p>This is a paragraph.</onekit-p>
-</onekit-div> -->
-
-<!------------------------------------------------------------ a -------code-------------------------------->
-<!-- <onekit-a href="https://baidu.com">Website</onekit-a>
-<onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
-<onekit-a href="tel:+123456789">Phone</onekit-a> -->
 
 
 <!-- ----------------------------------------------  area  map--------code---------------------------------------------------- -->
@@ -83,11 +40,48 @@ alt="Venus">
 </onekit-map>
 -->
 
-<!-----------------------------------------------------  dialog  -----OK------------------------------->
- 
- <!-- <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
- <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog> -->
-   
+
+<!-- ----------------------------------------------  article --样式---------------------------------------------------------- -->
+<!-- <onekit-article class="forecast">
+  <onekit-h1>Weather forecast for Seattle</onekit-h1>
+  <onekit-article class="day-forecast">
+      <onekit-h2>03 March 2018</onekit-h2>
+      <onekit-p>Rain.</onekit-p>
+  </onekit-article>
+  <onekit-article class="day-forecast">
+      <onekit-h2>04 March 2018</onekit-h2>
+      <onekit-p>Periods of rain.</onekit-p>
+  </onekit-article>
+  <onekit-article class="day-forecast">
+      <onekit-h2>05 March 2018</onekit-h2>
+      <onekit-p>Heavy rain.</onekit-p>
+  </onekit-article>
+</onekit-article> -->
+
+<!-- ----------------------------------------------  aside ----OK-------------------------------------------------------- -->
+<!-- <onekit-p>AAA</onekit-p>
+
+<onekit-aside>
+    <onekit-p>this is aside</onekit-p>
+</onekit-aside>
+
+<onekit-p>BBB</onekit-p> -->
+
+
+<!-- ---------------------------------------------  audio  -------code------------------------------------------- -->
+<!-- <onekit-audio controls loop src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3">
+     Your browser does not support the
+     <onekit-code>audio</onekit-code> element.
+</onekit-audio> -->
+
+
+
+<!----------------------------------------------------------- b ---------OK------------------------------------>
+<!-- <onekit-p>这是普通文本 - <onekit-b>这是粗体文本</onekit-b>。</onekit-p> -->
+
+<!----------------------------------------------------------- base --------------------------------------------->
+
+
 <!-----------------------------------------------------  bdi  -----code------------------------------->
 <!-- User <onekit-bdi dir="rtl">my home </onekit-bdi> 60  
 User <onekit-bdi dir="ltr">my home </onekit-bdi> 60 
@@ -108,7 +102,12 @@ This is a long quotation. This is a long quotation. This is a long quotation. Th
 
 xxxxxxxxxxxxxxxxxxx -->
 
-<!-----------------------------------------------------  button  ---code--------------------------------->
+
+<!----------------------------------------------------------- br ---------OK----------------------------------->
+<!-- To break,<onekit-br/>lines,<onekit-br/>in a,<onekit-br/>paragraph,<onekit-br/>use the br tag. -->
+
+
+<!-----------------------------------------------------  button  form---code--------------------------------->
 <!-- <onekit-button type="button">button</onekit-button>
 <onekit-button type="button" autofocus="autofocus">autofocus</onekit-button>
 <onekit-button type="button" disabled>disabled</onekit-button>
@@ -165,6 +164,7 @@ xxxxxxxxxxxxxxxxxxx -->
     <onekit-button name="subject" type="submit" value="CSS">CSS</onekit-button> 
   </form> -->
 
+ 
 <!-------------------------------------  canvas  ------code------------------------------------>
 <!-- <onekit-canvas onekit-id="canvas" width="300" height="300"> 
     抱歉，您的浏览器不支持canvas元素
@@ -181,32 +181,32 @@ xxxxxxxxxxxxxxxxxxx -->
 <!-- More information can be found in <onekit-cite>[ISO-0000]</onekit-cite>. -->
 
 
-<!-------------------------------------  code  ------------------------------------------>
+<!-------------------------------------  code  ----OK-------------------------------------->
 <!-- Regular text. <onekit-code>This is code.</onekit-code> Regular text. -->
 
-<!-------------------------------------  col  colgroup-----做好table再做------------------------------------->
-<!-- <table  width="100%" border="1">
-    <caption>col test</caption>
-    <colgroup>
-        <col>
-        <col span="2" >
-        <col span="2" >
-    </colgroup>
-    <tr>
-        <td> </td>
-        <th scope="col">Batman</th>
-        <th scope="col">Robin</th>
-        <th scope="col">The Flash</th>
-        <th scope="col">Kid Flash</th>
-    </tr>
-    <tr>
-        <th scope="row">Skill</th>
-        <td>Smarts</td>
-        <td>Dex, acrobat</td>
-        <td>Super speed</td>
-        <td>Super speed</td>
-    </tr>
-</table> -->
+<!-------------------------------------  col  colgroup caption-----OK------------------------------------->
+<!-- <onekit-table  width="100%" border="1">
+    <onekit-caption>col test</onekit-caption>
+    <onekit-colgroup>
+        <onekit-col/>
+        <onekit-col span="2" />
+        <onekit-col span="2" />
+    </onekit-colgroup>
+    <onekit-tr>
+        <onekit-td> </onekit-td>
+        <onekit-th scope="col">Batman</onekit-th>
+        <onekit-th scope="col">Robin</onekit-th>
+        <onekit-th scope="col">The Flash</onekit-th>
+        <onekit-th scope="col">Kid Flash</onekit-th>
+    </onekit-tr>
+    <onekit-tr>
+        <onekit-th scope="row">Skill</onekit-th>
+        <onekit-td>Smarts</onekit-td>
+        <onekit-td>Dex, acrobat</onekit-td>
+        <onekit-td>Super speed</onekit-td>
+        <onekit-td>Super speed</onekit-td>
+    </onekit-tr>
+</onekit-table>  -->
 
 <!-------------------------------------  data  -------code value----------------------------------->
 <!-- <onekit-p>New Products:</onekit-p>
@@ -228,18 +228,45 @@ xxxxxxxxxxxxxxxxxxx -->
     <onekit-option value="Safari">
   </onekit-datalist> -->
 
-<!------------------------------------------------ dl、dt、dd -------OK------------------------------------->
-<!-- <onekit-dl>
-   <onekit-dt>计算机</onekit-dt>
-   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
-   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
-   <onekit-dt>显示器</onekit-dt>
-   <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
-   <onekit-dd>以视觉方式显示信息的装置2... ...</onekit-dd>
-</onekit-dl> -->
+<!-------------------------------------  dd  ------------------------------------------>
+<!-------------------------------------  del  ------------------------------------------>
 
 
-<!----------------------------------------------  fieldset legend  -------legendNeedsCode------------------------------------>
+<!-------------------------------------------------- details ----code------------------------------------>
+<!-- <onekit-details>
+  <onekit-p>Requires a computer running an operating system. The computer
+  must have some memory and ideally some kind of long-term storage.
+  An input device as well as some form of output device is
+  recommended.</onekit-p>
+</onekit-details> -->
+<!-------------------------------------  dfn  ------------------------------------------>
+
+
+<!-----------------------------------------------------  dialog  -----OK------------------------------->
+ 
+ <!-- <onekit-dialog open>这是要显示出来的对话框中的内容</onekit-dialog>
+ <onekit-dialog>这是不显示出来的对话框中内容</onekit-dialog> -->
+  
+
+
+<!------------------------------------------------------ div ---------ok------------------------------------>
+<!-- <onekit-h3>This is a header</onekit-h3>
+<onekit-p>This is a paragraph.</onekit-p>
+<onekit-div onekit-style="color:red">
+  <onekit-h3>This is a header</onekit-h3>
+  <onekit-p>This is a paragraph.</onekit-p>
+</onekit-div> -->
+<!-------------------------------------  dl  ------------------------------------------>
+<!-------------------------------------  dt  ------------------------------------------>
+
+<!------------------------------------------------------ em ------ok------------------------------------->
+<!-- <onekit-p>
+  In HTML 5, what was previously called <onekit-em>block-level</onekit-em> content is now called <onekit-em>flow</onekit-em> content.
+</onekit-p> -->
+<!-------------------------------------  embed 不支持  ------------------------------------------>
+
+
+<!------------------------------------  fieldset legend  -------legendNeedsCode--------------------------->
    <!-- <onekit-fieldset>
 
     <onekit-input type="radio" onekit-id="kraken" name="monster"/>
@@ -269,13 +296,40 @@ xxxxxxxxxxxxxxxxxxx -->
 
 
 
-<!--------------------------------------- figure   figcaption ----------OK--------------------------------------->
+<!------------------------------------- figure   figcaption ----------OK------------------------------->
 <!-- <onekit-p>上海卢浦大桥是当今世界第一钢结构拱桥，是世界上跨度最大的拱形桥。它也是世界上首座完全采用焊接工艺连接的大型拱桥（除合拢接口采用栓接外），现场焊接焊缝总长度达4万多米，接近上海市内环高架路的总长度。卢浦大桥像澳大利亚悉尼的海湾大桥一样具有旅游观光的功能。</onekit-p>
 <onekit-figure>
   <onekit-p>黄浦江上的的卢浦大桥</onekit-p>
   <onekit-p>拍摄者：W3School 项目组，拍摄时间：2010 年 10 月</onekit-p>
   <onekit-figcaption>Fig.1 - The Pulpit Rock, Norway.</onekit-figcaption>
 </onekit-figure> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------ dl、dt、dd -------OK------------------------------------->
+<!-- <onekit-dl>
+   <onekit-dt>计算机</onekit-dt>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+   <onekit-dd>用来计算的仪器 ... ...</onekit-dd>
+   <onekit-dt>显示器</onekit-dt>
+   <onekit-dd>以视觉方式显示信息的装置 ... ...</onekit-dd>
+   <onekit-dd>以视觉方式显示信息的装置2... ...</onekit-dd>
+</onekit-dl> -->
+
+
 
 <!------------------------------------------------------ h ----------OK----------------------------------------------------->
 <!-- <onekit-h1>这是标题 1</onekit-h1>
@@ -284,10 +338,9 @@ xxxxxxxxxxxxxxxxxxx -->
 <onekit-h4>这是标题 4</onekit-h4>
 <onekit-h5>这是标题 5</onekit-h5>
 <onekit-h6>这是标题 6</onekit-h6> -->
-
-
-
-<!-------------------------------------------------------- hr --------OK--------------------------------->
+<!-------------------------------------  head  ------------------------------------------>
+<!-------------------------------------  header  ------------------------------------------>
+<!---------------------------------------- hr --------OK--------------------------------->
 <!-- <onekit-p>hr 标签定义水平线：</onekit-p>
 <onekit-hr/>
 <onekit-p>这是段落。</onekit-p>
@@ -295,20 +348,16 @@ xxxxxxxxxxxxxxxxxxx -->
 <onekit-p>这是段落。</onekit-p>
 <onekit-hr/>
 <onekit-p>这是段落。</onekit-p> -->
-
+<!-------------------------------------  html  ------------------------------------------>
 
 <!-------------------------------------------------------- i -----OK------------------------------------------>
 <!-- <onekit-p>The Latin phrase <onekit-i class="latin">Veni, vidi, vici</onekit-i> is often
 mentioned in music, art, and literature</onekit-p> -->
 
+<!-------------------------------------  iframe  ------------------------------------------>
 
-<!------------------------------------------------------- ins -----OK---------------------------------------------->
-<!-- <onekit-p>一打有 <onekit-del>二十</onekit-del> <onekit-ins>十二</onekit-ins> 件。</onekit-p>
-<onekit-p>大多数浏览器会改写为删除文本和下划线文本。</onekit-p>
-<onekit-p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</onekit-p>
- -->
 
-<!-- ----------------------------------------------  img  ------code------------------------------------------------------ -->
+<!-- ----------------------------------  img  ------code------------------------------- -->
 
 <!-- <onekit-img  onekit-style="display:block"  onekit-id="0" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" />
 <onekit-img onekit-style="display:block" onekit-id="1" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="50%" />
@@ -324,7 +373,8 @@ mentioned in music, art, and literature</onekit-p> -->
 
 
 
-<!-- ----------------------------------------------  input  ------------------------------------------------------------ -->
+
+<!-- ----------------------------------  input  ------------------------------------------------- -->
 
  <!-- <onekit-p>type=text、password、submit、button:</onekit-p>
 <onekit-hr />
@@ -413,7 +463,21 @@ mentioned in music, art, and literature</onekit-p> -->
 </form> 
  -->
 
-<!------------------------------------------------------ label ----OK-------------------------------------------------->
+<!-------------------------------------- ins -----OK----------------------------------->
+<!-- <onekit-p>一打有 <onekit-del>二十</onekit-del> <onekit-ins>十二</onekit-ins> 件。</onekit-p>
+<onekit-p>大多数浏览器会改写为删除文本和下划线文本。</onekit-p>
+<onekit-p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</onekit-p>
+ -->
+
+
+
+<!------------------------------------------------------- kbd -----OK------------------------------------->
+<!-- <onekit-p>Type the following in the Run dialog: <onekit-kbd>cmd</onekit-kbd><onekit-br/>Then click the OK button.</onekit-p>
+<onekit-p>Save the document by pressing <onekit-kbd>Ctrl</onekit-kbd> + <onekit-kbd>S</onekit-kbd></onekit-p> -->
+
+<!------------------------------------- keygend ----------------------------------------->
+
+<!--------------------------------------- label ----OK--------------------------------------------->
 <!-- <onekit-div onekit-class="preference">
     <onekit-label for="cheese">Do you like cheese?</onekit-label>
     <onekit-input type="checkbox" name="cheese" onekit-onekit-id="cheese"/>
@@ -424,7 +488,7 @@ mentioned in music, art, and literature</onekit-p> -->
     <onekit-input type="checkbox" name="peas" onekit-onekit-id="peas"/>
 </onekit-div> -->
 
-<!----------------------------------------------ol ul li -------code----------------------------------------------->
+<!---------------------------------------li ol ul  -------code--------------------------------->
 <!-- <onekit-ol reversed  start="4" type="A">
   <onekit-li>first item</onekit-li>
   <onekit-li value="1">second item</onekit-li>
@@ -437,11 +501,34 @@ mentioned in music, art, and literature</onekit-p> -->
   <onekit-li>third item</onekit-li>
 </onekit-ul> -->
 
-<!------------------------------------------------------ mark ---OK--------------------------------------------------->
+
+<!------------------------------------------------- link ----------------------------------->
+
+<!--------------------------------------------------- main ---------------------------------->
+
+<!------------------------------------------------- mark ---OK------------------------------------->
 <!-- <onekit-p>元素用于 <onekit-mark>高亮</onekit-mark> 文本</onekit-p>  -->
 
+<!-------------------------------------------------- menu -------------------------------------------------->
 
-<!---------------------------------------------------- optgroup -------------------------------------------------------->
+<!------------------------------------------------- menuitem ------------------------------------------------->
+
+<!------------------------------------------------- meta ------------------------------------------------->
+
+<!------------------------------------------------- meter ------------------------------------------------->
+
+<!------------------------------------------------- nav ------------------------------------------------->
+
+<!------------------------------------------------- noscript ------------------------------------------------->
+
+<!------------------------------------ object param ----------------------------------->
+<!-- <object data="move.swf" type="application/x-shockwave-flash"></object>
+<object data="move.swf" type="application/x-shockwave-flash">
+  <param name="foo" value="bar">
+</object>  -->
+
+
+<!------------------------------------ optgroup option------------------------------------->
 <!-- <onekit-select id="dino-select">
   <onekit-optgroup label="Theropods">
       <onekit-option>Tyrannosaurus</onekit-option>
@@ -455,46 +542,28 @@ mentioned in music, art, and literature</onekit-p> -->
   </onekit-optgroup>
 </onekit-select> -->
 
-<!---------------------------------------------------- select、option----code---------------------------------------------->
-<!-- <onekit-select name="pets" onekit-id="pet-select">
-  <onekit-option value="">--Please choose an option--</onekit-option>
-  <onekit-option value="dog">Dog</onekit-option>
-  <onekit-option value="cat">Cat</onekit-option>
-  <onekit-option value="hamster">Hamster</onekit-option>
-  <onekit-option value="parrot">Parrot</onekit-option>
-  <onekit-option value="spider">Spider</onekit-option>
-  <onekit-option value="goldfish">Goldfish</onekit-option>
-</onekit-select> -->
-
-<!---------------------------------------------------- output ------input未做完---------------------------------------------->
+<!------------------------------------------ output ------input未做完------------------------------>
 <!-- <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
   <input type="range" name="b" value="50" /> +
   <input type="number" name="a" value="10" /> =
   <output name="result"></output>
 </form> -->
 
-
-<!---------------------------------------------------- object param ---------------------------------------------------->
-<!-- <object data="move.swf" type="application/x-shockwave-flash"></object>
-<object data="move.swf" type="application/x-shockwave-flash">
-  <param name="foo" value="bar">
-</object>  -->
-
-
-<!------------------------------------------------ p ------OK--------------------------------------------------->
+<!------------------------------ p ------OK--------------------------------->
 <!-- <onekit-p>这是段落。</onekit-p>
 <onekit-p>这是段落。</onekit-p>
 <onekit-p>这是段落。</onekit-p>
 <onekit-p>段落元素由 p 标签定义。</onekit-p>  -->
 
-<!------------------------------------------------ picture ------code--------------------------------------------------->
+
+<!---------------------------------------- picture ------code------------------------------------------->
 <!-- <onekit-picture>
   <onekit-source srcset="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
           media="(min-width: 800px)"/>
   <onekit-img src="https://b.bdstatic.com/searchbox/icms/searchbox/images/demo.webp" alt="" />
 </onekit-picture> -->
 
-<!------------------------------------------------ pre -----OK---------------------------------------------------->
+<!------------------------------------------- pre -----OK----------------------------------------->
 <!-- <onekit-pre>
   L          TE
     A       A
@@ -514,23 +583,18 @@ mentioned in music, art, and literature</onekit-p> -->
             RER       - Apollinaire
 </onekit-pre> -->
 
-<!------------------------------------------------ progress ----OK----------------------------------------------------->
+<!----------------------------------------- progress ----OK---------------------------------------------->
 <!-- <onekit-p>this is progress</onekit-p>
 <onekit-progress onekit-id="file" max="100" value="70" > 70% </onekit-progress>
 <onekit-progress></onekit-progress> -->
 
-<!------------------------------------------------ q ----OK---------------------------------------------------->
+
+<!------------------------------------------- q ----OK------------------------------------------>
 <!-- <onekit-p>Everytime Kenny is killed, Stan will announce 
   <onekit-q cite="http://www.baidu.com">
     Oh my God, you/they killed Kenny!
   </onekit-q>.
 </onekit-p> -->
-
-<!------------------------------------------------ rp rt ------OK-------------------------------------------------->
-<!-- <onekit-ruby>
-  漢 <onekit-rp>(</onekit-rp><onekit-rt>han</onekit-rt><onekit-rp>)</onekit-rp>
-  字 <onekit-rp>(</onekit-rp><onekit-rt>zi</onekit-rt><onekit-rp>)</onekit-rp>
-</onekit-ruby> -->
 
 <!----------------------------------------------- ruby rb rp rt-------uncertainty----------------------->
 <!-- <onekit-ruby>
@@ -542,13 +606,13 @@ mentioned in music, art, and literature</onekit-p> -->
     </onekit-rb>
 </onekit-ruby> -->
 
-<!------------------------------------------------ s ----OK---------------------------------------------------->
+<!------------------------------------------- s ----OK------------------------------------------------>
 <!-- <onekit-s>Today's Special: Salmon</onekit-s> SOLD OUT -->
 
-<!------------------------------------------------ samp ----OK---------------------------------------------------->
+<!------------------------------------------ samp ----OK------------------------------------------------>
 <!-- <onekit-p>Regular text. <onekit-samp>This is sample text.</onekit-samp> Regular text.</onekit-p> -->
 
-<!------------------------------------------------ section ---OK----------------------------------------------------->
+<!------------------------------------------ section ---OK----------------------------------------------->
 <!-- <onekit-div>
   <onekit-h1>Heading</onekit-h1>
   <onekit-p>Bunch of awesome content</onekit-p>
@@ -559,19 +623,140 @@ mentioned in music, art, and literature</onekit-p> -->
   <onekit-p>Bunch of awesome content</onekit-p>
 </onekit-section> -->
 
+
+
+<!-------------------------------------------------- select、option----code----------------------------------->
+<!-- <onekit-select name="pets" onekit-id="pet-select">
+  <onekit-option value="">--Please choose an option--</onekit-option>
+  <onekit-option value="dog">Dog</onekit-option>
+  <onekit-option value="cat">Cat</onekit-option>
+  <onekit-option value="hamster">Hamster</onekit-option>
+  <onekit-option value="parrot">Parrot</onekit-option>
+  <onekit-option value="spider">Spider</onekit-option>
+  <onekit-option value="goldfish">Goldfish</onekit-option>
+</onekit-select> -->
+
+<!-------------------------------------------------- shadow -------------------------------------------------->
+
+<!-------------------------------------------------- slot -------------------------------------------------->
+
 <!-------------------------------------------------- small ------OK---------------------------------->
 <!-- <onekit-p>This is the first sentence.  
 <onekit-small>This whole sentence is in small letters.</onekit-small>
 </onekit-p> -->
 
-<!-------------------------------------------------- source ---------------------------------------->
+<!-------------------------------------------------- source ---incompletely------------------------------------->
 <!-- <onekit-picture>
-  <onekit-source src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" media="(min-width: 800px)"/>
-</onekit-picture> -->
+  <onekit-source srcset="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" media="(min-width: 800px)"/>
+  <onekit-img src="https://b.bdstatic.com/searchbox/icms/searchbox/images/demo.webp" alt="" />
+</onekit-picture>
+<onekit-br/>
+<onekit-video controls>
+  <onekit-source src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" type="video/webm"/>
+  I'm sorry; your browser doesn't support HTML5 video.
+</onekit-video>
+<onekit-br/>
+<onekit-audio controls>
+<onekit-source src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3"></onekit-source>
+</onekit-audio> -->
+
+<!-------------------------------------------------- span -----OK----------------------------------->
+<!-- <onekit-p><onekit-span onekit-id="test" onekit-clas="test" onekit-style="color:red">一些文字</onekit-span></onekit-p> -->
+
+<!-------------------------------------------------- strong ----OK------------------------------------>
+<!-- <onekit-p>When doing x it is <onekit-strong>imperative</onekit-strong> to do y before proceeding.</onekit-p> -->
+
+<!-------------------------------------------------- style -------------------------------------------------->
+
+<!-------------------------------------------------- sub ----OK------------------------------------>
+<!-- <onekit-p>The chemical formula of water: H<onekit-sub>2</onekit-sub>O</onekit-p> -->
 
 
+<!-------------------------------------------------- summary ----code------------------------------------>
+<!-- <onekit-details>
+  <onekit-summary>System Requirements</onekit-summary>
+  <onekit-p>Requires a computer running an operating system. The computer
+  must have some memory and ideally some kind of long-term storage.
+  An input device as well as some form of output device is
+  recommended.</onekit-p>
+</onekit-details> -->
+
+<!-------------------------------------------------- sup ----OK------------------------------------>
+<!-- <onekit-p>This text is <onekit-sup>superscripted</onekit-sup></onekit-p> -->
+
+<!-------------------------------------- table thead tbody tfoot th tr td----OK------------------------------->
+<!-- <onekit-table  border="1" width="50%"   bgcolor="#00FF00" align="center">
+    <onekit-thead align="right">
+      <onekit-tr>
+        <onekit-th bgcolor="#f1f1f1">Month</onekit-th>
+        <onekit-th>Savings</onekit-th>
+      </onekit-tr>
+    </onekit-thead>
+    <onekit-tbody align="right">
+      <onekit-tr bgcolor="#f0f0f0">
+        <onekit-td >January</onekit-td>
+        <onekit-td>$100</onekit-td>
+      </onekit-tr>
+      <onekit-tr>
+        <onekit-td height="70%" width="70%" >February</onekit-td>
+        <onekit-td>$80</onekit-td>
+      </onekit-tr>
+    </onekit-tbody >
+     <onekit-tfoot align="right">
+      <onekit-tr>
+        <onekit-td onekit-style="" >Sum</onekit-td>
+        <onekit-td bgcolor="#f00"  valign="bottom" >$180</onekit-td>
+      </onekit-tr>
+    </onekit-tfoot>
+  </onekit-table> -->
+
+<!-- template -->
+
+<!-- textarea -->
+<!-- <onekit-textarea cols="100" form="formname" name="txtname" 
+placeholder="Please fill in the prompt here"
+required rows wrap
+>
+
+</onekit-textarea> -->
+
+<!-------------------------------------------------- time -------------------------------------------------->
+
+<!-------------------------------------------------- title -------------------------------------------------->
+
+<!------------------------------------------ track video-----demo都未生效--------------------------------->
+<!-- <onekit-video controls
+       src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
+     <onekit-track default
+     onekit-id="track"
+           kind="captions"
+           srclang="en"
+           src="https://interactive-examples.mdn.mozilla.net/media/examples/friday.vtt" />
+</onekit-video>-->
 
 
+<!-------------------------------------------------- u ----OK------------------------------------>
+<!-- <onekit-p>This paragraph includes a <onekit-u onekit-class="spelling">wrnogly</onekit-u>
+  spelled word.</onekit-p> -->
 
+<!-------------------------------------------------- ul ----OK------------------------------------>
+<!-- <onekit-ul onekit-id="aaa" onekit-class="bbb" onekit-style="color:red">
+  <onekit-li>first item</onekit-li>
+  <onekit-li>second item</onekit-li>
+  <onekit-li>third item</onekit-li>
+</onekit-ul> -->
+
+<!----------------------------------------------------- var --OK-------------------------------------->
+<!-- <onekit-p>The variables <onekit-var>minSpeed</onekit-var> and <onekit-var>maxSpeed</onekit-var> control
+  the minimum and maximum speed of the apparatus in revolutions
+  per minute (RPM).</onekit-p> -->
+
+<!----------------------------------------------------- wbr ---OK-------------------------------------------------->
+<!-- <onekit-p>http://this<onekit-wbr/>.is<onekit-wbr/>.a<onekit-wbr/>.really<onekit-wbr/>
+  .long<onekit-wbr/>.example<onekit-wbr/>.com/With<onekit-wbr/>
+    /deeper<onekit-wbr/>/level<onekit-wbr/>/pages<onekit-wbr/>/deeper<onekit-wbr/>/level<onekit-wbr/>
+      /pages<onekit-wbr/>/deeper<onekit-wbr/>/level<onekit-wbr/>/pages<onekit-wbr/>/deeper<onekit-wbr/>/level<onekit-wbr/>
+        /pages<onekit-wbr/>/deeper<onekit-wbr/>/level<onekit-wbr/>/pages
+</onekit-p> -->
 
 </onekit-body>
