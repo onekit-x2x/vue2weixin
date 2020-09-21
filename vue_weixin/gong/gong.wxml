@@ -66,8 +66,8 @@ alt="Sun" />
 </onekit-map> -->
 
 
-<!-- ---------------------------------------  article --样式----------------------------------------------- -->
-<onekit-article onekit-class="forecast">
+<!-- ---------------------------------------  article --OK----------------------------------------------- -->
+<!-- <onekit-article onekit-class="forecast">
   <onekit-h1>Weather forecast for Seattle</onekit-h1>
   <onekit-article onekit-class="day-forecast">
       <onekit-h2>03 March 2018</onekit-h2>
@@ -81,7 +81,7 @@ alt="Sun" />
       <onekit-h2>05 March 2018</onekit-h2>
       <onekit-p>Heavy rain.</onekit-p>
   </onekit-article>
-</onekit-article>
+</onekit-article> -->
 
 <!-- ----------------------------------------------  aside ----OK-------------------------------------------------------- -->
 <!-- <onekit-p>AAA</onekit-p>
