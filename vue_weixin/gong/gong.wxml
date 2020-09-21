@@ -23,13 +23,13 @@ USA
 
 
 <!-- ----------------------------------------------  area  map--------code---------------------------------------------------- -->
-<onekit-p>请点击图像，把它们放大。</onekit-p>
+<!-- <onekit-p>请点击图像，把它们放大。</onekit-p>
 
 <onekit-img src="chineseMap2.jpg" border="0" usemap="#chinesemap" alt="chinesemap"/>
-<onekit-map name="chinesemap" id="chinesemap">
+<onekit-map name="chinesemap" id="chinesemap"> -->
 
 <!-- 多边形为新疆板块 -->
-<onekit-area shape="polygon"
+<!-- <onekit-area shape="polygon"
 coords="101,52,94,55,91,60,84,57,79,66,71,66,71,75,66,80,39,84,41,90,40,98,42,102,42,107,48,111,50,118,94,119,100,120,102,114,100,109,108,106,111,100,126,89,117,76,109,73,109,62"
 href ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599646438911&di=d393ac0fa026524a3b20c9f2309a23da&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F-fo3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F29381f30e924b899cf0cfcc268061d950a7bf61c.jpg"
 target ="_blank"
@@ -63,21 +63,21 @@ href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1706177023,2397
 target ="_blank"
 alt="Sun" /> 
 
-</onekit-map>
+</onekit-map> -->
 
 
-<!-- ----------------------------------------------  article --样式---------------------------------------------------------- -->
-<!-- <onekit-article class="forecast">
+<!-- ---------------------------------------  article --样式----------------------------------------------- -->
+<!-- <onekit-article onekit-class="forecast">
   <onekit-h1>Weather forecast for Seattle</onekit-h1>
-  <onekit-article class="day-forecast">
+  <onekit-article onekit-class="day-forecast">
       <onekit-h2>03 March 2018</onekit-h2>
       <onekit-p>Rain.</onekit-p>
   </onekit-article>
-  <onekit-article class="day-forecast">
+  <onekit-article onekit-class="day-forecast">
       <onekit-h2>04 March 2018</onekit-h2>
       <onekit-p>Periods of rain.</onekit-p>
   </onekit-article>
-  <onekit-article class="day-forecast">
+  <onekit-article onekit-class="day-forecast">
       <onekit-h2>05 March 2018</onekit-h2>
       <onekit-p>Heavy rain.</onekit-p>
   </onekit-article>
@@ -94,10 +94,9 @@ alt="Sun" />
 
 
 <!-- ---------------------------------------------  audio  -------code------------------------------------------- -->
-<!-- <onekit-audio controls loop src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3">
+<onekit-audio controls loop src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3">
      Your browser does not support the
-     <onekit-code>audio</onekit-code> element.
-</onekit-audio> -->
+</onekit-audio>
 
 
 
