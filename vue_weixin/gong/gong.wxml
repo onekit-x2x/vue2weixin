@@ -8,7 +8,7 @@
 <onekit-a href="mailto:m.bluth@example.com">Email</onekit-a>
 <onekit-a href="tel:+123456789">Phone</onekit-a> -->
 
-<!------------------------------------------------------ abbr ------code----------------------------------------------------->
+<!---------------------------------- abbr 因为手机端没有鼠标放上去就提示内容的类似功能，所以跳过------------------------------------------>
 <!-- <onekit-p>Using <onekit-abbr title="这是描述">CSS</onekit-abbr>, you can style your abbreviations!</onekit-p> -->
 
 
@@ -23,22 +23,47 @@ USA
 
 
 <!-- ----------------------------------------------  area  map--------code---------------------------------------------------- -->
-<!-- 
 <onekit-p>请点击图像，把它们放大。</onekit-p>
-<onekit-img src="/gong/chineseMap2.jpg" border="0" usemap="#chinesemap" alt="chinesemap"></onekit-img>
-<onekit-map name="chinesemap" onekit-id="chinesemap">
 
+<onekit-img src="chineseMap2.jpg" border="0" usemap="#chinesemap" alt="chinesemap"/>
+<onekit-map name="chinesemap" id="chinesemap">
 
-<onekit-area shape="polygon" 
-coords=
-"101,52,94,55,91,60,84,57,79,66,71,66,71,75,66,80,39,84,41,90,40,98,42,102,42,107,48,111,50,118,94,119,100,120,102,114,100,109,108,106,111,100,126,89,117,76,109,73,109,62"
+<!-- 多边形为新疆板块 -->
+<onekit-area shape="polygon"
+coords="101,52,94,55,91,60,84,57,79,66,71,66,71,75,66,80,39,84,41,90,40,98,42,102,42,107,48,111,50,118,94,119,100,120,102,114,100,109,108,106,111,100,126,89,117,76,109,73,109,62"
 href ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599646438911&di=d393ac0fa026524a3b20c9f2309a23da&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F-fo3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F29381f30e924b899cf0cfcc268061d950a7bf61c.jpg"
 target ="_blank"
-alt="Venus">
-
-</onekit-area>
+alt="Venus"/>
 </onekit-map>
--->
+
+<onekit-img
+src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3575533297,479716679&fm=26&gp=0.jpg"
+border="0" usemap="#planetmap"
+alt="Planets"/>
+<onekit-map name="planetmap" onekit-id="planetmap">
+<onekit-area
+shape="circle"
+coords="120,127,10"
+href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=345683711,3744347852&fm=26&gp=0.jpg"
+target ="_blank"
+alt="Venus" />
+
+
+<onekit-area
+shape="polygon"
+coords="120,340,100,385,140,385"
+href ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599460681962&di=ce27231cf21cdd1c4d0e24ff7fd6bf5e&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F19%2F05%2F01%2F129c4ab8426ecc90a56a953a8e668325.jpg"
+target ="_blank"
+alt="Mercury" />
+
+<onekit-area
+shape="rect"
+coords="132,405,150,420"
+href ="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1706177023,2397564444&fm=26&gp=0.jpg"
+target ="_blank"
+alt="Sun" /> 
+
+</onekit-map>
 
 
 <!-- ----------------------------------------------  article --样式---------------------------------------------------------- -->

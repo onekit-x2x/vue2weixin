@@ -60,10 +60,11 @@ var HEIGHT = res[0].height;
       var weixin_src = this.properties.src; 
       
      
-      if(!weixin_src.indexOf("://")){
+      if(weixin_src.indexOf("://")<0){
         const currentUrl = TheKit.currentUrl();
         weixin_src =  "/"+fixurl(currentUrl,weixin_src);
     }
+    console.log(weixin_src)
       this.setData({weixin_width,weixin_height,weixin_src});
     },
     detached: function() {
