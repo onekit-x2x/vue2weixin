@@ -94,10 +94,20 @@ alt="Sun" />
 
 
 <!-- ---------------------------------------------  audio  -------code------------------------------------------- -->
-<onekit-audio controls loop src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3">
+<!-- <onekit-audio controls loop onekit-id="music" src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3"
+    bindplay="music_play"
+    bindcanplay="music_canplay"
+    bindcomplete="music_complete"
+    bindended="music_ended"
+    bindloadeddata="music_loadeddata"
+    bindpause="music_pause"
+    bindcanplaythrough="music_canplaythrough"
+    bindplaying="music_playing"
+    bindtimeupdate="music_timeupdate"
+>
      Your browser does not support the
 </onekit-audio>
-
+ -->
 
 
 <!----------------------------------------------------------- b ---------OK------------------------------------>
@@ -106,7 +116,7 @@ alt="Sun" />
 <!----------------------------------------------- base --------------------------------------------->
 
 
-<!-----------------------------------------------------  bdi  -----code------------------------------->
+<!-----------------------------------------------------  bdi  -----看不懂------------------------------->
 <!-- User <onekit-bdi dir="rtl">my home </onekit-bdi> 60  
 User <onekit-bdi dir="ltr">my home </onekit-bdi> 60 
 User <onekit-bdi dir="auto">my home </onekit-bdi> 60  -->
@@ -748,15 +758,20 @@ required rows wrap
 
 <!-------------------------------------------------- title -------------------------------------------------->
 
-<!------------------------------------------ track video-----demo都未生效--------------------------------->
-<!-- <onekit-video controls
-       src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
-     <onekit-track default
+<!------------------------------------------ track video-------------------------------------->
+<onekit-video controls onekit-id="video"
+       src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"
+       bindcanplay="video_canplay"
+       bindcanplaythrough="video_canplaythrough"
+       bindended="video_ended"
+       bindloadeddata="video_loadeddata"
+       >
+     <!-- <onekit-track default
      onekit-id="track"
            kind="captions"
            srclang="en"
-           src="https://interactive-examples.mdn.mozilla.net/media/examples/friday.vtt" />
-</onekit-video>-->
+           src="https://interactive-examples.mdn.mozilla.net/media/examples/friday.vtt" /> -->
+</onekit-video>
 
 
 <!-------------------------------------------------- u ----OK------------------------------------>

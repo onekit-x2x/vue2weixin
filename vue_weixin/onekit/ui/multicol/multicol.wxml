@@ -1,0 +1,7 @@
+<progress
+class="onekit-multicol {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</progress>

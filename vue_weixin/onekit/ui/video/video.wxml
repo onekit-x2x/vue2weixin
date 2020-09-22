@@ -10,7 +10,7 @@ muted="{{muted}}"
 poster="{{poster}}"
 
  
-bindloadedmetadata="video_loadedmetadata"
+bindloadedmetadata="video_loadeddata"
 bindtimeupdate="videoChange"
 bindplay="video_play"
 bindended="video_ended"

@@ -20,6 +20,7 @@ Component({
   },
    methods: {
         audio_play(e){
+          // console.log("xxxxxxx",e)
           this.triggerEvent('play',e.detail)
         },
         audio_pause(e){
@@ -31,6 +32,5 @@ Component({
         audio_timeupdate(e){
           this.triggerEvent('timeupdate',e.detail)
         },
-        
 }
 });

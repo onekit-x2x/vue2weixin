@@ -48,7 +48,7 @@ Component({
         // 视频触发事件
         this.selectComponent("#track").videoChangeEvent(e.detail.currentTime * 1000);
     },
-        video_loadedmetadata(e){
+    video_loadeddata(e){
             const size = e.detail;
             var data2 = {};
             if(!this.properties.width && !this.properties.height){
@@ -60,7 +60,7 @@ Component({
                 data2.weixin_height = size.height*this.properties.width/size.width+"px";
                 }
             this.setData(data2);
-        //   console.log("video_loadedmetadata", e);
+        //   console.log("video_loadeddata", e);
         //   this.triggerEvent('loadedmetadata',e.details)
           },
           video_play(e){

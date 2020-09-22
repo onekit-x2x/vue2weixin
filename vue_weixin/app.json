@@ -2,6 +2,10 @@
   "usingComponents": {
     "onekit-a":"/onekit/ui/a/a",
     "onekit-address":"/onekit/ui/address/address",
+    "onekit-applet":"/onekit/ui/applet/applet",
+    "onekit-bgsound":"/onekit/ui/bgsound/bgsound",
+    "onekit-basefont":"/onekit/ui/basefont/basefont",
+    "onekit-acronym":"/onekit/ui/acronym/acronym",
     "onekit-br":"/onekit/ui/br/br",
     "onekit-b":"/onekit/ui/b/b",
     "onekit-command":"/onekit/ui/command/command",

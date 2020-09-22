@@ -1,0 +1,7 @@
+<view
+class="onekit-shadow {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</view>

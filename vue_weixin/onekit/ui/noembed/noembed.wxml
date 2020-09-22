@@ -1,0 +1,7 @@
+<progress
+class="onekit-noembed {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</progress>
