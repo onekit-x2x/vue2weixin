@@ -20,14 +20,14 @@ Component({
   },
    methods: {
         audio_play(e){
-          // console.log("xxxxxxx",e)
-          this.triggerEvent('play',e.detail)
+          console.log("xxxxxxx",e)
+          this.triggerEvent('play',{a:123})
         },
         audio_pause(e){
-          this.triggerEvent('pause',e.detail)
+          this.triggerEvent('pause',e)
         },
         audio_ended(e){
-          this.triggerEvent('ended',e.detail)
+          this.triggerEvent('ended',e)
         },
         audio_timeupdate(e){
           this.triggerEvent('timeupdate',e.detail)

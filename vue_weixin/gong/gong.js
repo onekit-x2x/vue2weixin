@@ -11,6 +11,8 @@ music_canplaythrough(e){
   console.log("audio canplaythrough!",e)
 } ,
 music_play(e){
+  //e = e.detail;
+  //e = onekit_event(e)
   console.log("audio play!",e)
 }, 
 music_playing(e){
