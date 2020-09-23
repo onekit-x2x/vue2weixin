@@ -222,7 +222,7 @@
 <onekit-button type="button" autofocus="autofocus">button</onekit-button>
 <onekit-button type="menu">menu</onekit-button>
 <onekit-button type="submit">submit</onekit-button>
-<onekit-button type="reset">reset</onekit-button>
+<onekit-button type="reset">reset</onekit-button> 
 <!-- 有关于form的属性 -->
 <!-- form -->
 <form action="#" method="get" id="testform"></form>
@@ -237,44 +237,45 @@
   </form>
 
 <!-- formenctype  -->
-<form action="#" method="post">
+<!-- <form action="#" method="post">
     <onekit-div>First name: <onekit-input type="text" name="fname" /></onekit-div>   
     <onekit-button type="submit" >提交</onekit-button>
     <onekit-button type="submit" formenctype="multipart/form-data"> 以 Multipart/form-data 类型提交</onekit-button>   
-</form>
+</form> -->
 
 <!-- formmethod  -->
-<form action="demo_form.asp" method="get">
+<!-- <form action="demo_form.asp" method="get">
     First name: <onekit-input type="text" name="fname" />
     <onekit-div><onekit-button type="submit" >提交</onekit-button>
   <onekit-button type="submit" formmethod="post" formaction="demo_post.asp">使用 POST 来提交</onekit-button>
   </onekit-div>
-</form>
+</form> -->
 
 <!-- formnovalidate  -->
-<form action="demo_form.asp" method="get">
+<!-- <form action="demo_form.asp" method="get">
     E-mail: <onekit-input type="email" name="userid" />
     <onekit-div>
     <onekit-button type="submit" >提交</onekit-button>
     <onekit-button type="submit" formnovalidate="formnovalidate">进行没有验证的提交</onekit-button>
     </onekit-div>
-</form>
+</form> -->
 
 <!-- formtarget  -->
-<form action="/example/html5/demo_form.asp" method="get">
+<!-- <form action="/example/html5/demo_form.asp" method="get">
         First name: <onekit-input type="text" name="fname" />
         
         <onekit-button type="submit" >提交</onekit-button>
         <onekit-button type="submit" formtarget="_blank">提交到新窗口</onekit-button>
- </form>
+ </form> -->
  
  <!-- name  -->
- <form action="#" method="get">
+ <!-- <form action="#" method="get">
     <onekit-button name="subject" type="submit" value="HTML">HTML</onekit-button> 
     <onekit-button name="subject" type="submit" value="CSS">CSS</onekit-button> 
-  </form>
+  </form> -->
 <!-----------------------button------------------>
-
+ <onekit-label for="">姓名</onekit-label>
+  <onekit-input type="text"/>
   </onekit-body>
 
 
