@@ -8,6 +8,10 @@ Component({
     virtualHost: true
   },
   properties: {
+    dir:{
+      type:String,
+      value:"auto",
+    },
   },
 
   /**

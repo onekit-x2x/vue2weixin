@@ -1,9 +1,37 @@
 // gong/gong.js
 Page({
-
-  
-
-
+  onekit_video_canplay(e){
+this.video_canplay(onekit_event(e));
+  },
+music_loadeddata(e){
+  console.log("audio loadeddata!",e)
+},
+music_canplay(e){
+  console.log("audio canplay!",e)
+},  
+music_canplaythrough(e){
+  console.log("audio canplaythrough!",e)
+} ,
+music_play(e){
+  //e = e.detail;
+  //e = onekit_event(e)
+  console.log("audio play!",e)
+}, 
+music_playing(e){
+  console.log("audio playing!",e)
+} ,
+music_timeupdate(e){
+  console.log("audio timeupdate!",e)
+} , 
+ music_pause(e){
+  console.log("audio pause!",e)
+} ,
+music_ended(e){
+  console.log("audio ended!",e)
+} ,
+ music_complete(e){
+  console.log("audio complete!",e)
+}  ,
   onReady: function (e) {
     // 使用 wx.createAudioContext 获取 audio 上下文 context
     this.audioCtx = wx.createAudioContext('myAudio')

@@ -10,8 +10,8 @@ Component({
   properties: {
     cite:{
       type:String,
-      value:''
-    }
+      value:""
+    },
   },
 
   /**

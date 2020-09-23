@@ -58,20 +58,15 @@ data="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=302802010104
 
 
 	<!-- <bdi> -->
-	<!-- <onekit-h1>World wrestling championships</onekit-h1>
-<onekit-ul>
-   <onekit-li><onekit-bdi class="name">Evil Steven</onekit-bdi>: 1st place</onekit-li>
-   <onekit-li><onekit-bdi class="name">François fatale</onekit-bdi>: 2nd place</onekit-li>
-   <onekit-li><onekit-span class="name">تیز سمی</onekit-span>: 3rd place</onekit-li>
-   <onekit-li><onekit-bdi class="name">الرجل القوي إيان</onekit-bdi>: 4th place</onekit-li>
-   <onekit-li><onekit-span class="name" dir="auto">تیز سمی</onekit-span>: 5th place</onekit-li>
-</onekit-ul> -->
+<!-- User <onekit-bdi dir="rtl">my home </onekit-bdi> 60  
+User <onekit-bdi dir="ltr">my home </onekit-bdi> 60 
+User <onekit-bdi dir="auto">my home </onekit-bdi> 60  -->
 
 	<!-- <bdo> -->
-	<!-- <onekit-h1>Famous seaside songs</onekit-h1>
-<onekit-p>The English song "Oh I do like to be beside the seaside"</onekit-p>
-<onekit-p>Looks like this in Hebrew: <onekit-span dir="rtl">אה, אני אוהב להיות ליד חוף הים</onekit-span></onekit-p>
-<onekit-p>In the computer's memory, this is stored as <onekit-bdo dir="ltr">אה, אני אוהב להיות ליד חוף הים</onekit-bdo></onekit-p> -->
+	<!-- User <onekit-bdo dir="rtl">my home </onekit-bdo> 60  
+User <onekit-bdo dir="ltr">my home </onekit-bdo> 60 
+User <onekit-bdo dir="auto">my home </onekit-bdo> 60  -->
+
 
 	<!-- <body> -->
 	<!-- <onekit-body>

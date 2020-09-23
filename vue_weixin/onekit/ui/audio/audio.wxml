@@ -13,7 +13,6 @@ bindplay="audio_play"
 bindpause="audio_pause"
 bindtimeupdate="audio_timeupdate"
 bindended="audio_ended"
-
 >
 
 </audio>

@@ -15,8 +15,8 @@ Component({
     low:{type:Number,value:""},
     form:{type:String,value:""},
     percent:{type:Number,value:""},
-    color:{type:String,value:"#09BB07"}
-
+    color:{type:String,value:"#09BB07"},
+    optimum:{type:Number,value:""},
   },
 
   /**

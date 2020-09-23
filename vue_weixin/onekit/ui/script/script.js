@@ -7,8 +7,8 @@ Component({
   options: {
     virtualHost: true
   },
-  properties: {onekitId:String,
-
+  properties: {
+   
   },
 
   /**

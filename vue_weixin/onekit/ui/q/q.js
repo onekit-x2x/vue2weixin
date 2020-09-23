@@ -8,7 +8,7 @@ Component({
     virtualHost: true
   },
   properties: { 
-
+    cite: {type: String,Number: "", },
   },
 
   /**

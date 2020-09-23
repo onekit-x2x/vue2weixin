@@ -11,7 +11,9 @@ Component({
     virtualHost: true
   },
   properties: {
-
+    disabled:{type:Boolean,},
+    form:{type:String,value:""},
+    name:{type:String,value:""},
   },
 
   /**

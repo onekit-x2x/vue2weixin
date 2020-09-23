@@ -1,6 +1,7 @@
 <progress
 class="onekit-progress {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
+activeColor="#09BB07"
 percent="{{value}}"
 >
 <slot/>

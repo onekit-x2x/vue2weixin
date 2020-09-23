@@ -1,6 +1,7 @@
 <view
 class="onekit-font {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+style="display:inline;color:{{color}};{{onekitStyle}}"  id="{{onekitId}}"
+
 >
 <slot/>
 </view>

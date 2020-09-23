@@ -1,7 +1,7 @@
 <view
 class="onekit-details {{onekitClass}}"
 style="display:{{show}};{{onekitStyle}}"  id="{{onekitId}}"
-open="{{open}}"
+
 >
 
 <slot />

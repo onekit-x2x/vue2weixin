@@ -6,9 +6,9 @@ Component({
    
   options: {
     virtualHost: true
-  },
-  properties: {onekitId:String,
-
+  },  
+  properties: {
+    name:{type:String,value:""},
   },
 
   /**

@@ -20,10 +20,7 @@ Component({
       type:Number,
       value:300
     },
-    id:{
-      type:String,
-      value:""
-    },
+ 
   },
   lifetimes: {
     attached: function() {

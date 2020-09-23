@@ -1,5 +1,5 @@
 <!--onekit/ui/colgroup/colgroup.wxml-->
-<view>
+<view
 class="onekit-colgroup {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
 span="{{span}}"

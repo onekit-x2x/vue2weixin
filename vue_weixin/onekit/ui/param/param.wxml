@@ -1,8 +1,7 @@
 <view
 class="onekit-param {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
-name="{{name}}"
-value="{{value}}"
+
 >
 <slot/>
 </view>

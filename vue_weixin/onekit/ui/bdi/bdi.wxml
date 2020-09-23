@@ -1,8 +1,8 @@
 <!--onekit/ui/bdi/bdi.wxml-->
-<text
+<view
 class="onekit-bdi {{onekitClass}}"
-style="{{onekitStyle}}"  
+style="display:inline;{{onekitStyle}}"  
 id="{{onekitId}}"
 >
 <slot/>
-</text>
+</view>

@@ -1,0 +1,7 @@
+<view
+class="onekit-blink {{onekitClass}}"
+style="{{onekitStyle}}"  
+id="{{onekitId}}"
+>
+<slot/>
+</view>

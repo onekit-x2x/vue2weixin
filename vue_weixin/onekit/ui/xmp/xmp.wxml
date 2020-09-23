@@ -1,0 +1,7 @@
+<view
+class="onekit-xmp {{onekitClass}}"
+style="{{onekitStyle}}"  
+id="{{onekitId}}"
+>
+<slot/>
+</view>

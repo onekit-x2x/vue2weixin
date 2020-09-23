@@ -1,14 +1,7 @@
 <progress
 class="onekit-meter {{onekitClass}}"
 style="{{onekitStyle}}"  id="{{onekitId}}"
-value="{{value}}"
-percent="{{percent}}"
-max="{{max}}"
-min="{{min}}"
-high="{{high}}"
-low="{{low}}"
-form="{{form}}"
-color="{{color}}"
+
 >
 <slot/>
 </progress>

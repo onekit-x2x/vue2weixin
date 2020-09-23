@@ -1,0 +1,9 @@
+<!--onekit/ui/command/command.wxml-->
+
+<view
+class="onekit-content {{onekitClass}}"
+style="{{onekitStyle}}"  id="{{onekitId}}"
+
+>
+<slot/>
+</view>

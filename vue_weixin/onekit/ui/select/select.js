@@ -7,8 +7,15 @@ Component({
     virtualHost: true
   },
   properties: {
-    text:{type:String,value:"volvo"
-    }
+    text:{type:String,value:""},
+    autocomplete:{type:String,value:""},
+    autofocus:{type:Boolean,value:true},
+    disabled:{type:Boolean,value:false},
+    form:{type:String,value:""},
+    multiple:{type:Boolean,value:true},
+    name:{type:String,value:""},
+    required :{type:Boolean,value:true},
+    size:{type:Number,value:0},
   },
   data:{
     show:false

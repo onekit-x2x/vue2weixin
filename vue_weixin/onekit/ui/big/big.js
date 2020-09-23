@@ -1,4 +1,4 @@
-// onekit/ui/big/big.js
+// onekit/ui/bdo/bdp.js
 import onekit_behavior from "../onekit_behavior"
 import web_behavior from "../web_behavior"
 Component({
@@ -8,6 +8,10 @@ Component({
     virtualHost: true
   },
   properties: {
+    dir:{
+      type:String,
+      value:"auto",
+    },
   },
 
   /**

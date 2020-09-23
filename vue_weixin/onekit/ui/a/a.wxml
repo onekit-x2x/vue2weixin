@@ -1,9 +1,9 @@
-<text
+<view
 class="onekit-a {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
+style="display:inline;{{onekitStyle}}"  id="{{onekitId}}"
 bindtap="a_tap"
 href="{{href}}"
 
 >
 <slot/>
-</text>
+</view>
