@@ -14,7 +14,7 @@ Component({
     accept:{type:String,value:""},
     disabled:{type:Boolean,value:false},
     placeholder:{type:String,value:""},
-    maxlength:{type:Number,value:10},
+    maxlength:{type:Number,value:140},
     width:{type:Number,value:""},
     height:{type:Number,value:""},
     src:{type:String,value:''},
