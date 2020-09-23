@@ -94,7 +94,7 @@ alt="Sun" />
 
 
 <!-- ---------------------------------------------  audio  -------code------------------------------------------- -->
-<onekit-audio controls loop onekit-id="music" src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3"
+<!-- <onekit-audio controls loop onekit-id="music" src="https://b.bdstatic.com/miniapp/images/yanyuan.mp3"
     bindplay="music_play"
     bindcanplay="music_canplay"
     bindcomplete="music_complete"
@@ -106,7 +106,7 @@ alt="Sun" />
     bindtimeupdate="music_timeupdate"
 >
      Your browser does not support the
-</onekit-audio>
+</onekit-audio> -->
 
 
 
@@ -142,11 +142,11 @@ xxxxxxxxxxxxxxxxxxx -->
 
 
 <!-----------------------------------------------------  button  form---code--------------------------------->
-<!-- <onekit-button type="button">button</onekit-button>
-<onekit-button type="button" autofocus="autofocus">autofocus</onekit-button>
-<onekit-button type="button" disabled>disabled</onekit-button>
+<onekit-button type="button" disabled >禁用</onekit-button>
+<onekit-button type="button" autofocus="autofocus">button</onekit-button>
 <onekit-button type="menu">menu</onekit-button>
-<onekit-button type="reset">reset</onekit-button> -->
+<onekit-button type="submit">submit</onekit-button>
+<onekit-button type="reset">reset</onekit-button>
 <!-- 有关于form的属性 -->
 <!-- form -->
 <!-- <form action="#" method="get" onekit-id="testform"></form>
@@ -761,7 +761,7 @@ required rows wrap
 <!------------------------------------------ track video-------------------------------------->
 <!-- <onekit-video controls onekit-id="video"
        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"
-       bindcanplay="video_canplay"
+       bindcanplay="onekit_video_canplay"
        bindcanplaythrough="video_canplaythrough"
        bindended="video_ended"
        bindloadeddata="video_loadeddata"
