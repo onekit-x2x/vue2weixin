@@ -21,16 +21,16 @@ Component({
    methods: {
         audio_play(e){
           console.log("xxxxxxx",e)
-          this.triggerEvent('play',{a:123})
+          this.triggerEvent('play')
         },
         audio_pause(e){
-          this.triggerEvent('pause',e)
+          this.triggerEvent('pause')
         },
         audio_ended(e){
-          this.triggerEvent('ended',e)
+          this.triggerEvent('ended')
         },
         audio_timeupdate(e){
-          this.triggerEvent('timeupdate',e.detail)
+          this.triggerEvent('timeupdate')
         },
 }
 });

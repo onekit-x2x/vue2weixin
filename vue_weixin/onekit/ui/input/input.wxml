@@ -1,6 +1,6 @@
 <input wx:if="{{type=='text'}}"  
 class="onekit-input {{onekitClass}}"  
-style="{{onekitStyle}}"
+style="border:1px solid black;width:177px;height:17px;padding:0;{{onekitStyle}}"
 id="{{onekitId}}"
 maxlength="{{maxlength}}"
 placeholder="{{placeholder}}"

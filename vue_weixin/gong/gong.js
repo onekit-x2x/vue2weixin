@@ -1,6 +1,8 @@
 // gong/gong.js
 Page({
-      
+  onekit_video_canplay(e){
+this.video_canplay(onekit_event(e));
+  },
 music_loadeddata(e){
   console.log("audio loadeddata!",e)
 },
