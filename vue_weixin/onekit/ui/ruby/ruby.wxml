@@ -1,6 +1,0 @@
-<view
-class="onekit-ruby {{onekitClass}}"
-style="display:inline;{{onekitStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>

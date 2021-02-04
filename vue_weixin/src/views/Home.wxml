@@ -1,5 +1,0 @@
-  <wxs src="../../onekit/onekit.wxs" module="onekit" />
-  <onekit-div class="home">
-    <onekit-img alt="Vue logo" src="{{onekit.url(URL,'../assets/logo.png')}}"/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </onekit-div>

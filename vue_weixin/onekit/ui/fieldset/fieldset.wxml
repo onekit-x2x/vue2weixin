@@ -1,8 +1,0 @@
-<!--onekit/ui/fieldset/fieldset.wxml-->
-<view
-class="onekit-fieldset {{onekitClass}} "
-style="{{onekitStyle}}"  id="{{onekitId}}"
-
->
-<slot/>
-</view>

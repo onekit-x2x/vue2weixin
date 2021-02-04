@@ -1,3 +1,0 @@
-<view class="onekit-a {{to==global?'router-link-exact-active router-link-active':''}}" bindtap="view_tap">
-  <slot/>
-</view>

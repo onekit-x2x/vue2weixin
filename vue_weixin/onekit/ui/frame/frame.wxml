@@ -1,6 +1,0 @@
-<view
-class="onekit-frame {{onekitClass}} "
-style="{{onekitStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>

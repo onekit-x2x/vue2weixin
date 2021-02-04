@@ -1,6 +1,0 @@
-<view
-class="onekit-mark {{onekitClass}}"
-style="display:inline;{{oneStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>

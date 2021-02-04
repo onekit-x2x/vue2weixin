@@ -1,7 +1,0 @@
-<view
-class="onekit-bdo {{onekitClass}}"
-style="display:inline;{{onekitStyle}}"  
-id="{{onekitId}}"
->
-<slot/>
-</view>

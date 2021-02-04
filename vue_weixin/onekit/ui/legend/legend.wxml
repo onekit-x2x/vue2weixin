@@ -1,6 +1,0 @@
-<view
-class="onekit-legend {{onekitClass}}"
-style="padding-left:15%;{{onekitStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>

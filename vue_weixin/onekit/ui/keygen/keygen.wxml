@@ -1,8 +1,0 @@
-<view
-class="onekit-keygen {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-
-
->
-<slot/>
-</view>

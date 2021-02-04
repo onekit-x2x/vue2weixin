@@ -1,8 +1,0 @@
-<view 
-  class="onekit-option {{onekitClass}}" 
-  style="{{onekitStyle}}" 
-  id="{{onekitId}}" 
-
-  bindtap="option_tap"
->{{value}}
-</view> 

@@ -1,6 +1,0 @@
-<view
-class="onekit-embed {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
->
-不支持embed
-</view>

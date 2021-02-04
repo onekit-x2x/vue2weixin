@@ -1,6 +1,0 @@
-/* onekit/ui/legend/legend.wxss */
-.onekit-legend{
-  margin-top: -12px;
-  background-color: white;
-
-}

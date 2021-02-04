@@ -1,9 +1,0 @@
-<view
-class="onekit-optgroup {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-hover-stop-propagation="{{disabled}}"
-
-bindtap="optgroup_click"
->{{label}}
-<slot/>
-</view>

@@ -1,5 +1,0 @@
-<onekit-div Class="warning">
-   <image style="width:250rpx;height: 100rpx;" src="https://mdn.mozillademos.org/files/6851/mdn_logo.png" 
-       alt="MDN logo" />
-    <p>Beware of the leopard</p>
-</onekit-div>

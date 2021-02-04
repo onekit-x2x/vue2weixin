@@ -1,4 +1,0 @@
-<view class="onekit-br {{onekitClass}}"
-id="{{onekitId}}"
-style="{{onekitStyle}}"
->\n</view>

@@ -1,9 +1,0 @@
-<!--onekit/ui/dialog/dialog.wxml-->
-
-<view
-class="onekit-dir {{onekitClass}}"
-style="{{onekitStyle}}"  
-id="{{onekitId}}"
->
-<slot/>
-</view>

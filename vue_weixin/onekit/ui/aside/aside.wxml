@@ -1,9 +1,0 @@
-<!--onekit/ui/aside/aside.wxml-->
-<view
-class="onekit-aside {{onekitClass}}"
-style="{{onekitStyle}}"  
-id="{{onekitId}}"
-
->
-<slot/>
-</view>

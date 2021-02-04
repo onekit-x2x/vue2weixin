@@ -1,4 +1,0 @@
-/* pages/ol/ol.wxss */
-.onekit-li::marker {
-  content: "(" counter(list-item) ")"; 
-}

@@ -1,9 +1,0 @@
-{
-  "component":true,
-  "styleIsolation": "shared",
-  "usingComponents": {
-    "onekit-div":"/onekit/ui/div/div",
-    "onekit-p":"/onekit/ui/p/p",
-    "onekit-input":"/onekit/ui/input/input"
-  }
-}

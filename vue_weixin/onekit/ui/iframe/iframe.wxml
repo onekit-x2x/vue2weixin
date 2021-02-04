@@ -1,6 +1,0 @@
-<view
-class="onekit-iframe {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
->
-暂不支持iframe
-</view>

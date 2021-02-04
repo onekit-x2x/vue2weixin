@@ -1,7 +1,0 @@
-<view
-class="onekit-tfoot {{onekitClass}}"
-style="text-align:{{align}};vertical-align:{{valign}};{{onekitStyle}}"  id="{{onekitId}}"
-
->
-<slot/>
-</view>

@@ -1,6 +1,0 @@
-<onekit-nav>
-<onekit-a href="/html/">HTML</onekit-a> |
-<onekit-a href="/css/">CSS</onekit-a> |
-<onekit-a href="/js/">JavaScript</onekit-a> |
-<onekit-a href="/jquery/">jQuery</onekit-a>
-</onekit-nav>

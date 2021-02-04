@@ -1,7 +1,0 @@
-<progress
-class="onekit-meter {{onekitClass}}"
-style="{{onekitStyle}}"  id="{{onekitId}}"
-
->
-<slot/>
-</progress>

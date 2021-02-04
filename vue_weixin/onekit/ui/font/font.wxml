@@ -1,7 +1,0 @@
-<view
-class="onekit-font {{onekitClass}}"
-style="display:inline;color:{{color}};{{onekitStyle}}"  id="{{onekitId}}"
-
->
-<slot/>
-</view>

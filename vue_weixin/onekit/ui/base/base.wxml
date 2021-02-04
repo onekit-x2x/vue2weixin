@@ -1,8 +1,0 @@
-<!--onekit/ui/base/base.wxml-->
-<view
-class="onekit-base {{onekitClass}}"
-style="display:inline;{{onekitStyle}}"  
-id="{{onekitId}}"
->
-<slot/>
-</view>

@@ -1,7 +1,0 @@
-<!--onekit/ui/figure/figure.wxml-->
-<view
-class="onekit-figure {{onekitClass}} "
-style="{{onekitStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>

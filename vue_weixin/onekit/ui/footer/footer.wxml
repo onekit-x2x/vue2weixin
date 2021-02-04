@@ -1,6 +1,0 @@
-<view
-class="onekit-footer {{onekitClass}} "
-style="{{onekitStyle}}"  id="{{onekitId}}"
->
-<slot/>
-</view>

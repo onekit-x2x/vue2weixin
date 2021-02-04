@@ -1,8 +1,0 @@
-<canvas
-class="onekit-canvas {{onekitClass}}"
-style="height:{{height}}px;width:{{width}}px;display:block !important;{{onekitStyle}}"
-height="{{height}}"
-width="{{width}}"
-canvas-id="{{id}}"
->
-</canvas>
